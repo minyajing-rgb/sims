@@ -51,6 +51,8 @@
 06_ua_liveops/        美术测试 / creative test / LiveOps
 07_build_publish/     Base44 / Codex / Native发布架构与当前prototype状态
 08_assets/            Ops Cat资产索引
+09_reports/           竞品分析HTML / release notes / final delivery
+skills/               可复用分析方法
 99_archive/
 ```
 
@@ -65,11 +67,20 @@
 - `04_data_method/SIM_PRODUCT_CARD_TEMPLATE_v1.0_2026-09-24.md`
 - `03_gameplay/SIM_GENRE_PRODUCT_MATRIX_v1.0_2026-09-24.csv`
 
+### Competitor Analysis Skill
+- `skills/competitor-trend-cause-analysis/SKILL.md`
+- Required workflow: **Trend → Flag → Crosscheck → Evidence Level → Interpretation → Testable Action**
+- Required output for large datasets: self-contained offline interactive HTML.
+
+### Codex Data Pull
+- `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.csv`
+- `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.md`
+- `01_watchlist/DIANDIAN_MONTHLY_INPUT_TEMPLATE.csv`
+
 ### Existing Benchmark / Product Work
 - `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
 - `00_master/PROJECT_CONTEXT_CONSOLIDATED_v0.2_2026-09-24.md`
 - `01_watchlist/HIGH_POTENTIAL_WATCHLIST_v0.1.md`
-- `01_watchlist/DIANDIAN_MONTHLY_INPUT_TEMPLATE.csv`
 - `02_art_style/ART_STYLE_MAP_v0.1.md`
 - `02_art_style/ART_REFINEMENT_10_30_PERCENT_v0.1.md`
 - `03_gameplay/GAMEPLAY_ARCHETYPE_MAP_v0.1.md`
@@ -89,5 +100,7 @@
 3. 自然量是 PMF / stickiness proxy，不直接等同 D1/D7/D30。
 4. RPD 不等于 ARPU / ARPPU / LTV。
 5. PC/Steam 与 Mobile/小游戏使用不同指标体系。
-6. AI不直接控制经济、付费价值和关键进度；AI主要承担个性化、叙事和内容装配。
-7. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
+6. 所有趋势结论必须区分 SOURCE / OBSERVED / CALCULATED / INFERRED / TBD。
+7. 重要波动必须做 Review / Event / Version / Source Mix 四层交叉验证并记录 Counter Evidence。
+8. AI不直接控制经济、付费价值和关键进度；AI主要承担个性化、叙事和内容装配。
+9. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
