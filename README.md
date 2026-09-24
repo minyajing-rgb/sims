@@ -60,6 +60,7 @@ skills/               可复用分析方法
 ## Start Here
 
 ### Research Framework v1
+- `00_master/FULL_COMPETITOR_ANALYSIS_SCOPE_v1.0_2026-09-24.md`
 - `00_master/SIMULATION_CATEGORY_TAXONOMY_v1.0_2026-09-24.md`
 - `00_master/SIMULATION_RESEARCH_FRAMEWORK_v1.0_2026-09-24.md`
 - `00_master/MARKET_SNAPSHOT_2026Q3.md`
@@ -68,10 +69,12 @@ skills/               可复用分析方法
 - `04_data_method/SIM_PRODUCT_CARD_TEMPLATE_v1.0_2026-09-24.md`
 - `03_gameplay/SIM_GENRE_PRODUCT_MATRIX_v1.0_2026-09-24.csv`
 
-### Competitor Analysis Skill
-- `skills/competitor-trend-cause-analysis/SKILL.md`
-- Required workflow: **Trend → Flag → Crosscheck → Evidence Level → Interpretation → Testable Action**
-- Required output for large datasets: self-contained offline interactive HTML.
+### Competitor Analysis Skills
+- **Parent / full scope:** `skills/sims-full-competitor-benchmark/SKILL.md`
+- **Data / anomaly submodule:** `skills/competitor-trend-cause-analysis/SKILL.md`
+- Full scope: **Market/KPI → Art → Core Gameplay → FTUE → Progression/Meta/Side Systems → Economy/Monetization → LiveOps → UA/Creative/Promotion → Trend/Cause → Production Cost → Product Translation**
+- Trend submodule workflow: **Trend → Flag → Crosscheck → Evidence Level → Interpretation → Testable Action**
+- Full HTML must be a competitor-intelligence atlas, not only a KPI dashboard.
 
 ### Codex Data Pull
 - `01_watchlist/DIANDIAN_PRIORITY8_MONTHLY_2021-09_2026-08.csv`
