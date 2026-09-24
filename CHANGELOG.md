@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v1.0 — 2026-09-24
+- Audited the current SIMS trend-cause skill against the recent SparkPro competitor/KPI benchmark workflow.
+- Confirmed the previous SIMS HTML/skill scope was materially narrower: it covered data trends well but did not require full art, FTUE, gameplay, side-system, economy, LiveOps, UA/creative/promotion and production-cost analysis.
+- Added parent skill `skills/sims-full-competitor-benchmark/SKILL.md`.
+- Kept `skills/competitor-trend-cause-analysis/SKILL.md` as the mandatory data/anomaly submodule rather than overloading it.
+- Added full analysis scope/status document and templates for Art, Core/Meta/Side Systems, FTUE, LiveOps, and UA/Creative/Promotion.
+- Expanded the required HTML architecture to 16 tabs: Executive, Market/KPI, Art, Core, FTUE, Progression/Meta/Side, Economy/Monetization, LiveOps, UA/Creative, Trend/Cause, Reviews/Versions, Focus Game, Product Translation, US/Global, Evidence/Gaps/Sources, and Changelog.
+- Existing HTML v0.1 is now explicitly a **data dashboard draft**, not the complete competitor benchmark.
+
 ## v0.11 — 2026-09-24
 - Corrected the earlier account-limit conclusion: the Diandian picker accepts 2021-09 to 2026-08, and the default 50-row pagination had hidden the remaining months on page 2.
 - Added a 299-row long-history panel for the eight named priorities, using five full years for Township and Hay Day and launch-to-current windows for newer products.
