@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4 — 2026-09-24
+- Added and indexed `skills/competitor-trend-cause-analysis/SKILL.md` as the required method for the upcoming DianDian competitor report.
+- Defined the report pipeline: wait for Codex data completion → normalize/QA → trend/anomaly/cause crosscheck → offline interactive HTML → local delivery + GitHub `09_reports/`.
+- Reserved `09_reports/` for versioned HTML reports and release notes.
+- Required report version history to include data cutoff, input files, method version, major conclusion changes, and commit SHA.
+
 ## v0.3 — 2026-09-24
 - Added a full cross-platform simulation / management taxonomy.
 - Added a reusable simulation research framework covering market, acquisition, core loop, retention/meta, monetization, art/content cost and studio fit.
@@ -9,7 +15,6 @@
 - Added genre/product matrix CSV for product comparisons.
 - Added standardized product-card teardown template.
 - Defined five priority research tracks: Hands-on Cozy Management, Garden/Restoration/Decor, Cute Idle/Tycoon + Ownership, Lifestyle Light Sim, Casual Front + Long Meta.
-
 
 ## v0.2 — 2026-09-24
 - Consolidated current and earlier Ops Cat / cozy-game project context.
