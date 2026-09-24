@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## v1.2 — 2026-09-24
+- Upgraded the current Full Competitor Intelligence Atlas to `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.5_2026-09-24.html` while preserving the required 16-tab full-benchmark structure.
+- Expanded US-first Focus Product Cards from four products to all eight Priority products: Gossip Harbor, Township, Hay Day, Heartopia, Big Farm Homestead, The Cozy Florist, Office Cat and My Perfect Hotel.
+- Added `FTUE_PUBLIC_EVIDENCE_PILOT_v0.1_2026-09-24.md`: Heartopia and My Perfect Hotel now have PARTIAL public/first-party first-session evidence; exact timestamped FTUE remains incomplete.
+- Added `TREND_CAUSE_IP_LIVEOPS_CROSSCHECK_v0.2_2026-09-24.md` following the child Skill final A–F format and unified anomaly-record rules.
+- Added a new My Perfect Hotel E1 record: June→July 2026 Global downloads +26.9% and IAP +63.6% overlap the US Barbie Dream Hotel event/pass/leaderboard rollout; the result remains non-causal because source mix, spend, participation and same-market KPI are unavailable.
+- Kept The Cozy Florist August reacquisition `UNEXPLAINED`; high patch cadence is not treated as a causal driver.
+- Kept Heartopia IP-event KPI attribution blocked because download and revenue scopes do not match.
+- Documented Township’s current mature multi-engine operating pattern, including concurrent pass/partner progression/expedition/collection surfaces and the current Regatta split of match-3 and town tasks; no causal KPI effect is claimed.
+- Expanded Ops Cat translation rules: one ownership anchor, theme/IP wrapper without core replacement, social after ownership, ad-frequency/progression-friction guardrails, and P0 event persistence/recovery/reconciliation.
+- Updated README current index to v0.5.
+- Material gaps remain explicit: unified US-only KPI, paid/organic/source mix, historical creative/spend, fully timestamped FTUE, complete review-by-version history, detailed offer/event-participation evidence and annotated screenshot packs.
+
 ## v1.1 — 2026-09-24
 - Added the full 16-tab `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.2_2026-09-24.html`, replacing the earlier KPI-only dashboard as the current HTML draft.
 - Integrated the new Priority 8 long-history dataset (299 monthly rows; five-year windows for Township/Hay Day and launch-to-current windows for newer titles).
@@ -56,7 +69,6 @@
 - Updated DianDian pull order: P0 US monthly series first, then P0 Global for context.
 - Updated the working Heartopia analysis to treat US as the primary decision market and global as supporting context.
 - Required future final HTML to lead with US acquisition, monetization, source mix and trend conclusions, with global comparison as a secondary layer.
-
 
 ## v0.6 — 2026-09-24
 - Started the actual competitor analysis using `skills/competitor-trend-cause-analysis/SKILL.md`.
