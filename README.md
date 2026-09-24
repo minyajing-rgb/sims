@@ -94,13 +94,14 @@ skills/               可复用分析方法
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
 ### Current Full Competitor Intelligence Atlas
-- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.5_2026-09-24.html`
-- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.5_RELEASE_NOTES_2026-09-24.md`
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.6_2026-09-24.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.6_RELEASE_NOTES_2026-09-24.md`
+- **Current UA / Creative addendum:** `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html`
 - Full 16-tab scope: Executive / Market-KPI / Art / Core / FTUE / Progression-Meta-Side / Economy-Monetization / LiveOps / UA-Creative / Trend-Cause / Reviews-Versions / Focus Game / Product Translation / US-Global / Evidence-Gaps-Sources / Changelog.
 - **Priority Focus Cards 8/8:** `09_reports/FOCUS_PRODUCT_CARDS_US_FIRST_v0.2_2026-09-24.md`
 - **FTUE public-evidence pilot:** `09_reports/FTUE_PUBLIC_EVIDENCE_PILOT_v0.1_2026-09-24.md`
 - **IP/LiveOps Trend-Cause crosscheck:** `09_reports/TREND_CAUSE_IP_LIVEOPS_CROSSCHECK_v0.2_2026-09-24.md`
-- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v0.2_2026-09-24.csv`
+- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v0.3_2026-09-24.csv`
 - **Production burden:** `09_reports/PRODUCTION_BURDEN_MATRIX_v0.2_2026-09-24.csv`
 - Supporting matrices/evidence:
   - `02_art_style/ART_COMPETITOR_MATRIX_v0.1_2026-09-24.csv`

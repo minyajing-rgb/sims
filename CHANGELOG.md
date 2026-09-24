@@ -6,6 +6,7 @@
 - Recorded representative high-heat hooks, format/duration, vendor-estimated exposure, run days, visible countries and available gender readouts.
 - Cross-validated the advertising observations against the DianDian long-history curves and official product/version evidence.
 - Added the self-contained offline HTML `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html` with Cozy Sims product requirements, channel strategy, creative briefs, counter-evidence and the required A–F summary.
+- Indexed the ADX HTML as the current UA/Creative addendum to the Full Competitor Intelligence Atlas v0.6 and documented which earlier gap statement it supersedes.
 - Preserved the licensing boundary: raw creatives remain local; committed files contain normalized observations and evidence-bounded analysis only.
 - Kept DataEye record counts separate from spend, impressions, CTR/CVR, paid share and organic share.
 

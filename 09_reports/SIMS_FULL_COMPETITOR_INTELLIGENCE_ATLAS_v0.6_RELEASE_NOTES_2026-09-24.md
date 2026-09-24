@@ -30,6 +30,14 @@
    - strengthened the narrow fantasy sequence: garden/shop → rare discovery/collection → social/cosmetic identity.
 8. Trend/Cause evidence levels were **not** upgraded merely because more gameplay/progression evidence was found. Existing E0/E1/UNEXPLAINED labels remain until source-mix / attribution evidence arrives.
 
+## ADX / UA addendum landed after v0.6
+
+- Added `SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html` as the current Priority 8 UA/Creative module.
+- Added comparable two-year all-market, Facebook-family, Google-family and US smart-de-dup material counts for eight exact Android package searches.
+- Added representative creative hooks, format/duration, run days, estimated exposure, visible countries and available gender readouts.
+- Cross-validated the advertising observations against the DianDian long-history curves and official product/version evidence.
+- The v0.6 HTML UA card stating that no ADX crawl had landed is superseded by this addendum. Spend, CTR/CVR, paid/organic and 30/90/180-day concept time series remain TBD.
+
 ## Current strongest product decision
 
 Recommended Ops Cat progression architecture:
@@ -47,7 +55,7 @@ This now has direct comparator support:
 Still **TBD / PARTIAL**:
 - unified US-only monthly downloads / IAP;
 - paid / organic / web / source mix;
-- ADX historical creative first/last seen, spend or impression proxy;
+- ADX spend/CTR/CVR and 30/90/180-day concept time series;
 - exact `T+0→30m` normalized FTUE rows;
 - D1 / D3 / D7 / D14 unlock timing;
 - full historical review-by-version series;
