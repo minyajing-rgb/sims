@@ -1,54 +1,83 @@
-# SIMS — Casual × Simulation Research Lab
+# SIMS — Casual × Simulation Research & Product Lab
 
 **Date:** 2026-09-24  
 **Scope:** Mobile / 微信&抖音小游戏 / H5 / Steam-PC  
-**Status:** ACTIVE RESEARCH
+**Status:** ACTIVE RESEARCH + OPS CAT PROTOTYPING
 
-这个仓库用于研究 **Casual Core → Light Simulation → Management/Life Sim → Hybrid Midcore** 的产品机会。
+这个仓库用于研究并推进：
 
-## 研究原则
+> **Casual Core → Light Simulation → Management/Life Sim → AI-native Cozy Game → Optional Hybrid Midcore**
 
-1. **先看美术和获量，再看玩法深度。**
-2. 不把“畅销”“自然量”“留存”“商业化”混成一个排名；按研究目标分别选 Benchmark。
-3. AppMagic / 点点 / Sensor Tower 等第三方数据统一保留原始月份与口径。
-4. 自然量只能作为 PMF / stickiness proxy，**不能直接等同于 D1/D7/D30 留存**。
-5. PC/Steam 与 Mobile/小游戏使用不同指标体系：
-   - Mobile：Downloads / Revenue / Paid vs Organic / Rating / Review Velocity / LiveOps
-   - Steam：Reviews / Rating / Peak CCU / Followers / Wishlist proxy / Creator spread
-6. 研究仓库保持一个即可；真正进入制作的具体游戏，再单独开 production repo。
+## 当前主线
 
-## 当前工作流
+### 1. 市场与数据
+- 高潜模拟经营 / hybrid-casual 样本池
+- 点点 / AppMagic 月度下载、收入、自然量、买量数据
+- Organic / Retention proxy
+- Steam 口碑、评论、CCU、Creator传播
+
+### 2. 美术
+- 先测美术，再决定重生产
+- 当前重点：**Bright Cozy + 10–30% Handcrafted**
+- 保留清晰明亮和商业可读性
+- 增加水粉 / 水彩 / 手绘叙事细节与环境故事
+
+### 3. 产品
+当前产品假设：
+
+> **Satisfying Casual Core + Light Management + Ownership/Decoration + AI-personalized Narrative + Lightweight LiveOps**
+
+不是第一天做开放世界 Life Sim，也不是只做一次性 Hypercasual。
+
+### 4. Ops Cat / AI-native Cozy Game
+核心体验：
+- 割草 / 清理 / 修复
+- 收集资源
+- 工具升级
+- 后院 / 家居装饰
+- 邻居订单与小故事
+- AI根据玩家偏好改变起始空间、任务、叙事和内容
+- 后续可扩到海边 / 旅行 / 水上运动等活动主题
+
+## Repository Structure
 
 ```
-00_master/
-01_watchlist/
-02_art_style/
-03_gameplay/
-04_data_method/
-05_product_strategy/
-06_ua_liveops/
+00_master/            项目总纲 / Benchmark / Consolidated Context
+01_watchlist/         高潜竞品与点点数据录入
+02_art_style/         美术风格 / 10–30%精修方向
+03_gameplay/          主玩法 / 副玩法 / 割草等mechanic
+04_data_method/       Organic / retention proxy / source log
+05_product_strategy/  Casual→Light Sim / AI-native PRD / 0–18M roadmap
+06_ua_liveops/        美术测试 / creative test / LiveOps
+07_build_publish/     Base44 / Codex / Native发布架构与当前prototype状态
+08_assets/            Ops Cat资产索引
 99_archive/
 ```
 
-## 第一阶段问题
+## Start Here
 
-- 哪些产品属于真正的“高潜样本”，值得长期录月度数据？
-- 哪些美术风格兼顾：辨识度、自然传播、素材生产效率、中小团队成本？
-- 应该做 Pure Casual，还是 Casual Core + Light Sim Meta？
-- 割草/清理/切割/烹饪等轻操作，应该是广告玩法、独立玩法，还是经营核心动作？
-- 6 / 12 / 18 个月分别做到什么程度才不失控？
-
-## 当前产品假设
-
-优先验证：
-
-> **Satisfying Casual Core + Light Management + Ownership/Decoration + Collection + Lightweight LiveOps**
-
-而不是一开始做完整开放世界 Life Sim，也不是只做一次性 Hypercasual。
-
-详见：
+- `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
+- `00_master/PROJECT_CONTEXT_CONSOLIDATED_v0.2_2026-09-24.md`
 - `01_watchlist/HIGH_POTENTIAL_WATCHLIST_v0.1.md`
 - `01_watchlist/DIANDIAN_MONTHLY_INPUT_TEMPLATE.csv`
 - `02_art_style/ART_STYLE_MAP_v0.1.md`
+- `02_art_style/ART_REFINEMENT_10_30_PERCENT_v0.1.md`
+- `03_gameplay/GAMEPLAY_ARCHETYPE_MAP_v0.1.md`
 - `04_data_method/ORGANIC_RETENTION_PROXY_v0.1.md`
 - `05_product_strategy/CASUAL_VS_LIGHT_SIM_v0.1.md`
+- `05_product_strategy/AI_NATIVE_COZY_GAME_PRD_v0.1.md`
+- `05_product_strategy/OPS_CAT_ROADMAP_0_18M_v0.1.md`
+- `06_ua_liveops/ART_CREATIVE_TEST_PLAN_v0.1.md`
+- `07_build_publish/BASE44_CODEX_NATIVE_ARCHITECTURE_v0.1.md`
+- `07_build_publish/CURRENT_PROTOTYPE_STATUS_2026-09-24.md`
+- `08_assets/OPS_CAT_ASSET_MANIFEST_v0.1.md`
+
+## Research Rules
+
+1. **先看美术和获量，再看玩法深度。**
+2. 不把畅销、自然量、留存、商业化混成一个排名。
+3. 自然量是 PMF / stickiness proxy，不直接等同 D1/D7/D30。
+4. RPD 不等于 ARPU / ARPPU / LTV。
+5. PC/Steam 与 Mobile/小游戏使用不同指标体系。
+6. AI不直接控制经济、付费价值和关键进度；AI主要承担个性化、叙事和内容装配。
+7. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
