@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.6 — 2026-09-24
+- Started the actual competitor analysis using `skills/competitor-trend-cause-analysis/SKILL.md`.
+- Added `09_reports/WORKING_COMPETITOR_SKILL_ANALYSIS_v0.1_2026-09-24.md`.
+- Analyzed the verified Heartopia Global monthly download curve (2026-01 to 2026-08), iOS/Google Play mix, geographic tail shift and event windows.
+- Assigned evidence levels and counter-evidence; kept revenue / paid-organic / retention metrics as TBD where the current DianDian export is missing.
+- Final cross-product interactive HTML remains gated on the remaining P0 monthly datasets.
+
+
 ## v0.5 — 2026-09-24
 - Added a 47-row product/store entity map covering the 19 requested simulation-management product families, with regional and platform splits kept explicit.
 - Expanded the monthly input template to the requested source and derived fields.
