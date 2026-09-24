@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v0.9 — 2026-09-24
+- Read and accepted commit `16f98ab1ae072d4f33c518f6ab8883c8cbf0628e` as the current 19-game DianDian dataset.
+- Ran the formal cross-product analysis using `skills/competitor-trend-cause-analysis/SKILL.md`.
+- Added `09_reports/SIMS_19_GAME_COMPETITOR_TREND_CAUSE_ANALYSIS_v1.0_2026-09-24.md`.
+- Added `09_reports/DIANDIAN_19_GAMES_DERIVED_MATRIX_v1.0_2026-09-24.csv`.
+- Added schema QA correction `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.3_2026-09-24.md`.
+- Corrected the analysis semantics of the legacy `3m_revenue_carryover` field: populated panel values are trailing 3-month average revenue / visible-window peak revenue, so reports now label it **3M Revenue Hold vs Peak** rather than cohort carryover.
+- Clustered products into long-term stable, download-decay/revenue-hold, reacceleration candidates, synchronized decay and evidence-insufficient groups.
+- Added required 19-product lifecycle answers and deep dives for Gossip Harbor, Township, Hay Day, Heartopia, Big Farm Homestead, The Cozy Florist, Office Cat and 时尚百货城.
+- Kept US-first as the decision lens while explicitly marking current monthly Global/collection data as non-US; no Global metric is relabeled as US.
+- Final interactive HTML remains gated on US/source-mix/event evidence and is not claimed complete.
+
 ## v0.8 — 2026-09-24
 - Added a 228-row monthly panel for all 19 requested product families covering the visible 2025-09 to 2026-08 Diandian window.
 - Added monthly downloads for 16 products and monthly revenue for 17 products; QQ经典农场 remains N/A because it is a mini-game without native store entities.
