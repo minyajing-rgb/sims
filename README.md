@@ -94,14 +94,17 @@ skills/               可复用分析方法
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
 ### Current Full Competitor Intelligence Atlas
-- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.8_2026-09-25.html`
-- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.8_RELEASE_NOTES_2026-09-25.md`
-- **Current pointer:** `09_reports/CURRENT_ATLAS_v0.8_2026-09-25.md`
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.0_2026-09-25.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.0_RELEASE_NOTES_2026-09-25.md`
+- **Current pointer:** `09_reports/CURRENT_ATLAS_v1.0_2026-09-25.md`
 - Full 16-tab scope: Executive / Market-KPI / Art / Core / FTUE / Progression-Meta-Side / Economy-Monetization / LiveOps / UA-Creative / Trend-Cause / Reviews-Versions / Focus Game / Product Translation / US-Global / Evidence-Gaps-Sources / Changelog.
 - **Fresh Focus-4 US storefront:** `09_reports/FOCUS4_US_STORE_CURRENT_SNAPSHOT_v0.1_2026-09-25.csv`
 - **Fresh Review/LiveOps audit:** `09_reports/FOCUS4_CURRENT_REVIEW_LIVEOPS_AUDIT_v0.1_2026-09-25.md`
 - **Focus-4 visual source index:** `02_art_style/FOCUS4_VISUAL_EVIDENCE_INDEX_v0.1_2026-09-25.csv`
-- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v0.5_2026-09-25.csv`
+- **Focus-4 annotated visual evidence:** `02_art_style/FOCUS4_ANNOTATED_VISUAL_EVIDENCE_v0.2_2026-09-25.csv`
+- **Focus-4 visual synthesis:** `02_art_style/FOCUS4_VISUAL_SYNTHESIS_v0.3_2026-09-25.md`
+- **Full benchmark status audit:** `09_reports/STATUS_AUDIT_v1.0_2026-09-25.csv`
+- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v0.7_2026-09-25.csv`
 - **Production burden:** `09_reports/PRODUCTION_BURDEN_MATRIX_v0.2_2026-09-24.csv`
 - **Trend/Cause ADX crosscheck:** `09_reports/TREND_CAUSE_ADX_CROSSCHECK_v0.3_2026-09-24.md`
 - Supporting matrices/evidence remain versioned under `02_art_style/`, `03_gameplay/`, `06_ua_liveops/`, and `09_reports/`.
