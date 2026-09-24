@@ -3,8 +3,12 @@
 **Date:** 2026-09-24  
 **Status:** PARTIAL · analysis started with currently verified data  
 **Method:** `skills/competitor-trend-cause-analysis/SKILL.md` v1.0  
+**Market priority:** **US-first · Global-secondary**  
 **Current verified monthly dataset:** Heartopia Global, 2025-12 through 2026-08  
+**US status:** country-level monthly US downloads are present inside the Global export, but a full US-only revenue / paid-organic series is still pending.  
 **Coverage status:** 1 / 19 requested product families has verified monthly trend data; 18 remain pending.
+
+> Final decision conclusions will be driven by US data. Global is used for context, scale, regional divergence and portability checks.
 
 > This is a working report, not the final cross-product HTML. It deliberately keeps unavailable revenue / paid / organic fields as TBD instead of inferring them.
 
@@ -21,6 +25,15 @@
 ---
 
 # 2. Heartopia — current verified trend
+
+## 2.0 US-first interpretation rule
+
+For this project:
+- US is the primary market for acquisition, monetization and product-fit conclusions.
+- Global is supporting context.
+- A global spike is not considered decision-useful unless US participation is visible.
+- A feature/event that works globally but not in the US should not be promoted to a US benchmark without separate US evidence.
+
 
 ## 2.1 Classification
 
@@ -77,7 +90,7 @@ Commercialization details are still pending in the DianDian dataset and should n
 ## 2.3 Geographic mix
 
 ### January top 5
-- US: 13.58%
+- **US: 13.58% — primary market signal**
 - Thailand: 10.33%
 - Philippines: 9.86%
 - Brazil: 9.17%
@@ -85,14 +98,16 @@ Commercialization details are still pending in the DianDian dataset and should n
 - Top-5 concentration: **51.29%**
 
 ### August top 5
-- US: 14.96%
+- **US: 14.96% — primary market signal**
 - South Korea: 13.27%
 - Japan: 10.98%
 - Thailand: 10.65%
 - Taiwan: 6.53%
 - Top-5 concentration: **56.39%**
 
-**INFERRED · E0:** launch acquisition was broader across Southeast Asia / Brazil, while the residual tail became relatively more concentrated in US / KR / JP / TW. This may indicate stronger long-tail fit or monetizable audience quality in higher-value Asian / US markets, but revenue and paid-organic data are required before using this for UA allocation.
+**INFERRED · E0:** the US share rises from 13.58% at launch to 14.96% in August while total downloads contract sharply. This suggests the US is at least not decaying faster than the global average and becomes relatively more important in the tail. It does **not** prove stronger US retention or monetization. A US-only monthly revenue and paid/organic series is required before using it for UA allocation.
+
+**Global context:** launch acquisition was broader across Southeast Asia / Brazil, while the residual mix became relatively more concentrated in US / KR / JP / TW.
 
 ---
 
