@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.1 — 2026-09-24
+- Added a concrete Focus-4 game research harness for My Perfect Hotel, Office Cat, Big Farm Homestead and The Cozy Florist.
+- Added Android real-device/emulator capture workflow, FTUE session plan, D7+ public-video evidence method, art-frame targets and production-burden method.
+- Added ADX creative ingestion schema and creative→product truthfulness crosscheck.
+- Added one-week execution sprint and tool split across human, ADB/Maestro/Appium, scrcpy, Codex and optional Jev.
+- Added Focus-4 execution manifest with per-title evidence targets.
+
 ## v1.2 — 2026-09-24
 - Upgraded the current Full Competitor Intelligence Atlas to `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.5_2026-09-24.html` while preserving the required 16-tab full-benchmark structure.
 - Expanded US-first Focus Product Cards from four products to all eight Priority products: Gossip Harbor, Township, Hay Day, Heartopia, Big Farm Homestead, The Cozy Florist, Office Cat and My Perfect Hotel.
