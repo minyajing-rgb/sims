@@ -94,18 +94,27 @@ skills/               可复用分析方法
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
 ### Current Full Competitor Intelligence Atlas
-- `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.2_2026-09-24.html`
-- Full 16-tab scope: Executive / Market / Art / Core / FTUE / Meta / Economy / LiveOps / UA / Trend-Cause / Reviews / Focus / Product Translation / US-Global / Evidence / Changelog.
-- Populated support matrices:
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.4_2026-09-24.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.4_RELEASE_NOTES_2026-09-24.md`
+- Full 16-tab scope: Executive / Market / Art / Core / FTUE / Progression-Meta-Side / Economy-Monetization / LiveOps / UA-Creative / Trend-Cause / Reviews-Versions / Focus Game / Product Translation / US-Global / Evidence-Gaps-Sources / Changelog.
+- New v0.4 decision layers:
+  - `09_reports/FOCUS_PRODUCT_CARDS_US_FIRST_v0.1_2026-09-24.md`
+  - `09_reports/BENCHMARK_BY_OBJECTIVE_v0.2_2026-09-24.csv`
+  - `09_reports/PRODUCTION_BURDEN_MATRIX_v0.2_2026-09-24.csv`
+- Supporting matrices/evidence:
   - `02_art_style/ART_COMPETITOR_MATRIX_v0.1_2026-09-24.csv`
   - `03_gameplay/FOCUS_GAMEPLAY_META_SIDE_SYSTEM_MATRIX_v0.1_2026-09-24.csv`
   - `06_ua_liveops/FOCUS_LIVEOPS_EVENT_EVIDENCE_v0.1_2026-09-24.csv`
   - `06_ua_liveops/FOCUS_UA_CREATIVE_PROMOTION_MATRIX_v0.1_2026-09-24.csv`
+  - `06_ua_liveops/FOCUS_EVENT_CALENDAR_US_IOS_v0.2_2026-09-24.csv`
+  - `09_reports/FOCUS_VERSION_CADENCE_US_IOS_v0.1_2026-09-24.csv`
+  - `09_reports/TREND_CAUSE_VERSION_REVIEW_CROSSCHECK_v0.1_2026-09-24.md`
 
-### Current Formal Competitor Analysis
+### Current Formal Trend × Cause Analysis
 - `09_reports/SIMS_19_GAME_COMPETITOR_TREND_CAUSE_ANALYSIS_v1.0_2026-09-24.md`
 - `09_reports/DIANDIAN_19_GAMES_DERIVED_MATRIX_v1.0_2026-09-24.csv`
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.3_2026-09-24.md`
+- This is a **submodule of the full competitor benchmark**, not the complete competitor report.
 
 ### Existing Benchmark / Product Work
 - `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
