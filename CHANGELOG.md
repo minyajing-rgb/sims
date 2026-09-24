@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.10 — 2026-09-24
+- Added the first self-contained offline HTML dashboard draft: `09_reports/SIMS_19_GAME_COMPETITOR_DASHBOARD_v0.1_DRAFT_2026-09-24.html`.
+- The draft uses the existing 19-product / 228-row 2025-09→2026-08 panel immediately rather than waiting for missing US/source-mix fields.
+- Added Executive, Focus Trend Explorer, 19-Game Matrix, Focus-8 Trend→Flag→Evidence→Counter Evidence→Action views, and an explicit US/evidence-gap page.
+- Kept the dashboard evidence-bounded: current Global/product-collection data is not relabeled as US; Heartopia scope mismatch is explicitly flagged; paid/organic and causal LiveOps attribution remain TBD.
+- Dashboard version: v0.1 DRAFT; input commit: `16f98ab1ae072d4f33c518f6ab8883c8cbf0628e`.
+
 ## v0.9 — 2026-09-24
 - Read and accepted commit `16f98ab1ae072d4f33c518f6ab8883c8cbf0628e` as the current 19-game DianDian dataset.
 - Ran the formal cross-product analysis using `skills/competitor-trend-cause-analysis/SKILL.md`.
