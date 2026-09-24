@@ -56,6 +56,16 @@
 
 ## Start Here
 
+### Research Framework v1
+- `00_master/SIMULATION_CATEGORY_TAXONOMY_v1.0_2026-09-24.md`
+- `00_master/SIMULATION_RESEARCH_FRAMEWORK_v1.0_2026-09-24.md`
+- `00_master/MARKET_SNAPSHOT_2026Q3.md`
+- `01_watchlist/BENCHMARK_SAMPLE_SELECTION_RULES_v1.0_2026-09-24.md`
+- `04_data_method/RESEARCH_SOP_AND_EVIDENCE_RULES_v1.0_2026-09-24.md`
+- `04_data_method/SIM_PRODUCT_CARD_TEMPLATE_v1.0_2026-09-24.md`
+- `03_gameplay/SIM_GENRE_PRODUCT_MATRIX_v1.0_2026-09-24.csv`
+
+### Existing Benchmark / Product Work
 - `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
 - `00_master/PROJECT_CONTEXT_CONSOLIDATED_v0.2_2026-09-24.md`
 - `01_watchlist/HIGH_POTENTIAL_WATCHLIST_v0.1.md`
