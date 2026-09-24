@@ -93,6 +93,15 @@ skills/               可复用分析方法
 - `01_watchlist/HEARTOPIA_DOWNLOAD_TRAJECTORY_2026-09-24.md`
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
+### Current Full Competitor Intelligence Atlas
+- `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.2_2026-09-24.html`
+- Full 16-tab scope: Executive / Market / Art / Core / FTUE / Meta / Economy / LiveOps / UA / Trend-Cause / Reviews / Focus / Product Translation / US-Global / Evidence / Changelog.
+- Populated support matrices:
+  - `02_art_style/ART_COMPETITOR_MATRIX_v0.1_2026-09-24.csv`
+  - `03_gameplay/FOCUS_GAMEPLAY_META_SIDE_SYSTEM_MATRIX_v0.1_2026-09-24.csv`
+  - `06_ua_liveops/FOCUS_LIVEOPS_EVENT_EVIDENCE_v0.1_2026-09-24.csv`
+  - `06_ua_liveops/FOCUS_UA_CREATIVE_PROMOTION_MATRIX_v0.1_2026-09-24.csv`
+
 ### Current Formal Competitor Analysis
 - `09_reports/SIMS_19_GAME_COMPETITOR_TREND_CAUSE_ANALYSIS_v1.0_2026-09-24.md`
 - `09_reports/DIANDIAN_19_GAMES_DERIVED_MATRIX_v1.0_2026-09-24.csv`
