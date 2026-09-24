@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.7 — 2026-09-24
+- Changed competitor-analysis market priority to **US-first, Global-secondary**.
+- Updated DianDian pull order: P0 US monthly series first, then P0 Global for context.
+- Updated the working Heartopia analysis to treat US as the primary decision market and global as supporting context.
+- Required future final HTML to lead with US acquisition, monetization, source mix and trend conclusions, with global comparison as a secondary layer.
+
+
 ## v0.6 — 2026-09-24
 - Started the actual competitor analysis using `skills/competitor-trend-cause-analysis/SKILL.md`.
 - Added `09_reports/WORKING_COMPETITOR_SKILL_ANALYSIS_v0.1_2026-09-24.md`.
