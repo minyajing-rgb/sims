@@ -11,6 +11,7 @@
 ## 当前主线
 
 ### 1. 市场与数据
+- **市场优先级：US-first，Global-secondary**
 - 高潜模拟经营 / hybrid-casual 样本池
 - 点点 / AppMagic 月度下载、收入、自然量、买量数据
 - Organic / Retention proxy
