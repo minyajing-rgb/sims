@@ -147,3 +147,9 @@ skills/               可复用分析方法
 9. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
 10. 点点原始导出为授权数据，仅本地留存且不提交公开仓库；仓库只保存可复核的规范化结果、实体映射、来源与验算口径。
 11. 全部 19 款的统一基线表暂覆盖 2025-09 至 2026-08；Priority 8 已另外补到近 5 年或上线月。点点长区间表默认分页为 50 条，必须切到 100 条或翻第二页，不能把第一页 49 个月误判为权限上限。
+
+
+## Focus-4 Research Harness
+- `07_build_publish/SIMS_GAME_RESEARCH_HARNESS_RUNBOOK_v1.0_2026-09-24.md`
+- `06_ua_liveops/ADX_CREATIVE_DATA_SCHEMA_v1.0_2026-09-24.csv`
+- `09_reports/FOCUS4_EXECUTION_MANIFEST_v1.0_2026-09-24.csv`
