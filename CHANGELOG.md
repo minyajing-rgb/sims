@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v1.3 — 2026-09-24
+- Added a normalized two-year DataEye AdXray audit for the Priority 8 using exact Android package searches.
+- Captured all/default/smart de-dup record counts plus Facebook-family, Google-family and US smart-de-dup coverage proxies.
+- Recorded representative high-heat hooks, format/duration, vendor-estimated exposure, run days, visible countries and available gender readouts.
+- Cross-validated the advertising observations against the DianDian long-history curves and official product/version evidence.
+- Added the self-contained offline HTML `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html` with Cozy Sims product requirements, channel strategy, creative briefs, counter-evidence and the required A–F summary.
+- Preserved the licensing boundary: raw creatives remain local; committed files contain normalized observations and evidence-bounded analysis only.
+- Kept DataEye record counts separate from spend, impressions, CTR/CVR, paid share and organic share.
+
 ## v1.1 — 2026-09-24
 - Added a concrete Focus-4 game research harness for My Perfect Hotel, Office Cat, Big Farm Homestead and The Cozy Florist.
 - Added Android real-device/emulator capture workflow, FTUE session plan, D7+ public-video evidence method, art-frame targets and production-burden method.

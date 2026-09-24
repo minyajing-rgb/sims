@@ -111,6 +111,15 @@ skills/               可复用分析方法
   - `09_reports/FOCUS_VERSION_CADENCE_US_IOS_v0.1_2026-09-24.csv`
   - `09_reports/TREND_CAUSE_VERSION_REVIEW_CROSSCHECK_v0.1_2026-09-24.md`
 
+### DataEye AdXray / UA Creative
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_OBSERVATIONS_2026-09-24.csv`
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_AUDIT_2026-09-24.md`
+- `01_watchlist/PRIORITY8_AD_CREATIVE_PRIMARY_CROSSCHECK_2026-09-24.md`
+- `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html`
+- Scope: Priority 8 Android package exact-search, 2024-09-24 to 2026-09-24.
+- DataEye smart de-dup is a creative-volume proxy, not spend, CTR/CVR, paid share or verified campaign count.
+- Licensed raw creatives remain local; the repository stores normalized observations, source/method and evidence-bounded conclusions.
+
 ### Current Formal Trend × Cause Analysis
 - `09_reports/SIMS_19_GAME_COMPETITOR_TREND_CAUSE_ANALYSIS_v1.0_2026-09-24.md`
 - `09_reports/DIANDIAN_19_GAMES_DERIVED_MATRIX_v1.0_2026-09-24.csv`
@@ -147,7 +156,7 @@ skills/               可复用分析方法
 9. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
 10. 点点原始导出为授权数据，仅本地留存且不提交公开仓库；仓库只保存可复核的规范化结果、实体映射、来源与验算口径。
 11. 全部 19 款的统一基线表暂覆盖 2025-09 至 2026-08；Priority 8 已另外补到近 5 年或上线月。点点长区间表默认分页为 50 条，必须切到 100 条或翻第二页，不能把第一页 49 个月误判为权限上限。
-
+12. ADX 素材记录、智能去重、预估曝光和受众为供应商口径；媒体/地区覆盖指数不可当预算份额，代表卡不可当全产品受众分布。
 
 ## Focus-4 Research Harness
 - `07_build_publish/SIMS_GAME_RESEARCH_HARNESS_RUNBOOK_v1.0_2026-09-24.md`

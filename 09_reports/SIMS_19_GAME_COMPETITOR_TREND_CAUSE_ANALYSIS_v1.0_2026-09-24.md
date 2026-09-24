@@ -6,7 +6,7 @@
 **Primary market lens:** **US-first · Global-secondary**  
 **Input commit:** `16f98ab1ae072d4f33c518f6ab8883c8cbf0628e`  
 **Status:** **EVIDENCE-BOUNDED CROSS-PRODUCT ANALYSIS · FINAL FOR CURRENT DATA WINDOW**  
-**Not included:** full launch-to-date history, paid/organic attribution, complete monthly LiveOps/version history, final interactive HTML.
+**Not included in this 19-game v1.0:** full launch-to-date history for every title, paid/organic attribution and complete monthly LiveOps/version history. A separate Priority 8 long-history panel and ADX interactive HTML are now available.
 
 ---
 
@@ -25,7 +25,7 @@ Coverage:
 - 我的花园世界: monthly revenue unavailable
 - 疯狂水世界 / Wild Water World: complete monthly downloads unavailable
 - Heartopia downloads = Global-only; revenue = broader regional collection scope; **cross-scope RPD / persistence is invalid**
-- Paid/organic, monthly creative volume, historical rating/version, and full monthly LiveOps/IP evidence are unavailable.
+- Paid/organic, historical rating/version, and full monthly LiveOps/IP evidence are unavailable in the 19-game panel. A separate 2024-09-24 to 2026-09-24 DataEye AdXray snapshot now supplies Priority 8 creative-volume/media/country proxies, but not spend or attribution.
 
 ## US-first rule
 The current 19-game monthly panel is primarily Global / product-collection scope.
@@ -712,6 +712,30 @@ Required:
 - event/version timestamps
 - creative / spend proxy if licensed access allows
 
+## 8.1 DataEye AdXray crosscheck added after v1.0
+
+See:
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_OBSERVATIONS_2026-09-24.csv`
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_AUDIT_2026-09-24.md`
+- `01_watchlist/PRIORITY8_AD_CREATIVE_PRIMARY_CROSSCHECK_2026-09-24.md`
+- `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html`
+
+**SOURCE / OBSERVED**
+- The Priority 8 now have comparable two-year all-market, Facebook-family, Google-family and US smart-de-dup material counts.
+- Township has the largest smart-de-dup proxy (37K); The Cozy Florist is the most Facebook-concentrated (93.8% coverage index); My Perfect Hotel is the most Google-concentrated (42.1%); Big Farm Homestead has the highest US coverage index (60.6%).
+- Representative cards reveal four recurring acquisition systems: relationship/emotional conflict, reward/growth, direct core-play, and lifestyle/social identity.
+- Representative audience readouts skew female for Township (74.75%), Big Farm Homestead (68.12%) and The Cozy Florist (98.29%). These are card-level vendor observations, not whole-product demographics.
+
+**COUNTER EVIDENCE**
+- Hay Day has a much smaller smart-de-dup library than Township but remains near its five-year visible revenue peak. Creative volume does not explain durability by itself.
+- Heartopia's high-reach social-expression card does not explain post-launch download decay or revenue persistence.
+- DataEye counts cannot fill paid downloads, organic downloads, organic share, spend, CTR, CVR or ROAS.
+
+**ACTION**
+- Cozy Sims should combine an honest, legible core-action ad with a persistent home/garden transformation and a later identity/social layer.
+- Test Meta/TikTok 9:16 identity/lifestyle creatives separately from Google/YouTube direct-gameplay evergreen creatives.
+- Judge hooks using qualified install, D1/D7, core-function reach and first ownership/decor action, not CTR alone.
+
 ---
 
 # 9. A–F team summary required by Skill
@@ -721,6 +745,7 @@ Required:
 - Several new products show much faster download decay than revenue decay.
 - Multiple products show late-window reacquisition/reacceleration.
 - Heartopia’s global launch downloads collapse rapidly, but scope mismatch blocks valid revenue persistence math.
+- The Priority 8 now have a two-year ADX creative-volume/media/country proxy and representative card observations; paid/organic and spend remain unresolved.
 
 ## B. What may explain it
 Current evidence supports **curve descriptions**, not most causal drivers.
@@ -762,7 +787,7 @@ US-first prototype:
 - historical reviews
 - historical versions
 - monthly LiveOps / collab map
-- ad creative history
+- 30/90/180-day creative concept time series, spend, CPM, CTR, CVR and placement-level delivery
 - full launch-to-date before 2025-09
 - mini-game-specific metrics for QQ经典农场
 - native download coverage for 疯狂水世界 and Resortopia
@@ -783,6 +808,6 @@ It is **not** sufficient for:
 - organic-vs-paid attribution
 - causal LiveOps claims
 - final launch budget
-- final self-contained HTML presented as complete evidence
+- treating the separate Priority 8 ADX HTML as complete paid/organic or ROI evidence
 
-The interactive HTML remains the next evidence stage after US/source/event coverage improves.
+The separate Priority 8 ADX HTML is complete for the current visible creative evidence; a combined 19-game final dashboard still requires broader US/source/event coverage.
