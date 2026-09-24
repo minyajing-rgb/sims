@@ -15,10 +15,23 @@ Focus:
 - big-publisher new bets,
 - structural baselines.
 
+## Market priority
+
+**US-first, Global-secondary.**
+
+Default analysis scope:
+1. **United States** — primary decision market.
+2. **Global** — secondary context / scale check.
+3. JP / KR / TW / SEA — only break out when they materially explain a US-vs-global difference or a title is region-led.
+
+Do not let global aggregate hide US weakness or US strength.
+
 ## Pull order
-1. **P0**: download first.
-2. **P1**: second batch / baseline.
-3. **P2**: trend radar or non-mobile references.
+1. **P0 US monthly data first**: downloads, revenue, paid/organic, top source mix, creatives, version/event nodes.
+2. **P0 Global monthly data second**: same fields for context and scale comparison.
+3. **P1 US**: second batch / baseline.
+4. **P1 Global**: only after US has decision-grade coverage.
+5. **P2**: trend radar or non-mobile references.
 
 ## Required monthly fields
 For every P0/P1 title:
