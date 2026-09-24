@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v0.3 — 2026-09-24
+- Added a full cross-platform simulation / management taxonomy.
+- Added a reusable simulation research framework covering market, acquisition, core loop, retention/meta, monetization, art/content cost and studio fit.
+- Added 2026 Q3 market snapshot for Mobile, Steam and China mini-games.
+- Added research sprint SOP, evidence grading and metric-normalization rules.
+- Added benchmark sample-selection rules to avoid only studying top-grossing winners.
+- Added genre/product matrix CSV for product comparisons.
+- Added standardized product-card teardown template.
+- Defined five priority research tracks: Hands-on Cozy Management, Garden/Restoration/Decor, Cute Idle/Tycoon + Ownership, Lifestyle Light Sim, Casual Front + Long Meta.
+
+
 ## v0.2 — 2026-09-24
 - Consolidated current and earlier Ops Cat / cozy-game project context.
 - Added AI-native cozy-game PRD.
