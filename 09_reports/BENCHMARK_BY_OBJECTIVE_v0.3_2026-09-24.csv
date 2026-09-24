@@ -1,0 +1,11 @@
+objective,primary_benchmark,secondary_benchmark,what_to_learn,what_not_to_copy,evidence_status,evidence
+Durable revenue,Hay Day,Township,"Evergreen production core + installed-base monetization + high reuse","Mature feature breadth; calendar RPD as LTV",DONE_PARTIAL,"Priority8 long history + official product/store evidence"
+New cozy/farming monetization,Big Farm Homestead,The Cozy Florist,"Ownership → production → pass/collection/story","Revenue hold as cohort retention",DONE_PARTIAL,"Priority8 long history + official/event evidence"
+Narrative LiveOps,Gossip Harbor,Big Farm Homestead,"Weekly story + reusable themed event shell","Bespoke weekly content without templates",DONE_PARTIAL,"US version/event evidence"
+Lean studio,Office Cat,My Perfect Hotel,"Modular rooms/areas + repeated upgrade grammar + clear capacity growth","Cute/idle alone as long meta",DONE_PARTIAL,"Production burden + gameplay sources"
+D0 readability,My Perfect Hotel,Office Cat,"Move/auto-act → reward → spend → visible growth","Forced-ad pressure / shallow long meta",PARTIAL,"Fresh tutorial walkthrough located; Office Cat Part 1 source located"
+Progression staging,Big Farm Homestead,Office Cat,"Ownership first; second region; community/guild later; explicit level/currency gates","Large financial walls or front-loaded social",PARTIAL_PLUS,"Big Farm official Level 8/12 gates; Office Cat external building-gate guide"
+Social-after-ownership,Big Farm Homestead,The Cozy Florist,"Delay guild/visit/cosmetic-social until player values owned space","Build social breadth before home/garden attachment",PARTIAL_PLUS,"Big Farm official Community Island/guild Lv12; Cozy Florist Boutique Lv10 external guide"
+Cosmetic/identity meta,The Cozy Florist,Heartopia,"Collection/outfit identity as later retention/value layer","AAA-like avatar/content scope at MVP",PARTIAL,"Cozy Florist Boutique/outfit Lv10 external guide; Heartopia public product evidence"
+Lifestyle ceiling,Heartopia,Hay Day,"Home/avatar/pet/hobby/social expression ceiling","Open-world content burden at MVP",PARTIAL,"Public product/FTUE evidence; KPI scope mismatch retained"
+D2C / loyalty,Hay Day,Township,"Pass + store rewards + recurring value","Assume subscription availability/incrementality",DONE_PARTIAL,"Official Supercell Store/support evidence"
