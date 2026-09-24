@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.11 — 2026-09-24
+- Corrected the earlier account-limit conclusion: the Diandian picker accepts 2021-09 to 2026-08, and the default 50-row pagination had hidden the remaining months on page 2.
+- Added a 299-row long-history panel for the eight named priorities, using five full years for Township and Hay Day and launch-to-current windows for newer products.
+- Added an eight-product summary and lifecycle analysis covering launch/visible start, peaks, tail ratios and revenue resilience.
+- Kept Heartopia Global downloads separate from the regional collection revenue scope; cross-scope RPD remains unavailable.
+- Added a rerunnable builder for the Priority 8 monthly and summary CSV files.
+
 ## v0.10 — 2026-09-24
 - Added the first self-contained offline HTML dashboard draft: `09_reports/SIMS_19_GAME_COMPETITOR_DASHBOARD_v0.1_DRAFT_2026-09-24.html`.
 - The draft uses the existing 19-product / 228-row 2025-09→2026-08 panel immediately rather than waiting for missing US/source-mix fields.
@@ -24,7 +31,7 @@
 - Added monthly downloads for 16 products and monthly revenue for 17 products; QQ经典农场 remains N/A because it is a mini-game without native store entities.
 - Added product-level peak, latest/peak, RPD, revenue persistence and trailing 3-month revenue carryover calculations with scope checks.
 - Added current rating, review, version and cumulative-download snapshots separately from historical monthly rows.
-- Added a source audit, explicit data gaps and a quick lifecycle analysis; earlier-than-2025-09 history remains unavailable under the current account permission.
+- Added a source audit, explicit data gaps and a quick lifecycle analysis. This version originally misread the default first table page as an account limit; v0.11 corrects that error.
 - Corrected the entity map to 49 identified entities, including Good Pizza and Animal Restaurant China iOS listings and The Cozy Florist GB Android launch month.
 
 ## v0.7 — 2026-09-24
