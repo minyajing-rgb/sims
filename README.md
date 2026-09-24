@@ -74,6 +74,11 @@ skills/               可复用分析方法
 - Required output for large datasets: self-contained offline interactive HTML.
 
 ### Codex Data Pull
+- `01_watchlist/DIANDIAN_19_GAMES_MONTHLY_2025-09_2026-08.csv`
+- `01_watchlist/DIANDIAN_19_GAMES_SUMMARY_2026-09-24.csv`
+- `01_watchlist/DIANDIAN_19_GAMES_CURRENT_SNAPSHOT_2026-09-24.csv`
+- `01_watchlist/DIANDIAN_19_GAMES_ANALYSIS_2026-09-24.md`
+- `01_watchlist/DIANDIAN_SOURCE_AUDIT_2026-09-24.md`
 - `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.csv`
 - `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.md`
 - `01_watchlist/DIANDIAN_MONTHLY_INPUT_TEMPLATE.csv`
@@ -111,4 +116,4 @@ skills/               可复用分析方法
 8. AI不直接控制经济、付费价值和关键进度；AI主要承担个性化、叙事和内容装配。
 9. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
 10. 点点原始导出为授权数据，仅本地留存且不提交公开仓库；仓库只保存可复核的规范化结果、实体映射、来源与验算口径。
-11. 当前仅 Heartopia Global 的 2025-12 至 2026-08 月度下载完成核验；其余 18 个产品族仍为 `pending`，缺失值不是 0。
+11. 当前账号可见窗口为 2025-09 至 2026-08：16 个产品有月度下载、17 个产品有月度收入；更早月份被权限限制，缺口必须记为 `N/A` / `unavailable`，不能写成 0。

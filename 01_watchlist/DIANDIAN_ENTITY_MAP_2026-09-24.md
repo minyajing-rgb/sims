@@ -22,7 +22,7 @@
 
 3. **The Cozy Florist**
    - `com.riftsky.mhg.gb.gp`、`com.riftsky.mhg.zd.gp`、`com.riftsky.mhg.kr.gp`、`com.riftsky.mhg.ru.gp` 是独立 Android package。
-   - 只有美国 iOS 与英国 Android 的 2025-12 上架月已核实；其他地区包在拿到发行商或数据商 family 映射前不得机械求和。
+   - 美国 iOS 为 2025-12；英国 Android 首发为 2025-11-28。其他地区包在拿到发行商或数据商 family 映射前不得机械求和。
 
 4. **我的花园世界**
    - 中国 iOS `6746321359`、台港澳 iOS `6751560944`、台港澳 Android `com.floralgames.hjxp`、越南 Android `com.myflower.gp` 分开。
@@ -39,11 +39,15 @@
 7. **浪漫餐厅 / Gossip Harbor**
    - 全球 iOS `1623318294`、全球 Android `com.mergegames.gossipharbor`、中国 iOS `6472696051` 分开存储，只在 family 层汇总。
 
-8. **Cat Snack Bar / Eatventure**
+8. **Good Pizza / Animal Restaurant**
+   - Good Pizza 中国 iOS `6736427807` 与全球 iOS/Google Play 分开。
+   - Animal Restaurant 中国 iOS `1479366779` 与全球 iOS/Google Play 分开。
+
+9. **Cat Snack Bar / Eatventure**
    - Cat Snack Bar 主产品不得替换为 `com.tree.idle.cat.city` 或 `com.tree.puzzle.triplematch`。
    - Eatventure 模拟经营游戏是 `com.hwqgrhhjfd.idlefastfood`；`com.tealseed.eatventure` 是无关同名产品。
 
-9. **QQ经典农场**
+10. **QQ经典农场**
    - 这是 QQ / 微信小游戏，不存在独立原生 App Store 或 Google Play ID。
    - 原生下载字段应为 `N/A` / 空值，不得填 `0`；需要改用小游戏活跃、畅销榜、收入与投放口径。
 

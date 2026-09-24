@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.8 — 2026-09-24
+- Added a 228-row monthly panel for all 19 requested product families covering the visible 2025-09 to 2026-08 Diandian window.
+- Added monthly downloads for 16 products and monthly revenue for 17 products; QQ经典农场 remains N/A because it is a mini-game without native store entities.
+- Added product-level peak, latest/peak, RPD, revenue persistence and trailing 3-month revenue carryover calculations with scope checks.
+- Added current rating, review, version and cumulative-download snapshots separately from historical monthly rows.
+- Added a source audit, explicit data gaps and a quick lifecycle analysis; earlier-than-2025-09 history remains unavailable under the current account permission.
+- Corrected the entity map to 49 identified entities, including Good Pizza and Animal Restaurant China iOS listings and The Cozy Florist GB Android launch month.
+
 ## v0.7 — 2026-09-24
 - Changed competitor-analysis market priority to **US-first, Global-secondary**.
 - Updated DianDian pull order: P0 US monthly series first, then P0 Global for context.
@@ -13,7 +21,6 @@
 - Analyzed the verified Heartopia Global monthly download curve (2026-01 to 2026-08), iOS/Google Play mix, geographic tail shift and event windows.
 - Assigned evidence levels and counter-evidence; kept revenue / paid-organic / retention metrics as TBD where the current DianDian export is missing.
 - Final cross-product interactive HTML remains gated on the remaining P0 monthly datasets.
-
 
 ## v0.5 — 2026-09-24
 - Added a 47-row product/store entity map covering the 19 requested simulation-management product families, with regional and platform splits kept explicit.

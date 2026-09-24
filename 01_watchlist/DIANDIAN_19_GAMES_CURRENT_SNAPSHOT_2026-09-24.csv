@@ -1,0 +1,20 @@
+product_family,snapshot_date,rating,review_count,major_version,latest_update,cumulative_downloads,source_scope,notes
+Heartopia,2026-09-24,4.4,134000,0.5.5,2026-08-21,10983081,googleplay,"Downloads are verified Global-only export; revenue is collection scope, so RPD/cross-scope persistence are N/A."
+Township,2026-09-24,4.7,12897000,39.0.3,2026-09-23,520862415,googleplay,n.a.
+Hay Day,2026-09-24,4.4,13103000,1.72.86,2026-08-17,371711549,googleplay,n.a.
+我的花园世界,2026-09-24,4.18,1507,1.1.6,2026-09-23,18782984,android,Domestic Android collection download table is available; the matched iOS income page returned no table.
+The Cozy Florist,2026-09-24,4.7,157000,1.0.80,2026-09-22,3173658,googleplay,n.a.
+"Good Pizza, Great Pizza",2026-09-24,4.7,1872000,5.57.3,2026-09-23,231527511,googleplay,n.a.
+My Perfect Hotel,2026-09-24,4.5,1841000,1.37.1,2026-09-08,200322164,googleplay,n.a.
+Eatventure,2026-09-24,4.7,420000,1.54.0,2026-09-18,58402250,googleplay,n.a.
+Office Cat,2026-09-24,4.6,510000,1.0.80,2026-08-31,12409268,googleplay,n.a.
+Rent Please!,2026-09-24,4.4,394000,1.98.5.2,2026-09-09,23979907,googleplay,n.a.
+疯狂水世界 / Wild Water World,2026-09-24,n.a.,n.a.,n.a.,n.a.,n.a.,android,"Domestic Android monthly table returned source total 0 while the iOS download page returned no table; family downloads are therefore unavailable, not zero."
+Animal Restaurant,2026-09-24,4.7,690000,12.41,2026-09-22,22156164,googleplay,n.a.
+Big Farm Homestead,2026-09-24,4.6,62000,1.0.6384,2026-09-08,3674311,googleplay,n.a.
+Resortopia,2026-09-24,4.5,125000,12.1.0,2026-08-07,6372811,googleplay,Both matched iOS and Google Play download pages explicitly returned no monthly download data; income is available.
+Cat Snack Bar,2026-09-24,4.5,580000,1.0.218,2026-08-24,29879769,googleplay,n.a.
+QQ经典农场,2026-09-24,n.a.,n.a.,n.a.,n.a.,n.a.,minigame,"QQ/WeChat mini-game; no native App Store or Google Play entity. Native download and revenue fields are N/A, not zero."
+向往的生活,2026-09-24,3.4,883,1.1.7,2026-06-08,n.a.,ios,n.a.
+时尚百货城,2026-09-24,3.81,244,1.3.4,2026-09-23,1592816,ios,n.a.
+浪漫餐厅 / Gossip Harbor,2026-09-24,4.3,704000,3.98.10,2026-09-21,88419983,googleplay,n.a.
