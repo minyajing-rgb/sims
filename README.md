@@ -52,7 +52,7 @@
 06_ua_liveops/        美术测试 / creative test / LiveOps
 07_build_publish/     Base44 / Codex / Native发布架构与当前prototype状态
 08_assets/            Ops Cat资产索引
-09_reports/           竞品分析HTML / release notes / final delivery
+09_reports/           竞品分析 / derived matrix / HTML / release notes / final delivery
 skills/               可复用分析方法
 99_archive/
 ```
@@ -86,6 +86,11 @@ skills/               可复用分析方法
 - `01_watchlist/DIANDIAN_MONTHLY_HEARTOPIA_GLOBAL_2025-12_2026-08.csv`
 - `01_watchlist/HEARTOPIA_DOWNLOAD_TRAJECTORY_2026-09-24.md`
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
+
+### Current Formal Competitor Analysis
+- `09_reports/SIMS_19_GAME_COMPETITOR_TREND_CAUSE_ANALYSIS_v1.0_2026-09-24.md`
+- `09_reports/DIANDIAN_19_GAMES_DERIVED_MATRIX_v1.0_2026-09-24.csv`
+- `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.3_2026-09-24.md`
 
 ### Existing Benchmark / Product Work
 - `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
