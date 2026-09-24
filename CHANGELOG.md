@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.5 — 2026-09-24
+- Added a 47-row product/store entity map covering the 19 requested simulation-management product families, with regional and platform splits kept explicit.
+- Expanded the monthly input template to the requested source and derived fields.
+- Added verified Heartopia Global monthly downloads for 2025-12 through 2026-08, including iOS/Google Play split, top-five countries and download peak ratios.
+- Added an evidence-bounded Heartopia launch-to-tail analysis and the v0.2 field/formula methodology.
+- Recorded monthly revenue, paid/organic traffic, ad creative, rating/reviews, version, LiveOps and IP collaboration as unavailable rather than zero where no verified source value exists.
+- Kept licensed raw exports local and excluded from the public repository; 18 product families remain pending.
+
 ## v0.4 — 2026-09-24
 - Added and indexed `skills/competitor-trend-cause-analysis/SKILL.md` as the required method for the upcoming DianDian competitor report.
 - Defined the report pipeline: wait for Codex data completion → normalize/QA → trend/anomaly/cause crosscheck → offline interactive HTML → local delivery + GitHub `09_reports/`.

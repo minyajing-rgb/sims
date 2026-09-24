@@ -76,6 +76,10 @@ skills/               可复用分析方法
 - `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.csv`
 - `01_watchlist/DIANDIAN_PRIORITY_WATCHLIST_v0.2_2026-09-24.md`
 - `01_watchlist/DIANDIAN_MONTHLY_INPUT_TEMPLATE.csv`
+- `01_watchlist/DIANDIAN_ENTITY_MAP_2026-09-24.md`
+- `01_watchlist/DIANDIAN_MONTHLY_HEARTOPIA_GLOBAL_2025-12_2026-08.csv`
+- `01_watchlist/HEARTOPIA_DOWNLOAD_TRAJECTORY_2026-09-24.md`
+- `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
 ### Existing Benchmark / Product Work
 - `00_master/BENCHMARK_BY_OBJECTIVE_v0.1.md`
@@ -85,6 +89,7 @@ skills/               可复用分析方法
 - `02_art_style/ART_REFINEMENT_10_30_PERCENT_v0.1.md`
 - `03_gameplay/GAMEPLAY_ARCHETYPE_MAP_v0.1.md`
 - `04_data_method/ORGANIC_RETENTION_PROXY_v0.1.md`
+- `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 - `05_product_strategy/CASUAL_VS_LIGHT_SIM_v0.1.md`
 - `05_product_strategy/AI_NATIVE_COZY_GAME_PRD_v0.1.md`
 - `05_product_strategy/OPS_CAT_ROADMAP_0_18M_v0.1.md`
@@ -104,3 +109,5 @@ skills/               可复用分析方法
 7. 重要波动必须做 Review / Event / Version / Source Mix 四层交叉验证并记录 Counter Evidence。
 8. AI不直接控制经济、付费价值和关键进度；AI主要承担个性化、叙事和内容装配。
 9. 先做可玩的 5–10 分钟 vertical slice，再扩世界。
+10. 点点原始导出为授权数据，仅本地留存且不提交公开仓库；仓库只保存可复核的规范化结果、实体映射、来源与验算口径。
+11. 当前仅 Heartopia Global 的 2025-12 至 2026-08 月度下载完成核验；其余 18 个产品族仍为 `pending`，缺失值不是 0。
