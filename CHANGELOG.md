@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.1 — 2026-09-24
+- Added the full 16-tab `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v0.2_2026-09-24.html`, replacing the earlier KPI-only dashboard as the current HTML draft.
+- Integrated the new Priority 8 long-history dataset (299 monthly rows; five-year windows for Township/Hay Day and launch-to-current windows for newer titles).
+- Populated focus Art/Visual, Core/Meta/Side-System, LiveOps/Event and UA/Creative/Promotion matrices with explicit evidence/confidence boundaries.
+- Added Economy/Monetization, Production Burden, Benchmark-by-Objective, Ops Cat Product Translation, Status Audit and US-vs-Global layers.
+- Kept timed FTUE, unified US-only KPI, paid/organic, full creative history and complete monthly event/review/version histories as PARTIAL/TBD rather than fabricating coverage.
+- Current HTML commit: `a4d81abe5db224e2e30133a1695e67cab33836a7`.
+
 ## v1.0 — 2026-09-24
 - Audited the current SIMS trend-cause skill against the recent SparkPro competitor/KPI benchmark workflow.
 - Confirmed the previous SIMS HTML/skill scope was materially narrower: it covered data trends well but did not require full art, FTUE, gameplay, side-system, economy, LiveOps, UA/creative/promotion and production-cost analysis.
