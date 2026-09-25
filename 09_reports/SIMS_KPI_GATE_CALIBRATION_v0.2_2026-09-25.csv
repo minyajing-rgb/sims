@@ -1,2 +1,7 @@
 layer,market,metric,reference_or_rule,source_type,use,do_not_use_as
 External research benchmark,US / all games,D1 retention,36.6% median,MWM US Q3 2025 aggregate,Context only,Ops Cat owner target
+External research benchmark,US / all games,D7 retention,9.3% median,MWM US Q3 2025 aggregate,Context only,Ops Cat owner target
+External research benchmark,US / all games,D30 retention,2.9% median,MWM US Q3 2025 aggregate,Context only,Ops Cat owner target
+Competitor campaign evidence,US / Township,D28 retention,~38% relative uplift vs D7-acquired cohort,Unity network case,Cohort-quality mechanism evidence,Absolute title retention
+Competitor campaign evidence,US / My Perfect Hotel,D7 ARPU,+50% relative uplift,Unity network case,UA optimization evidence,Absolute ARPU
+Competitor campaign evidence,KR / Office Cat,D1-D7-D14,69%-60%-50%,Playio channel case,Rewarded-engagement mechanism evidence,US organic retention
