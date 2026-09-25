@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SIMS Full Competitor Intelligence Atlas v3.6</title>
+<style>
+:root{--bg:#f7f7fb;--card:#fff;--ink:#181823;--muted:#6f7080;--line:#e6e7ef;--p:#6857d7;--g:#23735a;--a:#946314}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{padding:28px;background:linear-gradient(135deg,#fff,#f1eeff 55%,#eef7ff);border-bottom:1px solid var(--line)}
+.wrap,.tabs,main,.foot{max-width:1480px;margin:auto}.ey{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--p);font-weight:900}
+h1{font-size:34px;margin:7px 0}.sub{max-width:1200px;color:var(--muted);line-height:1.65}.warn{margin-top:14px;padding:12px 14px;background:#fff8e8;border:1px solid #ead7a7;border-radius:12px;color:#6c531b;font-size:13px}
+nav{position:sticky;top:0;z-index:10;background:#f7f7fbea;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:6px;padding:10px 18px;overflow:auto}.tab{white-space:nowrap;border:0;background:transparent;padding:9px 12px;border-radius:9px;font-weight:750;color:#666;cursor:pointer}.tab.on{background:#fff;color:var(--p);box-shadow:0 8px 25px #332b6814}
+main{padding:22px}.sec{display:none}.sec.on{display:block}.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 8px 28px #312b5e0c}.hero{border-left:5px solid var(--p)}
+.lab{font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase}.val{font-size:25px;font-weight:900;margin-top:6px}.note{font-size:12px;color:var(--muted);margin-top:5px}
+h2{font-size:22px;margin:25px 0 12px}h3{font-size:17px;margin:0 0 8px}p,li{line-height:1.58}.tbl{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:16px}
+table{border-collapse:collapse;width:100%;min-width:1100px;font-size:12.5px}th,td{padding:10px 9px;border-bottom:1px solid #eee;vertical-align:top;text-align:left}th{background:#fbfbfd;color:#666;font-size:11px;text-transform:uppercase}
+.pill,.flow span{display:inline-block;padding:6px 9px;margin:3px;border-radius:9px;background:#f0eefc;color:#50439e;font-size:12px;font-weight:700}.flow{display:flex;gap:5px;align-items:center;flex-wrap:wrap}
+.good{color:var(--g);font-weight:800}.tbd{color:#666;font-weight:800}.part{color:var(--a);font-weight:800}.foot{padding:0 22px 36px;color:var(--muted);font-size:12px}
+@media(max-width:920px){.g4,.g3{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){header{padding:22px 16px}main{padding:14px}.g4,.g3,.g2{grid-template-columns:1fr}h1{font-size:27px}}
+</style></head><body>
+<header><div class="wrap"><div class="ey">SIMS · Full Competitor Intelligence Atlas</div><h1>Cozy Sims / Simulation / Casual-to-Long-Meta · v3.6</h1>
+<div class="sub">US-first、Global-secondary。v3.6 adds fresh US platform-split August KPI for Township and Hay Day. Same-provider iOS/Google Play rows are kept separate before any combined calculation; combined calendar RPD is explicitly a denominator-sensitive ratio, not cohort monetization.</div>
+<div class="warn"><b>Evidence boundary:</b> network campaign ROAS ≠ blended product ROAS；KR/JP campaign retention ≠ US organic retention；creative coverage ≠ spend share；Global ≠ US；RPD/calendar ratio ≠ LTV；事件/版本重合 ≠ 因果。</div></div></header>
+<nav><div class="tabs">
+<button class="tab on" data-id="executive">Executive</button><button class="tab" data-id="market">Market/KPI</button><button class="tab" data-id="art">Art</button><button class="tab" data-id="core">Core</button><button class="tab" data-id="ftue">FTUE</button><button class="tab" data-id="meta">Progression/Meta/Side</button><button class="tab" data-id="economy">Economy/Monetization</button><button class="tab" data-id="liveops">LiveOps</button><button class="tab" data-id="ua">UA/Creative</button><button class="tab" data-id="trend">Trend/Cause</button><button class="tab" data-id="reviews">Reviews/Versions</button><button class="tab" data-id="focus">Focus Game</button><button class="tab" data-id="production">Production Burden</button><button class="tab" data-id="translation">Product Translation</button><button class="tab" data-id="usglobal">US/Global</button><button class="tab" data-id="recovery">Data Gap Recovery</button><button class="tab" data-id="evidence">Evidence/Gaps/Sources</button><button class="tab" data-id="changelog">Changelog</button>
+</div></nav><main>
+
+<section id="executive" class="sec on"><div class="card hero"><b>v3.6 research upgrade:</b> US platform split exposes a major Township divergence. Aug-2026 <b>iOS downloads -1.1% / revenue -19.7%</b>, while <b>Google Play downloads -45.8% / revenue +19.6%</b>. CALCULATED combined downloads fall 36.2% and revenue 5.4%, but combined calendar RPD rises 48.3% mainly because acquisition shrank. Hay Day provides the counterexample: combined Aug downloads -2.9%, revenue -7.0%, calendar RPD -4.2% — no material anomaly under default thresholds.</div>
+<div class="card hero"><b>v3.5 research upgrade:</b> Big Farm Homestead now has a reconstructable launch/promotion lifecycle.
+First-party Stillfront evidence shows a <b>launch-intensive Q1</b> with higher UA investment, followed by <b>Q2 UA normalization</b>
+while the BIG franchise still reported 79% organic growth. A Jan-27 creator sponsorship adds a concrete US-facing acquisition path:
+Tennessee farm/equestrian creator → unique OneLink → unique voucher → 100,000 Coins + 250 Gems.</div><div class="card hero"><b>v3.4 research upgrade:</b> Gossip Harbor now has a matched US both-store Aug-2026 signal: <b>893,223 downloads (-23.5% MoM)</b> and <b>$42.29M revenue (+15.6% MoM)</b>. CALCULATED calendar RPD moved from about $31.33 in Jul to $47.35 in Aug (+51.1%). This is acquisition/monetization decoupling, not cohort-LTV proof.</div>
+<div class="card hero"><b>v3.3 correction / upgrade:</b> My Perfect Hotel's Barbie Dream Hotel is not a short May-only event. SayGames states the in-game destination launched <b>Apr 23, 2026</b> and runs until <b>Mar 31, 2027</b>. By Jun 16, SayGames reported <b>700K+ completions</b> and said a significant number of existing players had returned. The Apr21–May20 App Store event card is therefore a <b>store-promotion window</b>, not the in-game event end date.</div>
+<div class="card hero"><b>v3.2 retained:</b> Gossip Harbor shows a roughly 2–3 day public energy-link CRM rhythm; The Cozy Florist officially advertises a weekly gift code; Heartopia exposes a high-concurrency late-Sep/early-Oct event-state ceiling.</div><div class="card hero"><b>v3.0 research upgrade:</b> public evidence now separates <b>owned-media CRM</b> from paid UA and separates <b>rapid patch trains</b> from proven quality incidents. Big Farm Homestead explicitly ran weekly Monday Memory Album vouchers in July and used TikTok/Instagram follower milestones for vouchers in September. Township shipped 39.0.3→39.0.4→39.0.5 across Sep17→24, but no public fix notes justify inventing a bug cause.</div><div class="card hero"><b>v2.9 research upgrade:</b> Big Farm Homestead FTUE now shows monetization entry by level: Market/refresh Lv3, ad contracts + gem slots Lv4, Daily Quests / Hot Deals ad chests / Community Store Lv9. Reviews/Versions now includes exact-version-tagged complaint samples for Office Cat, Township and Gossip Harbor. Missing review timestamps remain TBD.</div><div class="card hero"><b>v2.8 research upgrade:</b> UA now has a public <b>observed channel architecture</b> layer. Gossip Harbor is heavily AppLovin-led in SocialPeta observed activity; Township is more distributed across Unity and Meta; Hay Day remains broad with AppLovin leading; The Cozy Florist is Meta-heavy. These figures are <b>not</b> paid/organic install mix, spend share, or MMP attribution.</div>
+<div class="card hero"><b>v2.6 research upgrade:</b> production scope now has real public comparators:
+<b>Office Cat</b> = 8 initial developers and ~6 months start→global;
+<b>Big Farm Homestead</b> = under-one-year 3D delivery using shared sister-game systems;
+<b>Heartopia</b> = multi-year heavy life-sim with global high-frequency-save / rollback infrastructure.
+These are different production envelopes, not one generic “simulation benchmark.”</div>
+<div class="card hero"><b>v2.4 research upgrade:</b> monetization is modeled as an <b>architecture</b>, not a price list.
+Hay Day adds current first-party subscription + D2C loyalty evidence; Heartopia adds a free-earn → hard-currency acceleration → Premium-tier event economy;
+Big Farm Homestead adds progression-linked offers, recurring public voucher/gift CRM, and first-party entitlement-preserving recovery patterns.
+The prior v2.3 production layer is retained conceptually: release burden is measured by surfaces/state/regression, not art count alone.</div>
+<div class="g4"><div class="card"><div class="lab">Paid display signal</div><div class="val">82.9%</div><div class="note">Gossip Harbor · reported past 90d · geography not explicit</div></div>
+<div class="card"><div class="lab">US network ROAS</div><div class="val">+19%</div><div class="note">My Perfect Hotel · D7 · US Android · Unity Ads</div></div>
+<div class="card"><div class="lab">Event completion</div><div class="val">700K+</div><div class="note">My Perfect Hotel · Barbie · Jun 2026</div></div>
+<div class="card"><div class="lab">Current team</div><div class="val">60+</div><div class="note">Hay Day title team · Jun 2026</div></div></div>
+<h2>v1.9 major reads</h2><div class="g3">
+<div class="card"><h3>UA evidence is now layered</h3><p>Gossip Harbor paid-share evidence, Unity campaign metrics and Office Cat Playio cases give usable source/performance evidence—but each keeps its own market/network/window.</p></div>
+<div class="card"><h3>Winner concentration matters</h3><p>Gossip Harbor’s US 30d AdMapix sample is dominated by one 25-second file carrying 70.5% of measured delivery; creative count alone is a weak productivity KPI.</p></div>
+<div class="card"><h3>Long-window UA can select better cohorts</h3><p>Township’s D28 IAP ROAS campaign reached stronger D28 retention/ARPU than concurrent D7 cohorts, but only within the disclosed Unity campaign context.</p></div>
+<div class="card"><h3>Event participation finally has a hard count</h3><p>My Perfect Hotel’s Barbie integration passed 700K completions by June 2026; this is participation evidence, not payer conversion.</p></div>
+<div class="card"><h3>Mature live teams can become large</h3><p>Hay Day is now 60+ people; Township was ~130 by 2023. Neither is a valid MVP staffing template.</p></div>
+<div class="card"><h3>Unresolved remains unresolved</h3><p>Current Sep-2026 US-only KPI, full paid/organic mix, payer counts, complete review-by-version and most asset-hour/QA ratios remain missing.</p></div></div>
+<div class="card hero"><b>v2.0:</b> Adds current platform KPI recovery, Sep-2026 LiveOps cadence, review/version risk evidence and provider-break counterevidence. US and Global scopes remain separate.</div>
+<div class="card hero"><b>v2.1 research upgrade:</b> current LiveOps is now treated as an <b>overlap and operations-load problem</b>. Heartopia has four major tracks active on Sep25, five on Sep26 and six by Sep30 (excluding a separate sign-in modifier); Big Farm Homestead has three concurrent current surfaces; Office Cat v1.0.80 bundles a new city, Payment Challenge and save/ranking fixes. These are concrete production/QA signals, not trend-cause proof.</div>
+<div class="card hero"><b>v2.2 research upgrade:</b> onboarding is now analyzed as a live progression system. Heartopia establishes ownership early and system breadth later; Hay Day provides first-party evidence that a mature live game can rebuild onboarding; Big Farm Homestead exposes a clean linear-tutorial to autonomy transition; Gossip Harbor shows that the first meaningful friction cliff can arrive around Level 12 rather than inside the tutorial.</div>
+<div class="card hero"><b>v2.5 research upgrade:</b> the Atlas now closes two methodological gaps.
+First, <b>US-first Market/KPI</b> is synchronized to the verified 2026-08 DianDian table already present on main:
+7/8 Priority8 titles have same-month US downloads + IAP; Heartopia remains scope-mismatched and therefore has no RPD.
+Second, <b>Art/Core</b> now covers current store visual roles across all Priority8, with timed Hay Day early gameplay and a current Heartopia daily-routine sample.</div>
+
+
+<div class="card hero"><b>v3.1 research upgrade:</b> My Perfect Hotel now has a connected <b>IP LiveOps → Trend/Cause → Quality</b> view.
+Visible version notes from Jul→Sep repeatedly carry the Barbie Dream Hotel wrapper: character stories, exclusive skins, event pass and leaderboard unlocks.
+That overlap is sufficient to move the Jul/Aug reacceleration from <b>E0 to E1 candidate-driver context</b>, but not to causal attribution.
+A Sep8–10 current review cluster simultaneously flags ad-pressure risk.</div></section>
+
+<section id="market" class="sec">
+<h2>Big Farm Homestead · launch lifecycle</h2>
+<div class="tbl"><table><thead><tr><th>Phase</th><th>Window</th><th>Observed evidence</th><th>Scope</th><th>Read</th></tr></thead><tbody>
+<tr><td>Soft launch</td><td>Dec-2025</td><td>Stillfront says Q1 built on Homestead's December soft launch</td><td>Title timing</td><td>Learning window before scale</td></tr>
+<tr><td>Global launch / scale</td><td>Q1-2026</td><td>Most successful launch to date; BIG Q1 net revenue SEK178m / +88% organic growth; higher UA investment supported growth</td><td>Franchise-level</td><td>Launch-burst phase</td></tr>
+<tr><td>Post-launch sustain</td><td>Q2-2026</td><td>BIG Q2 net revenue SEK172m / +79% organic growth; Homestead maintained momentum despite much lower UAC</td><td>Franchise-level</td><td>Momentum persisted as launch spend normalized</td></tr>
+<tr><td>UA normalization</td><td>Q2-2026</td><td>Group UAC SEK340m / 26% revenue vs Q1 SEK447m / 34%</td><td>Company-level</td><td>Profitability/efficiency phase after launch burst</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Boundary:</b> BIG includes Sunshine Island and group UAC includes the broader portfolio. These rows are lifecycle evidence, not Homestead title revenue, CPI or ROAS.</div><h2>Market / KPI</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>US-recovered evidence</th><th>Global-secondary / lifecycle</th><th>Status</th></tr></thead><tbody>
+<tr><td>Gossip Harbor</td><td>Jan-2026 external ST estimate: 1.28M downloads / $28.6M revenue; Aug-19 US AdMapix snapshot: 758,507 downloads</td><td>19-game monthly master + long lifecycle retained</td><td>US monthly PARTIAL</td></tr>
+<tr><td>Township</td><td>Aug-19 US AdMapix snapshot: 850,227 downloads; no revenue in that pull</td><td>Mature revenue / LiveOps context retained</td><td>US downloads PARTIAL</td></tr>
+<tr><td>My Perfect Hotel</td><td>US network campaign evidence; public US quarterly weekly series exists for 2025</td><td>Global lifecycle retained</td><td>Current US monthly TBD</td></tr>
+<tr><td>Office Cat</td><td>US quarterly public snapshots exist for 2025; no current Sep-2026 monthly total found</td><td>Global lifecycle retained</td><td>TBD/PARTIAL</td></tr>
+<tr><td>Hay Day / Big Farm / Cozy / Heartopia</td><td>No defensible current Sep-2026 US monthly D/IAP public total recovered</td><td>Global-secondary product/ops evidence retained</td><td>TBD</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Rule:</b> a US ranking-period download estimate is not silently called “monthly” unless the provider defines the period.</div>
+
+<h2>US weekly KPI cross-product layer · v1.9</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>US period</th><th>Weekly downloads</th><th>Weekly IAP revenue</th><th>Active users</th><th>Evidence use</th></tr></thead><tbody>
+<tr><td>Gossip Harbor</td><td>Q4 2025 final week</td><td>~247K</td><td>~$8.2M</td><td>&gt;1.2M</td><td>DATED US benchmark</td></tr>
+<tr><td>Township</td><td>Q4 2025 final week</td><td>~368K</td><td>~$6.2M</td><td>~2.2M</td><td>DATED US benchmark</td></tr>
+<tr><td>Hay Day</td><td>Q4 2025 final week</td><td>peak 53.9K</td><td>~$1.4M; early-Dec peak ~$1.6M</td><td>~1.5M</td><td>DATED US benchmark</td></tr>
+<tr><td>My Perfect Hotel</td><td>Q4 2025 final week</td><td>&gt;152K</td><td>~$56K</td><td>&gt;613K</td><td>DATED US benchmark</td></tr>
+<tr><td>Office Cat</td><td>Q3 2025 final week</td><td>~11.3K</td><td>~$40.9K</td><td>~96.2K</td><td>DATED US benchmark</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Scope guardrail:</b> these are public US weekly estimates from 2025. They improve US scale context and active-user evidence, but are not relabeled as Sep-2026 monthly KPI, DAU, payer counts or cohort LTV.</div>
+<h2>Current platform KPI recovery · v2.0</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Scope</th><th>Downloads</th><th>Revenue</th><th>Status</th></tr></thead><tbody>
+<tr><td>Office Cat</td><td>Google Play · Global store-level</td><td>60K/mo est.</td><td>$100K/mo est.</td><td>EXTERNAL / CURRENT-ISH</td></tr>
+<tr><td>Heartopia</td><td>Google Play · Global store-level</td><td>100K/mo est.</td><td>$2.0M/mo est.</td><td>EXTERNAL / CURRENT-ISH</td></tr>
+<tr><td>Heartopia</td><td>App Store · Global store-level</td><td>200K/mo est.</td><td>$4.0M/mo est.</td><td>EXTERNAL / CURRENT-ISH</td></tr>
+<tr><td>Gossip Harbor</td><td>Google Play · US · Sep11</td><td>45K/day est.</td><td>$6.8K/day est.</td><td>EXTERNAL / CURRENT</td></tr>
+<tr><td>Gossip Harbor</td><td>App Store · US · Sep11</td><td>4.7K/day est.</td><td>$705/day est.</td><td>EXTERNAL / CURRENT</td></tr>
+</tbody></table></div><div class="card hero"><b>Provider break:</b> current Gossip Harbor estimates differ materially from prior Sensor Tower scale evidence. Keep both provider-scoped; do not blend.</div>
+<h2>Verified US current-month sync · 2026-08</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>US Downloads</th><th>US IAP Revenue</th><th>Calendar RPD</th><th>Scope</th></tr></thead><tbody>
+<tr><td>Gossip Harbor</td><td>1,047,629</td><td>$24,919,912</td><td>$23.79</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>Township</td><td>1,214,831</td><td>$20,678,092</td><td>$17.02</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>Hay Day</td><td>300,917</td><td>$5,841,220</td><td>$19.41</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>Big Farm Homestead</td><td>155,673</td><td>$459,702</td><td>$2.95</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>The Cozy Florist</td><td>349,075</td><td>$360,629</td><td>$1.03</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>Office Cat</td><td>1,779</td><td>$28,014</td><td>$15.75</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>My Perfect Hotel</td><td>561,384</td><td>$377,229</td><td>$0.67</td><td>Same-month US · App Store + Google Play</td></tr>
+<tr><td>Heartopia</td><td>57,677</td><td>$1,211,751</td><td>n.a.</td><td>Downloads from country split; revenue from US-filtered chart → scope mismatch</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Rule:</b> calendar RPD is same-calendar-month revenue/downloads, not cohort ARPI, LTV or ROAS. Heartopia remains intentionally blank because the scopes do not reconcile.</div>
+
+
+<h2>US-first product-scale evidence · Office Cat</h2>
+<div class="g3">
+<div class="card"><h3>6 months post-global</h3><p><b>SOURCE:</b> &gt;8M downloads, &gt;KRW20B cumulative revenue, peak DAU &gt;300K and ~250K average DAU Jul–Nov 2024.</p></div>
+<div class="card"><h3>US concentration</h3><p>US revenue share was 35% at the six-month milestone and 41% by Jul 2025.</p></div>
+<div class="card"><h3>Scope guardrail</h3><p>These are company-reported historical milestones, not Sep-2026 US monthly KPI.</p></div>
+</div><h2>Heartopia / X.D. portfolio engagement context</h2><div class="card"><p><b>SOURCE / PORTFOLIO:</b> X.D. 2026H1 online games averaged 12.548M monthly active users and 1.440M monthly paying users. <b>CALCULATED:</b> portfolio payer/MAU ≈11.48%. Heartopia overseas launch was cited as a major game-business growth driver, but title-level MAU/payer data were not disclosed. Do not assign the portfolio ratio to Heartopia.</p></div><h2>Gossip Harbor · matched US both-store Aug-2026</h2><div class="tbl"><table><thead><tr><th>Month</th><th>US Downloads</th><th>US Revenue</th><th>Calendar RPD</th><th>Evidence</th></tr></thead><tbody><tr><td>Jul-2026</td><td>~1,167,612</td><td>~$36.58M</td><td>~$31.33</td><td>CALCULATED from published Aug values + MoM</td></tr><tr><td>Aug-2026</td><td>893,223</td><td>$42.29M</td><td>$47.35</td><td>SOURCE downloads/revenue + CALCULATED ratio</td></tr></tbody></table></div><div class="card hero"><b>Guardrail:</b> calendar RPD +51.1% is same-month revenue/downloads only; it is not cohort ARPI, ARPPU, LTV or ROAS.</div>
+<h2>US platform split · Township / Hay Day · Aug-2026</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Platform</th><th>Aug Downloads</th><th>MoM</th><th>Aug Revenue</th><th>MoM</th><th>Calendar RPD</th></tr></thead><tbody>
+<tr><td>Township</td><td>iOS</td><td>1.942M</td><td>-1.1%</td><td>$23.815M</td><td>-19.7%</td><td>$12.26</td></tr>
+<tr><td>Township</td><td>Google Play</td><td>3.900M</td><td>-45.8%</td><td>$20.300M</td><td>+19.6%</td><td>$5.21</td></tr>
+<tr><td>Township</td><td><b>Combined · calculated</b></td><td>5.842M</td><td>-36.2%</td><td>$44.115M</td><td>-5.4%</td><td>$7.55</td></tr>
+<tr><td>Hay Day</td><td>iOS</td><td>0.802M</td><td>+0.1%</td><td>$10.139M</td><td>-9.5%</td><td>$12.64</td></tr>
+<tr><td>Hay Day</td><td>Google Play</td><td>0.974M</td><td>-5.2%</td><td>$4.941M</td><td>-1.3%</td><td>$5.07</td></tr>
+<tr><td>Hay Day</td><td><b>Combined · calculated</b></td><td>1.776M</td><td>-2.9%</td><td>$15.080M</td><td>-7.0%</td><td>$8.49</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Guardrail:</b> all combined rows are sums of same-provider / same-US-market / same-month store estimates. Calendar RPD remains revenue ÷ downloads, not cohort ARPI/LTV/ROAS.</div>
+</section>
+
+<section id="art" class="sec"><h2>Art / Visual</h2><div class="g3">
+<div class="card"><h3>My Perfect Hotel</h3><p>Functional stylized 3D; lowest-complexity D0 readability benchmark.</p></div><div class="card"><h3>Office Cat</h3><p>Isometric modular room kits + cat character layer; high reuse.</p></div><div class="card"><h3>Big Farm Homestead</h3><p>Ownership world itself communicates progression; heavier environment burden.</p></div><div class="card"><h3>The Cozy Florist</h3><p>Distinct floral/lifestyle fantasy; strong before/after but marketing truthfulness must be audited.</p></div><div class="card"><h3>Heartopia</h3><p>AAA-like lifestyle ceiling: avatar/home/social/IP; not an MVP scope benchmark.</p></div><div class="card"><h3>Ops Cat</h3><p>70–90% mobile readability + 10–30% authored watercolor/gouache detail.</p></div></div>
+
+<h2>Priority8 current store visual roles · v2.5</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Opening visual grammar</th><th>Ownership / transformation</th><th>Identity layer</th><th>Promise risk</th></tr></thead><tbody>
+<tr><td>Hay Day</td><td>Farm + iconic animals + crop activity</td><td>Personal farm layout / production / trade</td><td>Decor + community visits</td><td>Low: store promise closely matches durable loop</td></tr>
+<tr><td>Township</td><td>Harvest + dense town ownership</td><td>City growth / delivery / market</td><td>Decor + mature community</td><td>Medium: store also surfaces side problem/challenge scenes</td></tr>
+<tr><td>Gossip Harbor</td><td>Character crisis / damaged home first</td><td>Strong before→after renovation</td><td>Recurring cast / romance-drama</td><td>Medium-high: emotional rescue appears before merge board</td></tr>
+<tr><td>Heartopia</td><td>Social lifestyle / avatars</td><td>Home building + embodied hobbies</td><td>Fashion / pets / photos / friends</td><td>Low on truthfulness, high on production scope</td></tr>
+<tr><td>My Perfect Hotel</td><td>Direct top-down service/upgrade</td><td>Rooms / hotels / themed state changes</td><td>Weak-to-medium brand identity</td><td>Low promise gap; higher long-term brand-depth risk</td></tr>
+<tr><td>Office Cat</td><td>Isometric modular office</td><td>Room/company/city growth</td><td>Cat mascot</td><td>Low-medium; cute layer can carry too much</td></tr>
+<tr><td>Big Farm Homestead</td><td>Owned farm world</td><td>Restore/expand + level unlocks</td><td>NPC story / rural cast</td><td>Low; heavier world-production burden</td></tr>
+<tr><td>The Cozy Florist</td><td>Garden / greenhouse niche identity</td><td>Strong same-space before→after</td><td>Flowers / shop / social garden</td><td>Medium: real-flower/lifestyle promotion can exceed first-minute product</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Coverage note:</b> Focus4 still has direct screenshot URLs/annotations. Hay Day, Township, Gossip Harbor and Heartopia are upgraded using current official App Store screenshot descriptions indexed by MWM; binary screenshots are not yet locally archived.</div>
+
+</section>
+
+<section id="core" class="sec"><h2>Core Gameplay</h2><div class="g2">
+<div class="card"><h3>My Perfect Hotel</h3><p>Move/Serve → Cash → Upgrade → Capacity → Automation.</p></div><div class="card"><h3>Office Cat</h3><p>Build/Upgrade → Idle Earn → Company/City unlock.</p></div><div class="card"><h3>Big Farm Homestead</h3><p>Restore → Produce → Orders → Expand → Story.</p></div><div class="card"><h3>The Cozy Florist</h3><p>Grow → Harvest → Shop/Bouquet → Decor/Social.</p></div></div>
+<div class="card hero"><b>Ops Cat:</b> Mow/Clean → Reveal → Resource → Repair/Decor → NPC/Story → Collection/Event.</div>
+
+<h2>Timed / promise-core evidence · v2.5</h2>
+<div class="g3">
+<div class="card"><h3>Hay Day · early route</h3><p><b>00:19–00:27:</b> harvest wheat → plant wheat. <b>00:33–00:50:</b> add chickens → reach Lv2 → build Feed Mill. The productive verb is visible inside the first 30 seconds of this public early-game capture.</p></div>
+<div class="card"><h3>Heartopia · current routine</h3><p><b>00:00–00:27:</b> wake / feed pet. <b>00:35–01:12:</b> garden / harvest. This is not FTUE; it is evidence that pet care and gardening remain embodied recurring actions in established play.</p></div>
+<div class="card"><h3>Promise hierarchy</h3><p>Hay Day/Township lead with real world/core ownership. Gossip Harbor leads with emotional crisis/restoration before the merge board. Heartopia leads with identity/social/home/hobbies because those are the product pillars themselves.</p></div>
+</div>
+
+</section>
+
+<section id="ftue" class="sec"><h2>FTUE / D0-D14</h2>
+<div class="card hero"><b>Status PARTIAL+:</b> My Perfect Hotel has a historical timed T+0→12m session; Focus titles have sequence/gate routes. Current 2026 T+0→30m and D1/D3/D7/D14 remain incomplete.</div>
+<div class="g3"><div class="card"><h3>My Perfect Hotel</h3><p>Historical timing: manual job first → helper → utility/logistics → receptionist automation → meta/no-ads.</p></div><div class="card"><h3>Big Farm Homestead</h3><p>Strong level-gate evidence: base ownership before later region/community/guild layers.</p></div><div class="card"><h3>Office Cat</h3><p>Sequence/gates are known; KR/JP campaign retention is UA-cohort evidence, not current organic product retention.</p></div></div>
+<h2>Current onboarding / progression recovery · v2.2</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Current evidence</th><th>Sequence / gate</th><th>Decision read</th><th>Status</th></tr></thead><tbody>
+<tr><td>Heartopia</td><td>2026 guides · v1.3.x</td><td>First hour: character → controls → starter home/2 plots → fishing → D.G.; Builder Tablet ~10–15m; DG3 gardening; DG5 hobby breadth; DG12 cat</td><td>Ownership first; breadth later</td><td>CURRENT GUIDE / PARTIAL++</td></tr>
+<tr><td>Hay Day</td><td>Supercell 2026 + current release notes</td><td>Onboarding rebuilt; early rewards/fields/truck orders eased; Truck Orders Lv4; Roadside Shop Lv7</td><td>FTUE is a live optimizable system</td><td>FIRST-PARTY + CURRENT NOTES</td></tr>
+<tr><td>Big Farm Homestead</td><td>Current level guides</td><td>Lv1–3/4 forced tutorial → Lv2 Cannery → Lv3 Market/Feed Mill + first contract → broader autonomy</td><td>Clear tutorial-release milestone</td><td>CURRENT GUIDE</td></tr>
+<tr><td>Gossip Harbor</td><td>Sep-2026 current guide</td><td>100 energy / +1 per 2m; protect 6–8 board spaces; pressure cliff ~Lv12; ~Lv18 carries ~6 generator families</td><td>Measure first friction cliff, not only first action</td><td>CURRENT GUIDE</td></tr>
+<tr><td>The Cozy Florist</td><td>Jan-2026 Part-1 route + current guides</td><td>Part-1 route located; Boutique Lv10; Flower Advancement Lv31 + flower Lv10</td><td>Identity/deep optimization are delayed</td><td>ROUTE LOCATED / LEVEL GATES</td></tr>
+</tbody></table></div><div class="card hero"><b>Still not solved:</b> exact current T+0→30m timestamped captures for all Priority8.</div><h2>Big Farm Homestead · level-gated FTUE + monetization exposure</h2><div class="tbl"><table><thead><tr><th>Level</th><th>Core / progression</th><th>Monetization / ad exposure</th><th>Interpretation</th></tr></thead><tbody><tr><td>Lv1</td><td>Mandatory harvest → sell → build</td><td>No direct paid surface evidenced</td><td>Teach farming grammar first</td></tr><tr><td>Lv2</td><td>Cannery → first processed product</td><td>No direct paid surface evidenced</td><td>Production chain first</td></tr><tr><td>Lv3</td><td>Market + Feed Mill + first contract</td><td>Refresh via cooldown, gem, or video</td><td>First shortcut after economy grammar</td></tr><tr><td>Lv4</td><td>House + Bakery; questbook/autonomy replaces forced tutorial</td><td>Ad contracts; slots 3–6 coins, 7–9 gems</td><td>Rewarded/premium utility around tutorial release</td></tr><tr><td>Lv5–8</td><td>Storage/Happiness/Land → Silo → Grove → second Homestead</td><td>Indirect pressure via space/storage/resources</td><td>Ownership/bottleneck depth before heavy shop layering</td></tr><tr><td>Lv9</td><td>Chicken Coop + Daily Quests + social quest</td><td>Daily gems; Hot Deals = 3 ad chests every 4h; Community Store Daily Gift</td><td>Recurring CRM/shop after multiple systems are understood</td></tr><tr><td>Lv10</td><td>Barge + Glass/Brick materials</td><td>Material scarcity becomes explicit pressure</td><td>Long-loop sinks deepen</td></tr></tbody></table></div><div class="card hero"><b>Boundary:</b> current level gates from a maintained community guide; not minute-level timestamps or conversion telemetry.</div></section>
+
+<section id="meta" class="sec"><h2>Progression / Meta / Side Systems</h2>
+<div class="card"><div class="flow"><span>Tool/Production</span><span>Area/Map</span><span>Home/Garden</span><span>Decoration</span><span>Collection</span><span>Avatar</span><span>Pet</span><span>NPC/Story</span><span>Orders</span><span>Crafting</span><span>Daily/Weekly</span><span>Pass</span><span>Leaderboard</span><span>Guild</span><span>Visit/Gifting</span><span>Season/IP</span><span>D2C</span></div></div>
+<div class="card hero"><b>Staging:</b> D0 Action → Persistent Ownership → Area/Production → Collection/NPC → Social/Guild → Season/Pass.</div>
+<h2>Progression staging pattern · v2.2</h2><div class="g3"><div class="card"><h3>Teach</h3><p>One productive verb + one visible reward.</p></div><div class="card"><h3>Own</h3><p>Give persistent space/economy identity before feature breadth.</p></div><div class="card"><h3>Pressure</h3><p>Introduce strategic scarcity only after grammar is understood.</p></div></div></section>
+
+<section id="economy" class="sec">
+<h2>Creator reward as acquisition-economy bridge</h2>
+<div class="card"><p>The KATIEBIGFARM reward bridges UA directly into the early economy instead of stopping at an install CTA.
+The useful product question is not “is 100,000 Coins generous?” but whether the reward improves first-session agency and D1 without skipping too much progression,
+inflating the economy, or attracting low-quality code-only users. Reward magnitude therefore requires owned claim, spend-down and retention telemetry.</p></div><h2>Economy / Monetization</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Observable offer/probability evidence</th><th>Boundary</th></tr></thead><tbody>
+<tr><td>My Perfect Hotel</td><td>US storefront: No Ads $9.99 + gem/offer/pet SKUs; historical first rewarded cash offer ~T+2:19 and No Ads ~T+11:50</td><td>Historical trigger timing may have changed</td></tr>
+<tr><td>Hay Day</td><td>Farm Pass Bundle Subscription: Lv11+, select regions, +120 points, Fortune Crate, +10% Barn/Silo, choice crate; seasonal renewal</td><td>No conversion/payer rate</td></tr>
+<tr><td>Township</td><td>Public US App Store snapshot: $1.99 Tiny Cash, $2.99 Piggy Bank, $4.99 Golden Ticket, bundles/cash up to $19.99</td><td>No trigger/segmentation/frequency</td></tr>
+<tr><td>Heartopia</td><td>SANRIO pool-specific probability: 0.1100% draw1 → 6.2600% draw7 → 100% draw10 for Special Treasure</td><td>Not a universal gacha rule</td></tr>
+<tr><td>Gossip Harbor</td><td>External deconstruction: early $2.99 intro bundle + sequenced contextual offers</td><td>External, not first-party capture</td></tr>
+</tbody></table></div>
+<h2>Monetization risk · v2.0</h2><div class="g3"><div class="card"><h3>My Perfect Hotel</h3><p>Sep 9–10 review cluster flags forced-ad frequency. Use as IAA early warning, not a verified global frequency rule.</p></div><div class="card"><h3>The Cozy Florist</h3><p>Current US review signals probability/cost fairness concern around randomized collection. Player-reported, not verified economy math.</p></div><div class="card"><h3>Hay Day</h3><p>First-party Farm Pass subscription combines auto-activation, storage, pass points and monthly choice value.</p></div></div>
+<h2>Offer / subscription architecture · v2.4</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Architecture</th><th>Free path</th><th>Premium path</th><th>Decision read</th></tr></thead><tbody>
+<tr><td>Hay Day</td><td>Farm Pass Bundle Subscription + D2C Store loyalty</td><td>Base play/pass path</td><td>Level 11+; seasonal auto-activation; +120 Pass Points; Barn/Silo utility; recurring crate/reward choice. Store purchases also progress toward Store Bonus / ID Reward.</td><td>Subscription value extends beyond cosmetics; D2C adds purchase loyalty.</td></tr>
+<tr><td>Heartopia · White Snake</td><td>Event currency + hard-currency acceleration + Premium tier</td><td>Lingzhi from Resident Requests / event quests + free umbrella</td><td>Extra Lingzhi via Heart Diamonds; Premium tier also Heart-Diamond gated</td><td>Visible free path with premium acceleration/collection expansion.</td></tr>
+<tr><td>Big Farm Homestead</td><td>Festival/Season Pass + Growth Fund + Market/Hot Deals + social vouchers</td><td>Tasks/milestones + repeated public vouchers</td><td>Pass/progression/store offers</td><td>Monetization surfaces link progression, events and community CRM.</td></tr>
+<tr><td>Gossip Harbor</td><td>Layered free-energy economy</td><td>Natural recovery + shop gift + reward links + events + merged bottles</td><td>Optional gem/energy purchases</td><td>Resource pressure is softened by multiple earn paths before purchase.</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Still TBD:</b> payer segmentation, actual trigger probability, personalized offer frequency and conversion for most titles. Public architecture ≠ CRM backend rules.</div><h2>Early monetization sequencing · Big Farm Homestead</h2><div class="g3"><div class="card"><h3>Rewarded-first</h3><p>Video refresh / ad contracts appear before the heavy recurring shop layer.</p></div><div class="card"><h3>Premium utility</h3><p>Gem-funded contract slots arrive after the Market is understood.</p></div><div class="card"><h3>Recurring shop</h3><p>By Lv9, Hot Deals, daily gifts and daily quests create a repeatable CRM / reward surface.</p></div></div>
+<h2>Platform monetization structure · v3.6</h2>
+<div class="g3">
+<div class="card"><h3>Township</h3><p>iOS and Google Play move in opposite revenue directions. The combined calendar RPD jump (+48.3%) therefore cannot be called a universal monetization lift.</p></div>
+<div class="card"><h3>Hay Day</h3><p>iOS contributes ~67% of Aug estimated revenue with ~45% of downloads, while Google Play contributes more downloads but lower calendar RPD.</p></div>
+<div class="card"><h3>Decision</h3><p>Platform-level payer/offer/UA gates are mandatory before using a blended KPI for budget or monetization decisions.</p></div>
+</div>
+</section>
+
+<section id="liveops" class="sec"><h2>LiveOps / Event Calendar</h2><div class="g3">
+<div class="card"><h3>My Perfect Hotel · Barbie</h3><p><b>700K+</b> players completed the event by Jun-2026; significant pre-existing players returned, per SayGames executive.</p></div>
+<div class="card"><h3>Hay Day · Neighborhood Nurture</h3><p>Public condition: 1M players reaching tree Lv5 would trigger support for planting 20K real trees. This is a TARGET, not proof it was achieved.</p></div>
+<div class="card"><h3>Heartopia · China MLP</h3><p>Global-secondary historical case: large event revenue/download/viewership uplift; do not transfer to US 2026.</p></div></div>
+<div class="card hero"><b>P0 event quality:</b> progress persistence · reward recovery · purchase reconciliation · ranking-reset safety · compensation · support escalation.</div>
+<h2>Current Sep-2026 LiveOps / CRM cadence</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Current evidence</th><th>Read</th></tr></thead><tbody><tr><td>Big Farm Homestead</td><td>4-week Festival + County Fair + Dino Drama</td><td>Overlapping reusable engines + recovery burden</td></tr><tr><td>Gossip Harbor</td><td>New episode every Friday + Sep14/16/18/20/22 free-energy drops</td><td>Heavy content cadence plus lighter CRM rhythm</td></tr><tr><td>Hay Day</td><td>September Farm Pass + Whispering Woods</td><td>Monthly monetization track + rotating challenge</td></tr><tr><td>Heartopia</td><td>Burger Bliss Sep19–Oct12; White Snake Sep30–Oct26 scheduled</td><td>Global-secondary collab/approval burden</td></tr></tbody></table></div>
+<h2>Current event-overlap load · Sep 25, 2026</h2>
+<div class="g3">
+<div class="card"><h3>Heartopia · Global-secondary</h3><p><b>4 major tracks active Sep25:</b> Echo of Ancients, Party Festival, Burger Bliss, Mid-Autumn. Starspell starts Sep26 → 5; White Snake starts Sep30 → 6. A separate Double Moonlight sign-in modifier starts Sep28 and is excluded from that major-track count.</p></div>
+<div class="card"><h3>Big Farm Homestead</h3><p><b>3 current surfaces:</b> Deepwoods Pass started Sep14; County Fair Tournament + Dino Drama started Sep21. This corrects the earlier provisional Sep7 interpretation.</p></div>
+<div class="card"><h3>Gossip Harbor</h3><p>Public reward drops observed on Sep11/14/16/18/21/23/24. <b>CALCULATED:</b> median interval = 2 days. Store version separately states a new narrative episode every Friday.</p></div>
+</div>
+<div class="card hero"><b>Ops Cat implication:</b> cap MVP concurrency. Start with <b>1 major event + 1 lightweight CRM layer</b>. Do not copy Heartopia-scale overlap until event discovery, reward persistence, support load and asset-hours are proven.</div>
+
+<h2>Community CRM + recovery architecture · v2.4</h2>
+<div class="g3">
+<div class="card"><h3>Big Farm social CRM</h3><p>11 dated first-party voucher/gift touchpoints were observed from Jan16→May21, 2026. <b>CALCULATED:</b> median interval = 13 days; mean = 12.5 days. This is an observed public cadence, not a complete CRM calendar.</p></div>
+<div class="card"><h3>Entitlement recovery</h3><p>Wrong Season Pass: corrected pass, prior rewards retained, points restored and corrected rewards claimable. Summer Breeze issue: compensation was applied directly to lost pass progression.</p></div>
+<div class="card"><h3>Incident classification</h3><p>First-party 2026 posts distinguish config error, activation crash, production-machine issue, progression loss, reward-display mismatch and calendar correction.</p></div>
+</div><h2>Township current four-track stack · Sep 25, 2026</h2><div class="tbl"><table><thead><tr><th>Surface</th><th>Window</th><th>Engine</th></tr></thead><tbody><tr><td>Harvest Pass</td><td>Sep11-Oct1</td><td>Season pass / Golden Ticket</td></tr><tr><td>Guest from Space</td><td>Sep12-Oct1</td><td>Expedition</td></tr><tr><td>Harvest Collection</td><td>Sep15-Oct13</td><td>Collection / social trade</td></tr><tr><td>Frozen Fortune</td><td>Sep18-Sep27</td><td>Co-op adventure + match-3 + orders</td></tr></tbody></table></div><div class="card hero"><b>Interpretation:</b> Township wraps reusable expedition, match-3, order and social engines. Ops Cat should copy the reuse principle, not the concurrency count.</div><h2>Hay Day 2026 low-asset ↔ brand-event spectrum</h2><div class="g3"><div class="card"><h3>Economy modifier</h3><p>Sep7-14: crops grow at 2x rate.</p></div><div class="card"><h3>Offer event</h3><p>May1-8: Deals Week with 50%+ off selected Diamond / Key offers.</p></div><div class="card"><h3>Brand / creator event</h3><p>Jun16-30: 14th Birthday Music Festival with Joe Jonas, note collection, decorations, song composition/share and rewards.</p></div></div>
+<h2>Big Farm Homestead · first-party owned-media CRM ladder</h2>
+<div class="tbl"><table><thead><tr><th>Date / cadence</th><th>Channel</th><th>Trigger</th><th>Value</th><th>Decision read</th></tr></thead><tbody>
+<tr><td>Jul-2026 · every Monday</td><td>Facebook / Instagram / Discord</td><td>Memory Album support</td><td>New voucher every Monday</td><td>Explicit recurring CRM cadence outside client updates</td></tr>
+<tr><td>Sep 3</td><td>TikTok</td><td>1K followers</td><td>Special voucher</td><td>Community milestone → external social visit → in-game value</td></tr>
+<tr><td>Sep 10</td><td>Instagram</td><td>30K followers</td><td>30K voucher</td><td>Second milestone activation exactly 7 days later</td></tr>
+<tr><td>Sep 23</td><td>TikTok</td><td>Homestead chili recipe</td><td>Lifestyle / IP content</td><td>Owned social keeps the brand active without reward/client event</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Boundary:</b> cadence is first-party observed; voucher redemption, incremental return and install impact remain TBD.</div>
+<h2>My Perfect Hotel · Barbie Dream Hotel IP wrapper</h2>
+<div class="tbl"><table><thead><tr><th>Visible version window</th><th>Repeated IP surface</th><th>LiveOps role</th><th>Evidence boundary</th></tr></thead><tbody>
+<tr><td>1.35.0 · Jul1</td><td>Barbie characters / stories / skins / event pass / leaderboard</td><td>IP takeover connects narrative, collection, pass and competitive unlocks</td><td>Visible release-note window; exact event activation date not proven</td></tr>
+<tr><td>1.35.1–1.36.0 · Jul3–Jul22</td><td>Same note repeated</td><td>IP wrapper persists across patch/major-version train</td><td>Do not infer each version launched new content</td></tr>
+<tr><td>1.36.6 · Aug24</td><td>Same Barbie structure</td><td>Still visible during Aug revenue-peak month</td><td>No event participation / payer data</td></tr>
+<tr><td>1.37.1 · Sep8–12 mirrors</td><td>Current version still carries pass + leaderboard + skins/story</td><td>Current product remains IP-content led at store-note level</td><td>Store note may persist beyond actual event window</td></tr>
+</tbody></table></div>
+<h2>Owned / community CRM cadence · retained from v3.2</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Observed rhythm</th><th>Reward / content</th><th>Core link</th><th>Boundary</th></tr></thead><tbody>
+<tr><td>Gossip Harbor</td><td>10 dated public energy-link drops Sep1→23; median gap ≈2d</td><td>25+ Energy links</td><td>Directly refills the merge-board bottleneck</td><td>No claim/reactivation telemetry</td></tr>
+<tr><td>The Cozy Florist</td><td>Official Discord advertises “Weekly gift code”; Jul→Sep public expiry history is weekly</td><td>Redeem codes + special community codes</td><td>Recurring community value</td><td>Expiry date ≠ issue date</td></tr>
+<tr><td>Big Farm Homestead</td><td>Weekly Monday vouchers + milestone activations</td><td>Community vouchers / gifts</td><td>Owned reactivation layer</td><td>No claim/return telemetry</td></tr>
+</tbody></table></div>
+<h2>Heartopia concurrency ceiling · retained from v3.2</h2>
+<div class="card hero">Sep30→Oct9 official schedule contains at least <b>10 named event/event-like operational surfaces</b> when named sub-events are counted separately, spanning festival/collection, social check-ins, UGC, login rewards, exhibitions/gacha, premium tiers and exchange stores. Count is used as an operational-state burden, not as “10 independent games.”</div>
+<h2>My Perfect Hotel · Barbie exact lifecycle correction</h2>
+<div class="tbl"><table><thead><tr><th>Layer</th><th>Window</th><th>Evidence</th><th>Correct interpretation</th></tr></thead><tbody>
+<tr><td>In-game IP destination</td><td>Apr23 2026 → Mar31 2027</td><td>SayGames / GamesBeat first-party interview</td><td>Long-horizon retention/lifecycle program</td></tr>
+<tr><td>App Store event card</td><td>Apr21 → May20 2026</td><td>Store-event index</td><td>Promotional merchandising window only</td></tr>
+<tr><td>Participation proof</td><td>By Jun16</td><td>700K+ event completions; returning-player effect explicitly cited</td><td>Meaningful engagement/reactivation before Jul/Aug trend window</td></tr>
+<tr><td>Version/content persistence</td><td>Jun4 / Jun25 / Jul28 / Aug24 / Sep11</td><td>App Store release notes</td><td>Pass + leaderboard + story/skins stay visible through Jul/Aug/Sep</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Parallel LiveOps:</b> SayGames also said Halloween and other normal LiveOps would continue while Barbie remains the year's IP focus. The IP layer is persistent, not calendar-exclusive.</div><h2>Gossip Harbor · version / narrative LiveOps cadence</h2><div class="g3"><div class="card"><h3>Weekly story promise</h3><p>App Store notes repeatedly state <b>NEW EPISODE EVERY FRIDAY</b>.</p></div><div class="card"><h3>Visible release cadence</h3><p>17 visible version points Mar18→Sep23. <b>CALCULATED median gap 13.5d</b>; mean 11.8d.</p></div><div class="card"><h3>Reusable event grammar</h3><p>Themed narrative → explore/collect points → exclusive decoration reward recurs across multiple themes.</p></div></div><div class="tbl"><table><thead><tr><th>Date</th><th>Version</th><th>Event</th><th>Read</th></tr></thead><tbody><tr><td>Aug12</td><td>3.96.0</td><td>Dragon rescue</td><td>Mid-month themed return beat</td></tr><tr><td>Aug26</td><td>3.97.0</td><td>Raccoon wasteland</td><td>Late-month themed event; final 6 days only</td></tr><tr><td>Sep8 / Sep16</td><td>3.98.0 / 3.98.5</td><td>Mooncake / celestial mystery</td><td>Seasonal narrative wrapper across patch</td></tr></tbody></table></div></section>
+
+<section id="ua" class="sec">
+<h2>Big Farm Homestead · creator acquisition architecture</h2>
+<div class="g3">
+<div class="card"><h3>Persona match</h3><p>Katie Van Slyke is a Tennessee farm/equestrian creator whose public identity centers on horses, breeding and farm life — a direct fantasy match for Homestead's American farming positioning.</p></div>
+<div class="card"><h3>Attribution plumbing</h3><p>The sponsorship uses a unique <b>OneLink route</b> (<code>/BigFarmKatie</code>) plus unique code <b>KATIEBIGFARM</b>. This supports creator-level click/install/claim cohort separation when internal attribution exists.</p></div>
+<div class="card"><h3>Install incentive</h3><p>Reward: <b>100,000 Coins + 250 Gems</b>. It mixes soft-resource acceleration with premium flexibility, but public sources do not expose redemption or downstream payer quality.</p></div>
+</div><h2>UA / Creative / Promotion</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Market / channel</th><th>Disclosed result</th><th>Scope discipline</th></tr></thead><tbody>
+<tr><td>Gossip Harbor</td><td>Reported past 90d</td><td>82.9% of downloads from paid display; Feb-2026 US creative volume far above merge peers</td><td>Paid-share geography not explicit; do not relabel US</td></tr>
+<tr><td>My Perfect Hotel</td><td>US Android · Unity Ads</td><td>2.2× scale; +19% D7 ROAS; +50% D7 ARPU</td><td>Network-specific</td></tr>
+<tr><td>Township</td><td>US iOS · Unity D28 IAP ROAS</td><td>+14% D28 ROAS; ~+38% D28 retention; 2.4× D28 ARPU vs D7 cohort</td><td>Campaign cohort</td></tr>
+<tr><td>Office Cat</td><td>South Korea · Playio</td><td>D1 69% / D7 60% / D14 50% / D30 ROAS 209%</td><td>Rewarded-UA; non-US</td></tr>
+<tr><td>Office Cat</td><td>Japan · Playio</td><td>CVR 59% / D1 56% / D3 43% / D7 33% / D30 ROAS 234%</td><td>Non-US</td></tr>
+<tr><td>The Cozy Florist</td><td>30d external coverage</td><td>2,291 creatives / 6,939 ad plans; FB+IG 93.98% coverage</td><td>Coverage not spend share</td></tr>
+<tr><td>Heartopia</td><td>Jun22–Jul20 monitored</td><td>1,378 creatives / 2,807 campaign records / 505M estimated impressions</td><td>Relative creative scale only</td></tr>
+</tbody></table></div>
+<h2>Creative history</h2><div class="g3">
+<div class="card"><h3>Gossip Harbor · 30d</h3><p>US AdMapix: 15 entries / 14 files / 6.382B est. impressions; one 25s file = 70.5%; 7 entries >180d.</p></div>
+<div class="card"><h3>Gossip Harbor · 180d context</h3><p>CreativeScope: recent 30d = 31.9% of 180d creative pool and 53.6% of 180d estimated impressions. Do not stitch with AdMapix totals.</p></div>
+<div class="card"><h3>Township</h3><p>US 30d: 30 rows / 29 live; top creative 446d old; oldest active 910d.</p></div></div>
+<h2>UA cohort-quality cases · v2.7</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Scope</th><th>Evidence</th><th>Boundary</th></tr></thead><tbody><tr><td>My Perfect Hotel</td><td>US Android · Unity Ads</td><td>2.2x scale; D7 ROAS +19%; D7 ARPU +50%</td><td>Network-relative lift, not blended title economics</td></tr><tr><td>Township</td><td>US iOS · Unity Ads D28</td><td>Scale +89%; D28 ROAS +14%; D14 retention +26.46%; D28 retention ~+38%; D28 ARPU 2.4x</td><td>Campaign cohort quality, not absolute title KPI</td></tr><tr><td>Office Cat</td><td>South Korea · Playio</td><td>D1/D7/D14 = 69%/60%/50%; D30 ROAS 209%</td><td>Rewarded-engagement channel; not US organic retention</td></tr><tr><td>Office Cat</td><td>Japan · Playio</td><td>CVR 59%; D1/D3/D7 = 56%/43%/33%; D30 ROAS 234%</td><td>Localized non-US channel case</td></tr></tbody></table></div><h2>Observed ad-channel architecture · Sep-2026</h2><div class="tbl"><table><thead><tr><th>Product</th><th>30d signal</th><th>Top observed channels</th><th>Boundary</th></tr></thead><tbody><tr><td>Gossip Harbor</td><td>14.7K creatives · 17 channels</td><td>AppLovin 55% · AdMob 18% · Vungle 8%</td><td>Observed activity; not spend/install mix</td></tr><tr><td>Township</td><td>12.3K creatives · 17 channels</td><td>Unity Ads 18% · Facebook 13% · Instagram 12%</td><td>Observed distribution; not budget allocation</td></tr><tr><td>Hay Day</td><td>2,888 creatives · 16 channels</td><td>AppLovin 20% · Facebook 9% · Audience Network 9%</td><td>Observed distribution; not paid/organic</td></tr><tr><td>The Cozy Florist</td><td>2,291 creatives / 6,939 ad plans</td><td>FB 93.98% · IG 93.98% · Threads 52.47% · Messenger 40.47%</td><td>Overlapping plan coverage; not spend share</td></tr><tr><td>Heartopia</td><td>~8K Jan launch creatives</td><td>97.33% video; vertical 720x1280 dominant</td><td>Historical launch mix · Global-secondary</td></tr></tbody></table></div><div class="card hero"><b>Source-mix rule:</b> this improves where creatives are observed, but does <b>not</b> close the paid / organic / web install-source gap.</div>
+<h2>Owned media ≠ paid source mix · v3.0</h2>
+<div class="card"><p>Big Farm Homestead's voucher posts provide a concrete <b>owned/community distribution layer</b>. A social voucher can drive channel visits, redemption and reactivation without being a paid install source. Keep this separate from AppLovin/Meta/Unity media observations and MMP source mix.</p></div>
+<h2>Owned CRM ≠ paid acquisition · retained v3.2</h2>
+<div class="card"><p>Gossip Harbor energy links, Cozy Florist weekly codes and Big Farm vouchers form an owned/community reactivation layer. They remain separate from AppLovin/Meta/Unity paid-channel observations and from MMP source mix.</p></div>
+<h2>Store merchandising window ≠ in-game event lifetime · v3.3</h2>
+<div class="card"><p>The Barbie App Store event card is indexed Apr21–May20, while SayGames states the in-game destination runs Apr23 2026→Mar31 2027. UA/Promotion reconstruction therefore uses separate timestamps for <b>store featuring/event card</b>, <b>in-game content lifetime</b>, <b>paid campaign flight</b>, <b>sub-event refresh</b>, and <b>client version rollout</b>.</p></div></section>
+
+<section id="trend" class="sec">
+<h2>Big Farm Homestead · launch-phase Trend/Cause boundary</h2>
+<div class="card hero"><b>Descriptive, not causal:</b> Q1 first-party evidence aligns global launch + higher UA investment + strong BIG franchise growth;
+Q2 aligns lower UAC + continued BIG franchise momentum. This supports the mechanism “launch burst → normalized spend → retained momentum” at company/franchise level,
+but there is no title-level source mix, CPI, cohort quality or Homestead-only revenue series to assign a causal evidence level to title performance.</div><h2>Trend / Cause</h2>
+<div class="card hero"><b>No causal inflation:</b> new Source Mix / Campaign / Participation evidence improves crosschecks, but scope and timing remain mismatched for many anomalies. Gossip Harbor now has stronger evidence that paid acquisition was materially present in its 2026 growth phase; public data still does not establish “paid display caused the January US spike.”</div>
+<div class="g2"><div class="card"><h3>E1/E2 caution</h3><p>Use paid-share + creative volume to support a UA-active hypothesis, while keeping counterevidence and exact timing gaps visible.</p></div><div class="card"><h3>Office Cat</h3><p>KR/JP ROAS cases are campaign mechanism evidence only; they never become US launch targets.</p></div></div>
+
+<h2>US weekly crosscheck · evidence boundary</h2>
+<div class="card hero"><p>The new US weekly layer improves cross-product scale and revenue/acquisition decoupling checks. It does <b>not</b> upgrade 2026 anomaly causality because the KPI window is historical and does not align with current 2026 campaign/source evidence. Existing E0/E1/E2 labels remain source- and time-bounded.</p></div>
+<h2>v2.0 Trend × Cause boundary</h2><div class="card hero"><b>No automatic E-level upgrade.</b> Fresher store, review and event evidence still lacks matched spend / paid-organic / source-mix timing for most anomaly windows.</div>
+<h2>v2.1 Trend × Cause boundary</h2>
+<div class="card hero"><b>No E-level promotion.</b> Current event overlap and version notes improve event/version crosschecks, but they are not matched to US source-mix/spend windows. Big Farm start-date correction also illustrates why provisional calendar overlap must not be used as causal evidence until dates are first-party verified.</div>
+<h2>v2.2 Trend × Cause boundary</h2><div class="card hero"><b>No E-level upgrade.</b> Onboarding/progression evidence improves product interpretation but is not matched to US acquisition/source-mix KPI windows.</div>
+<h2>v2.4 Trend × Cause boundary</h2>
+<div class="card hero"><b>No E-level promotion.</b> Pass incidents, vouchers and monetization surfaces are better documented, but no matched US KPI/source-mix window proves impact on acquisition, revenue or retention. CRM cadence is an operating pattern, not attribution.</div>
+<h2>v2.6 Trend × Cause boundary</h2>
+<div class="card hero"><b>No E-level promotion.</b> Office Cat DAU/revenue-share milestones are historical product-scale context rather than matched 2026 US anomaly/source-mix windows. Heartopia infrastructure evidence explains production burden, not KPI causality.</div><h2>v2.7 Trend × Cause boundary</h2><div class="card hero"><b>No broad E-level promotion.</b> These case studies are attribution-like within specific networks/campaigns, but they are not matched source-mix evidence for the 19-game public anomaly table.</div><h2>v2.8 Trend × Cause boundary</h2><div class="card hero"><b>No E-level promotion from observed channel percentages alone.</b> Observed distribution is not install-source share or spend. Monthly waves still need source-share / spend timing.</div><h2>v2.9 Trend × Cause boundary</h2><div class="card hero"><b>No E-level promotion from version tags alone.</b> Undated version-tagged reviews improve the Quality layer but cannot be aligned to a monthly anomaly window until timestamps match.</div>
+<h2>v3.0 Trend × Cause boundary</h2>
+<div class="card hero"><b>No causal promotion.</b> First-party voucher cadence can support a CRM flag, and rapid versions can support a VERSION/FIX flag, but monthly Install/Revenue anomalies still require timing plus source-mix/claim/traffic or quality evidence. A patch train without release notes is not a root cause.</div>
+<h2>My Perfect Hotel · Jul/Aug 2026 anomaly upgrade</h2>
+<div class="tbl"><table><thead><tr><th>Window</th><th>Trend</th><th>Crosscheck</th><th>Evidence</th><th>Counterevidence</th></tr></thead><tbody>
+<tr><td>Jul-2026</td><td>Downloads +26.9%; Revenue +63.6%</td><td>Barbie Dream Hotel note visible with pass + leaderboard + characters/skins/story</td><td><b>E1</b> · trend + version/IP-event class</td><td>No paid/organic, spend, event participation, store featuring or campaign attribution</td></tr>
+<tr><td>Aug-2026</td><td>Visible-window revenue peak $0.676M</td><td>Barbie note persists through Aug24 version</td><td><b>E1</b> · candidate monetization/content driver</td><td>Repeated note may be stale; no payer/event exposure data</td></tr>
+<tr><td>Sep8–10</td><td>Quality window, not a KPI anomaly</td><td>Current review cluster flags intrusive ads</td><td><b>E1</b> quality risk only</td><td>Positive reviews coexist; exact review-version unknown</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>No causal claim:</b> IP content is temporally consistent with the Jul/Aug reacceleration, but remains a candidate driver until source mix / event participation / campaign timing independently align.</div>
+<h2>v3.2 boundary retained</h2>
+<div class="card hero"><b>No E-level promotion from CRM cadence or event concurrency alone.</b> Claim traffic/source mix/event participation are still required to connect those mechanisms to KPI movement.</div>
+<h2>My Perfect Hotel · Trend/Cause evidence upgrade v1.2</h2>
+<div class="tbl"><table><thead><tr><th>Window</th><th>Trend</th><th>Evidence classes</th><th>Level</th><th>Interpretation</th><th>Counterevidence</th></tr></thead><tbody>
+<tr><td>Jul-2026</td><td>Downloads +26.9%; Revenue +63.6%</td><td>EVENT/PARTNERSHIP: active Apr23→Mar2027 + returning-player/700K completion proof; VERSION/CONTENT: Jul Barbie pass/leaderboard note</td><td><b>E2</b></td><td>Persistent IP retention/content wrapper is a stronger candidate driver</td><td>No source mix, spend, July participation or payer cohort; completion count is only through Jun16</td></tr>
+<tr><td>Aug-2026</td><td>Visible-window revenue peak $0.676M</td><td>EVENT/PARTNERSHIP active + VERSION/CONTENT Aug24 note</td><td><b>E2</b></td><td>Consistent with sustained lifecycle/monetization support</td><td>No payer/event exposure, paid/organic split or offer attribution</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Still non-causal:</b> E2 prioritizes the hypothesis. It does not prove Barbie caused the July/Aug movement, especially on acquisition.</div><h2>Gossip Harbor · Aug-2026 US anomaly</h2><div class="tbl"><table><thead><tr><th>Trend</th><th>Crosscheck</th><th>Evidence</th><th>Counterevidence / missing</th></tr></thead><tbody><tr><td>Downloads -23.5%; Revenue +15.6%; calendar RPD +51.1%</td><td>Aug12 dragon-rescue + Aug26 raccoon-adventure versions; weekly episodes continue</td><td><b>E1</b></td><td>No payer count/rate, DAU, event participation, offer exposure, paid/organic/source mix or cohort revenue. Aug26 covers only final 6 days.</td></tr></tbody></table></div><div class="card hero"><b>Interpretation:</b> existing-user spending/content return is a plausible candidate only. Keep E1 until a second independent aligned evidence class appears.</div>
+<h2>Township · Aug US platform divergence</h2>
+<div class="tbl"><table><thead><tr><th>Platform</th><th>Trend</th><th>Crosscheck</th><th>Evidence</th><th>Counterevidence / Missing</th></tr></thead><tbody>
+<tr><td>iOS</td><td>D -1.1%; R -19.7%</td><td>Heavy Aug LiveOps stack active</td><td>E1</td><td>No payer/offer/event participation; active events did not prevent revenue decline</td></tr>
+<tr><td>Google Play</td><td>D -45.8%; R +19.6%</td><td>Same broad event stack</td><td>E1</td><td>No paid/organic/source mix, payer count or DAU; platform/provider shift must be ruled out</td></tr>
+<tr><td>Combined</td><td>D -36.2%; R -5.4%; calendar RPD +48.3%</td><td>Pass + Regatta + Expedition + Adventure overlap</td><td>E1</td><td>Opposite platform revenue trends make blended monetization interpretation unsafe</td></tr>
+</tbody></table></div>
+<h2>Hay Day · stable-month counterexample</h2>
+<div class="card"><p>Aug combined downloads -2.9%, revenue -7.0% and calendar RPD -4.2% stay below default anomaly thresholds despite visible Panda decoration content and the late-Aug Boat Destinations major update. <b>E0 baseline:</b> event presence alone does not imply a visible monthly KPI spike.</p></div>
+</section>
+
+<section id="reviews" class="sec"><h2>Reviews / Versions</h2>
+<div class="card"><p><b>Complete review-by-version remains unavailable publicly.</b> Current store review themes and visible version notes are preserved separately. Player claims remain REVIEW SIGNAL, not confirmed bug/probability/economy truth.</p></div>
+<div class="g3"><div class="card"><h3>Gossip Harbor</h3><p>Energy/event pressure and ad-product expectation gap.</p></div><div class="card"><h3>Office Cat</h3><p>Ranking-reset/data-saving fixes prove event-state QA surfaces.</p></div><div class="card"><h3>Cozy / Big Farm</h3><p>Current review themes exist, but no full version-linked corpus was found.</p></div></div>
+<h2>Review × Version risk recovery · v2.0</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Signal</th><th>Evidence use</th></tr></thead><tbody><tr><td>My Perfect Hotel</td><td>Sep 9–10 forced-ad complaint cluster immediately after v1.37.1 release window; exact review version unavailable</td><td>Temporal early warning only</td></tr><tr><td>The Cozy Florist</td><td>Current probability/cost fairness complaint</td><td>Economy-risk signal</td></tr><tr><td>Gossip Harbor</td><td>Current energy/IAP/ad-promise complaint themes</td><td>Promise-match + economy guardrail</td></tr><tr><td>Big Farm Homestead</td><td>Official pass crash/progress incidents with workaround/fix/compensation</td><td>Strong LiveOps QA/recovery evidence</td></tr></tbody></table></div>
+<h2>Version / QA recovery · v2.2</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Current evidence</th><th>QA / operations implication</th><th>Label</th></tr></thead><tbody>
+<tr><td>Office Cat</td><td>v1.0.80: City 7 Halloween-themed city + Payment Challenge + data-saving and seasonal-ranking-reset fixes</td><td>New content, monetization/challenge and persistence/ranking state all share one release train; regression coverage must cross systems</td><td>SOURCE / CURRENT VERSION</td></tr>
+<tr><td>Big Farm Homestead</td><td>Official Sep11/Sep18 schedule confirms Sep14 Deepwoods/Guild starts and Sep21 County Fair/Dino starts</td><td>Use official schedule as primary; community calendar only for end dates where first-party end is absent</td><td>FIRST-PARTY / CURRENT</td></tr>
+<tr><td>The Cozy Florist</td><td>US reviews report probability/cost pressure and perceived 3–5 events/month</td><td>Treat as event-fatigue/fairness sentiment signal, not verified cadence or spend telemetry</td><td>PLAYER-REPORTED</td></tr>
+</tbody></table></div>
+
+<h2>First-party operational recovery log · v2.4</h2>
+<div class="tbl"><table><thead><tr><th>Incident</th><th>Response</th><th>Recovery</th><th>Ops lesson</th></tr></thead><tbody>
+<tr><td>Wrong Season Pass · Mar2</td><td>~1h downtime + corrected pass</td><td>Earlier purchase honored; rewards retained; points migrated; corrected rewards claimable again</td><td>Preserve entitlement + progression during config rollback</td></tr>
+<tr><td>Pass activation crash · Mar6</td><td>Restart workaround + investigation</td><td>Voucher 5448</td><td>Immediate workaround + goodwill layer</td></tr>
+<tr><td>Summer Breeze Pass issue · May15–21</td><td>Investigation → fix → downtime</td><td>Gift + direct Season-progression booster</td><td>Compensate lost progress in-kind, not only generic currency</td></tr>
+<tr><td>Fishing reward display mismatch · May23</td><td>Clarified credited economy was correct; UI display wrong</td><td>No explicit compensation</td><td>Classify presentation vs economy defect before rollback</td></tr>
+</tbody></table></div><h2>Version-tagged review recovery · v2.9</h2><div class="tbl"><table><thead><tr><th>Product</th><th>Exact version</th><th>Theme</th><th>Signal</th><th>Use</th></tr></thead><tbody><tr><td>Office Cat</td><td>1.0.49 / 1.0.51</td><td>Progression / monetization</td><td>Reviews criticize CEO/strike mechanics and rising gem pressure</td><td>Historical exact-version risk sample</td></tr><tr><td>Office Cat</td><td>1.0.63 / 1.0.74</td><td>Event / ads</td><td>Event load issue; separate review reports frequent forced ads</td><td>Exact-version QA/ad-pressure signal</td></tr><tr><td>Township</td><td>20.0.0</td><td>Regatta / task credit</td><td>Review cluster cites task-credit bugs and unpopular rule changes</td><td>Historical system-migration QA</td></tr><tr><td>Township</td><td>21.0.0</td><td>Golden Ticket / support</td><td>Review flags pass duration/support frustration</td><td>Historical pass/support risk</td></tr><tr><td>Gossip Harbor</td><td>3.65.0 / 3.9.10</td><td>Energy / event progression</td><td>Reviews connect energy scarcity and harder events to resource pressure</td><td>Historical economy-friction mapping</td></tr></tbody></table></div><div class="card hero"><b>Method:</b> exact version without review date is useful but incomplete; do not force it into KPI chronology.</div>
+<h2>Current version-window QA · v3.0</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Version window</th><th>Signal</th><th>Evidence class</th><th>Interpretation</th></tr></thead><tbody>
+<tr><td>Township</td><td>39.0.3 Sep17 → 39.0.4 Sep23 → 39.0.5 Sep24</td><td>3 visible Android versions in 8 calendar days; latest patch gap = 1 day</td><td>SOURCE + CALCULATED</td><td>High current release-operations intensity; public notes do not reveal what patches fixed</td></tr>
+<tr><td>Hay Day</td><td>iOS 1.72.86 Aug18 → Sep19 reviews</td><td>Review reports double-charge/refund dispute on Farm Pass + diamonds</td><td>CURRENT REVIEW WINDOW / VERSION UNKNOWN</td><td>Payment/support early-warning, not confirmed billing defect</td></tr>
+<tr><td>Hay Day</td><td>same window</td><td>Review criticizes Wheel of Fortune reward quality</td><td>CURRENT REVIEW WINDOW / VERSION UNKNOWN</td><td>Reward fairness/value sentiment signal</td></tr>
+<tr><td>Hay Day</td><td>same window</td><td>Positive review says recent changes are enjoyable/addictive</td><td>COUNTEREVIDENCE</td><td>Negative reviews are not treated as universal response</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Method:</b> a version date + later review timestamp creates a <b>version-window</b>, not an exact review-version match. Township 39.0.5 is only one day old on Sep25, so its post-version review window is not mature yet.</div>
+<h2>Current quality window · My Perfect Hotel / Office Cat</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Window</th><th>Observed signal</th><th>Counterevidence</th><th>Use</th></tr></thead><tbody>
+<tr><td>My Perfect Hotel</td><td>Sep8–10</td><td>Recent avg 3.40 vs 4.70 all-time; multiple reviews report forced ads around 20–30 sec, ~2 min, or 3–5 min, sometimes around upgrades</td><td>Same window includes positive reviews saying the game is fun / matches ads</td><td>Current ad-pressure QA risk, not measured ad-frequency telemetry</td></tr>
+<tr><td>Office Cat</td><td>Sep17–19 · v1.0.80 window</td><td>Visible current rows mostly positive; recent avg 4.70 vs 4.61 all-time</td><td>One Sep18 review alleges a paid '1-6 pack' issue</td><td>Current counterevidence against projecting old negative monetization clusters onto latest build</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Method:</b> current review window ≠ exact review-version match. Keep exact version, review timestamp and store/platform identity separate unless all three reconcile.</div><h2>Gossip Harbor · current quality window</h2><div class="card"><p>Sep16 public review-window samples around the 3.98.5 window flag storage burden, higher-level difficulty and weekly/minigame completion pressure. These are early-warning signals only; exact review-version mapping and measured completion/payer telemetry remain TBD.</p></div></section>
+
+<section id="focus" class="sec"><h2>Focus Game</h2><div class="g2">
+<div class="card"><h3>My Perfect Hotel</h3><p>D0 clarity + disclosed US hybrid-UA performance + 700K event completions. Copy readability; not ad pressure.</p></div>
+<div class="card"><h3>Office Cat</h3><p>Lean modular product; rewarded-UA cases show campaign quality can be high, but outside US.</p></div>
+<div class="card"><h3>Big Farm Homestead</h3><p>Ownership staging + shared-code/LiveOps process remain the production reference.</p></div>
+<div class="card"><h3>The Cozy Florist</h3><p>Emotional niche + very heavy creative factory; distinguish acquisition throughput from product-content burden.</p></div></div>
+</section>
+
+<section id="production" class="sec">
+<h2>Franchise reuse as launch efficiency · Big Farm Homestead</h2>
+<div class="card hero"><p>Stillfront explicitly says lessons from <b>Sunshine Island</b> supported effective scaling and monetization of Homestead.
+This is production/publishing reuse evidence: adjacent franchise products can reuse learnings in economy, UA, LiveOps and operating cadence even when client assets and systems are not identical.</p></div><h2>Production Burden</h2>
+<div class="tbl"><table><thead><tr><th>Product</th><th>Public team / process signal</th><th>Time scope</th><th>Decision</th></tr></thead><tbody>
+<tr><td>Hay Day</td><td>Supercell: team was a few people 3 years earlier; by Jun-2026 it was over 60, spanning designers/data analysts and release management</td><td>CURRENT 2026</td><td>Mature LiveOps scale is not MVP staffing</td></tr>
+<tr><td>Township</td><td>~20 at creation; ~130 by 2023</td><td>HISTORICAL</td><td>Very-heavy mature organization</td></tr>
+<tr><td>Big Farm Homestead</td><td>Dedicated BFH role / LiveOps environment; shared codebase & systems with Sunshine Island</td><td>CURRENT PROCESS</td><td>Reuse architecture is the concrete accelerator; exact team TBD</td></tr>
+<tr><td>Heartopia</td><td>Company-level dev headcount exists; title team does not; external partner handled global IP localization/approval/licensing surfaces</td><td>COMPANY / PARTNER</td><td>Do not convert company headcount to title team</td></tr>
+<tr><td>My Perfect Hotel</td><td>Historical lean developer origin + publisher analytics/LiveOps/UA support</td><td>HISTORICAL + current publisher structure</td><td>Lean core does not mean lean scale operation</td></tr>
+<tr><td>Office Cat / Cozy / Gossip Harbor</td><td>No defensible exact current title-team size found</td><td>CURRENT</td><td>TBD</td></tr>
+</tbody></table></div>
+<div class="card hero"><b>Still unavailable:</b> asset-hours, exact time-to-new-area/event, QA staffing and outsourcing ratio for most titles.</div>
+
+<h2>Concurrency as production burden</h2>
+<div class="card hero"><p>Event burden is not just “how many assets per event.” Heartopia demonstrates concurrent requirements across stores, exchange currencies, photo/social interactions, licensed approval, collection items, building materials and sign-in modifiers. Office Cat demonstrates a different burden: new area + payment challenge + state-persistence/ranking fixes in the same release train. For Ops Cat, production telemetry should include <b>concurrent live surfaces, config count, regression test cases, support incidents and compensation events</b>.</p></div>
+
+<h2>Release-surface burden · retained v2.3 layer</h2>
+<div class="card hero"><p>Production burden is tracked by <b>systems touched × persistent states × regression combinations</b>, not feature count alone.
+Current examples in the evidence stack include Heartopia's Sep23 multi-system maintenance + next-day hotfix, Township's broad v39 content train, and Office Cat's City7 + Payment Challenge + save/ranking-fix release train.</p></div>
+<h2>Production Envelope · Lean → Reuse-led → Persistent-world</h2>
+<div class="tbl"><table><thead><tr><th>Envelope</th><th>Benchmark</th><th>Public evidence</th><th>Implication</th></tr></thead><tbody>
+<tr><td>Lean modular</td><td>Office Cat</td><td>8 initial developers; ~6 months start→global</td><td>Narrow idle-management grammar + modular rooms/cities can reach market quickly</td></tr>
+<tr><td>Lean core + publisher</td><td>My Perfect Hotel</td><td>~half-dozen early developers + publisher analytics/LiveOps/A-B/creative infrastructure</td><td>Small core team can depend on a large external growth layer</td></tr>
+<tr><td>Reuse-led 3D</td><td>Big Farm Homestead</td><td>Under 1 year; shared code/systems with Sunshine Island; title-specific assets/settings</td><td>Shared architecture compresses engineering lead time, not art/QA to zero</td></tr>
+<tr><td>Persistent-world heavy</td><td>Heartopia</td><td>~8-year lineage; historical &gt;150→&gt;80 team; high-frequency saves / PITR / elastic scaling</td><td>Backend durability and operations are first-class production work</td></tr>
+<tr><td>Mature live-service</td><td>Township / Hay Day</td><td>Township ~20→130 historical; Hay Day current 60+</td><td>Long-lived system/event breadth accumulates specialist staffing</td></tr>
+</tbody></table></div>
+<h2>Backend / Reliability burden · Heartopia</h2>
+<div class="g3">
+<div class="card"><h3>Save durability</h3><p>Sharded MongoDB supports high-frequency player saves at global scale.</p></div>
+<div class="card"><h3>Rollback</h3><p>7×24 HA, high-frequency backup and point-in-time restore; reported recovery speed improved 30×.</p></div>
+<div class="card"><h3>Observability / scale</h3><p>80+ monitoring metrics and minute-level horizontal scaling are part of the production envelope.</p></div>
+</div>
+<h2>Rapid patch train as operations burden · Township</h2>
+<div class="card hero"><p>Township moved from <b>39.0.3 on Sep17</b> to <b>39.0.4 on Sep23</b> and <b>39.0.5 on Sep24</b>. This is a current release-operations burden signal: packaging, rollout, QA, store review, telemetry and support must sustain fast patching. Without patch notes, it is <b>not</b> evidence that one specific bug caused the train.</p></div>
+<h2>Event concurrency as production burden · retained v3.2</h2>
+<div class="card hero"><p>Heartopia's overlapping named surfaces combine friend-state, public messages, event currencies, premium tiers, draws, exchanges, UGC, collection completion and multiple expiry windows. Regression-state combinations—not art count alone—are the burden multiplier.</p></div>
+<h2>Long-horizon licensed IP burden · My Perfect Hotel</h2>
+<div class="card hero"><p>A nearly year-long licensed destination plus parallel seasonal LiveOps changes the cost model: brand approvals, character/skin/story content, pass/leaderboard configuration, localization, main-game compatibility and parallel events persist beyond a one-off asset drop. Exact asset-hours and approval SLA remain TBD.</p></div><h2>Narrative LiveOps production burden · Gossip Harbor</h2><div class="card hero"><p>A weekly episode promise plus a visible 13.5-day median release cadence implies a continuous writing, localization, event-config, themed-asset, QA and release-operations pipeline. The efficiency lever is the reusable event grammar, not a new gameplay engine for every theme.</p></div></section>
+
+<section id="translation" class="sec">
+<h2>Ops Cat · US creator + launch-phase test</h2>
+<div class="g3">
+<div class="card"><h3>Creator pilot</h3><p>Use one creator whose lived content matches the game fantasy. Give a unique deep link + unique claim code + creator-specific landing/store route.</p></div>
+<div class="card"><h3>Measure the full funnel</h3><p>Impression/View → Click → Store CVR → Install → Code Claim → Tutorial Completion → D1/D7 → Payer/IAA Quality.</p></div>
+<div class="card"><h3>Launch phases</h3><p>Soft launch learning → bounded launch burst → normalize UA when marginal cohort quality falls → keep CRM/creator/LiveOps running if return quality holds.</p></div>
+</div>
+<div class="card"><b>Stop condition:</b> creator traffic that claims rewards but underperforms control on D1/D7 or payer/IAA quality should not be scaled even if CPI looks attractive.</div><h2>Ops Cat Product Translation</h2>
+<div class="card hero"><div class="flow"><span>D0 Real Action</span><span>→</span><span>Owned Transformation</span><span>→</span><span>Helper/Automation</span><span>→</span><span>Collection/NPC</span><span>→</span><span>One Reusable Event Engine</span><span>→</span><span>Later Social/Pass</span></div></div>
+<div class="g3">
+<div class="card"><h3>UA Test A</h3><p>AppLovin/Google-style gameplay proof. KPI: qualified install → tutorial completion → D1/D7.</p></div>
+<div class="card"><h3>UA Test B</h3><p>Meta/TikTok identity/lifestyle hook, but promise must become reachable fast.</p></div>
+<div class="card"><h3>UA Stop Rule</h3><p>CTR rises while promise-match, tutorial reach or D1 falls → stop.</p></div>
+<div class="card"><h3>Creative Ops KPI</h3><p>Winner-rate per asset-hour, not total creative count.</p></div>
+<div class="card"><h3>LiveOps KPI</h3><p>Event entry/repeat/completion + payer/IAA quality + recovery errors.</p></div>
+<div class="card"><h3>Team Rule</h3><p>Do not staff toward Hay Day/Township mature scope before vertical-slice D7 proof.</p></div></div>
+<h2>Ops Cat v2.0 guardrails</h2><div class="g3"><div class="card"><h3>IAA</h3><p>Measure forced-ad interval, post-upgrade ad exposure, rage-quit and D1/D7 by exposure bucket.</p></div><div class="card"><h3>Fairness</h3><p>Disclose randomized-reward probability and guarantee ceiling; test perceived fairness before scale.</p></div><div class="card"><h3>LiveOps</h3><p>One reusable event engine plus one lightweight CRM layer before stacking multiple event systems.</p></div></div>
+<h2>Ops Cat v2.1 operating rules</h2>
+<div class="g3">
+<div class="card"><h3>Concurrency cap</h3><p>MVP: 1 major event + 1 CRM/reward layer. Add a second major concurrent track only after event discovery and D7 are stable.</p></div>
+<div class="card"><h3>Release QA</h3><p>Every new area/event must regression-test save state, ranking state, purchase state, reward claim and rollback/compensation.</p></div>
+<div class="card"><h3>Cadence split</h3><p>Heavy content can be weekly/biweekly; lightweight CRM can use a ~2-day test cadence. Measure incremental return, not notification volume.</p></div>
+</div>
+<h2>Ops Cat onboarding operating rule · v2.2</h2><div class="card hero"><div class="flow"><span>T+0 Real Action</span><b>→</b><span>Visible Transformation</span><b>→</b><span>Owned-Space Choice</span><b>→</b><span>Helper / Automation</span><b>→</b><span>One Logistics Dependency</span><b>→</b><span>Tutorial Release</span><b>→</b><span>D1 Return</span><b>→</b><span>D3 Breadth</span><b>→</b><span>D7 Identity / Event</span></div></div>
+<h2>Ops Cat monetization / recovery rules · v2.4</h2>
+<div class="g3">
+<div class="card"><h3>Monetization ladder</h3><p>Start with free path → optional accelerator → persistent-value pass. Add subscription only when recurring utility is proven.</p></div>
+<div class="card"><h3>CRM separation</h3><p>Keep community voucher/reward cadence separate from client-content cadence and paid acquisition. Measure incremental return and payer quality independently.</p></div>
+<div class="card"><h3>Compensation taxonomy</h3><p>Map incident type to recovery: entitlement restore, progression restore, event extension, claim replay, generic goodwill, or no compensation for display-only defects.</p></div>
+</div>
+<h2>Ops Cat visual / first-30s rule · v2.5</h2>
+<div class="g3">
+<div class="card"><h3>0–30s</h3><p>Show the real tactile verb and visible state change before introducing breadth. Hay Day's timed route is the cleanest current reference.</p></div>
+<div class="card"><h3>Store / ad bridge</h3><p>Emotion can lead, but by second 5–10 the creative/store sequence should expose either the actual interaction or the persistent owned asset it changes.</p></div>
+<div class="card"><h3>Visual differentiation</h3><p>Keep 70–90% mobile readability; spend the 10–30% authored layer on material, lighting, flora, story props and character/pet identity—not on UI density.</p></div>
+</div>
+
+
+<h2>Ops Cat production-envelope decision · v2.6</h2>
+<div class="g3">
+<div class="card"><h3>MVP envelope</h3><p>Default to <b>Lean modular</b>: one satisfying action, one owned space, modular areas, server-configurable LiveOps where practical.</p></div>
+<div class="card"><h3>Reuse rule</h3><p>Build shared state/event/UI primitives early enough to reuse, but do not pre-build a platform for hypothetical future worlds.</p></div>
+<div class="card"><h3>Backend guardrail</h3><p>Define save/rollback/compensation from day one; delay MMO-like social persistence until D7/D30 retention earns the heavier envelope.</p></div>
+</div><h2>KPI calibration rule · v2.7</h2><div class="card hero"><p>Keep five layers separate: <b>External Research Benchmark → Competitor Campaign Evidence → Prototype Gate (OWNER TARGET / TBD) → Soft-launch Gate (OWNER TARGET / TBD) → Scale Gate (OWNER TARGET / TBD)</b>. Relative campaign uplifts never become absolute Ops Cat targets.</p></div><h2>Ops Cat UA / LiveOps rule · v2.8</h2><div class="g3"><div class="card"><h3>Channel test</h3><p>Test AppLovin / Meta / Unity separately with campaign IDs and the same concept family. Compare CPI → first-action → tutorial release → D1/D7 → payer/IAA quality.</p></div><div class="card"><h3>Do not infer mix</h3><p>Do not allocate budget from competitor observed-channel ratios without owned CPM/CPI/CVR/ROAS.</p></div><div class="card"><h3>Event architecture</h3><p>Prefer 1 reusable event engine plus lightweight modifiers/wrappers.</p></div></div><h2>Ops Cat FTUE monetization rule · v2.9</h2><div class="g3"><div class="card"><h3>Sequence</h3><p>Real action → production/order grammar → tutorial release → rewarded utility → premium flexibility → recurring shop/pass.</p></div><div class="card"><h3>Primary test</h3><p>A/B first rewarded-ad exposure after tutorial release vs after first resource bottleneck. Measure tutorial completion, ad opt-in, D1 and payer/IAA quality.</p></div><div class="card"><h3>Review QA</h3><p>Tag economy/event review data with app version, rollout date and config ID.</p></div></div>
+<h2>Ops Cat CRM / patch-train rules · v3.0</h2>
+<div class="g3">
+<div class="card"><h3>Owned CRM ladder</h3><p>Use lifestyle/community content between reward beats; reserve vouchers for milestones, reactivation or progression support.</p></div>
+<div class="card"><h3>Weekly test</h3><p>Test one fixed weekly community reward cadence with unique deep-link / claim IDs. Measure claim rate, reactivation, D1-after-return and payer/IAA quality.</p></div>
+<div class="card"><h3>Patch QA</h3><p>For every patch, record rollout %, config ID, crash/payment/reward metrics and review themes. Rapid patch count alone is not a root-cause diagnosis.</p></div>
+</div>
+<h2>Ops Cat IP / ad-pressure rules · v3.1</h2>
+<div class="g3">
+<div class="card"><h3>IP wrapper</h3><p>Prototype the wrapper before licensing: one themed area + character/story collection + pass + leaderboard using existing core verbs. Measure whether the wrapper improves event entry, D7 return and payer/IAA quality.</p></div>
+<div class="card"><h3>Do not replace core</h3><p>My Perfect Hotel's IP layer sits on top of a proven hotel loop. Ops Cat should validate the core without IP before using a brand to add collection/narrative value.</p></div>
+<div class="card"><h3>Ad guardrail</h3><p>Track forced-ad impressions/session, rewarded-ad opt-in, post-ad exits, crash/reward failure and review ad-pressure share. Revenue alone is insufficient.</p></div>
+</div>
+<h2>CRM / concurrency test · retained v3.2</h2>
+<div class="g3"><div class="card"><h3>CRM A/B</h3><p>Compare one fixed weekly reward vs a 2–3-day core-resource gift cadence with unique claim IDs.</p></div><div class="card"><h3>Primary KPIs</h3><p>Claim → reactivation → D1-after-return → core actions → payer/IAA quality.</p></div><div class="card"><h3>Concurrency ceiling</h3><p>One major event engine + one lightweight CRM/modifier layer before adding a second heavy wrapper.</p></div></div>
+<h2>Ops Cat persistent-wrapper test · v3.3</h2>
+<div class="g3"><div class="card"><h3>Before licensing</h3><p>Prototype a 3–6 month self-owned themed destination using the existing core: character/story collection + pass + leaderboard + persistent cosmetic rewards.</p></div><div class="card"><h3>Primary KPIs</h3><p>Event entry, completion, lapsed-user return, D7/D30 exposed-vs-unexposed return, pass participation, payer/IAA quality.</p></div><div class="card"><h3>Timing instrumentation</h3><p>Track store merchandising, campaign flight, in-game activation, sub-event refresh and version rollout separately.</p></div></div><h2>Ops Cat · reusable narrative-event test</h2><div class="g3"><div class="card"><h3>Build once</h3><p>Theme/story → existing core actions → event points → decoration/collection reward.</p></div><div class="card"><h3>Reskin</h3><p>Refresh story, props and rewards without rebuilding the event state machine.</p></div><div class="card"><h3>Guardrails</h3><p>Event entry, completion, resource exhaustion, D7 return, payer/IAA quality, review frustration and support burden.</p></div></div><div class="card"><p><b>Decision rule:</b> Revenue↑ while Installs↓ should trigger payer/event/existing-user cohort analysis before increasing UA.</p></div>
+<h2>Ops Cat · platform-specific launch gates · v3.6</h2>
+<div class="g3">
+<div class="card"><h3>Separate first</h3><p>Keep iOS and Android CPI, CVR, D1/D7, payer rate, IAA, IAP and ROAS separate through soft launch and early scale.</p></div>
+<div class="card"><h3>Blend later</h3><p>Create a combined management view only after platform cohort quality is known. Never let a rising blended calendar RPD hide an acquisition collapse on one store.</p></div>
+<div class="card"><h3>Escalation rule</h3><p>If one platform shows Installs ↓ + Revenue ↑, inspect source mix, returning/payer cohorts and event exposure before increasing or cutting UA.</p></div>
+</div>
+</section>
+
+<section id="usglobal" class="sec">
+<h2>US / Global boundary · v3.5</h2>
+<div class="card"><p><b>US-relevant:</b> Katie Van Slyke is Tennessee-based and the sponsorship is surfaced through a US podcast listing with a farm/equestrian persona match.
+<b>Not US-only:</b> redemption geography and media delivery are undisclosed. Stillfront's Q1/Q2 franchise and UAC figures are Global/company-level and remain labeled as such.</p></div><h2>US-first / Global-secondary</h2>
+<div class="g3"><div class="card"><h3>US-specific</h3><p>GH Jan KPI estimate; GH/Township Aug US downloads; MPH Unity Android US; Township Unity iOS US.</p></div>
+<div class="card"><h3>Non-US mechanism evidence</h3><p>Office Cat KR/JP Playio cases are useful for mechanism only, never US target-setting.</p></div>
+<div class="card"><h3>Global-secondary</h3><p>Heartopia China IP event, global creative coverage and mature-team evidence inform product/ops architecture.</p></div></div>
+
+<h2>US / Global production contrast · v2.6</h2>
+<div class="card"><p><b>Office Cat · US-first:</b> US revenue share moved from 35% to 41% in public company milestones and the company explicitly cited further US localization. <b>Heartopia · Global-secondary:</b> global launch infrastructure emphasizes cross-region scale, high-frequency saves and rollback. These solve different problems and must not be collapsed into one staffing benchmark.</p></div><h2>US-first delta · v3.4</h2><div class="card"><p>Gossip Harbor now has a fresh matched-store US Aug/Jul comparison. This is materially stronger than using app-page global Google Play totals; Global remains secondary and is not relabeled US.</p></div>
+<h2>US-first delta · v3.6</h2>
+<div class="card"><p>Township and Hay Day now have fresh August 2026 US source-market estimates on both iOS and Google Play from the same provider. This materially improves platform comparison. It still does not close paid/organic/source-mix attribution.</p></div>
+</section>
+
+<section id="recovery" class="sec"><h2>Data Gap Recovery</h2>
+<div class="tbl"><table><thead><tr><th>Original gap</th><th>v1.9 status</th><th>What was recovered</th><th>What remains</th></tr></thead><tbody>
+<tr><td>current US-only monthly Downloads/IAP</td><td class="part">PARTIAL</td><td>GH Jan monthly estimate; GH/Township Aug US download snapshots; older weekly US series</td><td>Current Sep monthly KPI across Priority8</td></tr>
+<tr><td>paid/organic/source mix</td><td class="part">PARTIAL+</td><td>GH paid-display share signal; selected channel maps/coverage</td><td>Full current mix for all titles</td></tr>
+<tr><td>spend/CPI/CTR/CVR/ROAS</td><td class="part">PARTIAL+</td><td>MPH/Township US Unity ROAS; Office Cat JP CVR/ROAS + KR ROAS</td><td>Absolute spend/CPI/CTR and blended product ROAS</td></tr>
+<tr><td>30/90/180 creative history</td><td class="part">PARTIAL++</td><td>GH rich multi-window evidence; Township 30d+longevity; Cozy/Heartopia 30d</td><td>Same-vendor normalized Priority8 series</td></tr>
+<tr><td>current FTUE + D1/D3/D7/D14</td><td class="part">PARTIAL+</td><td>FTUE routes/gates + selected UA-cohort retention cases</td><td>Current in-product timed FTUE + organic retention</td></tr>
+<tr><td>complete review-by-version</td><td class="tbd">TBD/PARTIAL</td><td>Current review themes + version histories</td><td>Joined review-version corpus</td></tr>
+<tr><td>Offer trigger/segmentation/probability/frequency</td><td class="part">PARTIAL++</td><td>Current storefront offers + pool probability + external trigger evidence</td><td>Segmentation/frequency/conversion</td></tr>
+<tr><td>event participation/payer/DAU</td><td class="part">PARTIAL</td><td>MPH 700K+ event completions + selected active-user series</td><td>Payer counts + standardized participation</td></tr>
+<tr><td>team / asset-hours / QA / outsourcing</td><td class="part">PARTIAL++</td><td>Hay current 60+; Township historic scale; BF reuse/LiveOps; partner surfaces</td><td>Most exact title teams, asset-hours, QA/outsource ratios</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="evidence" class="sec">
+<h2>Status delta · v3.5</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v3.5 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>Market/KPI</td><td>PARTIAL</td><td>HIGH</td><td>Soft-launch→global-launch→post-launch lifecycle + BIG Q1/Q2 first-party context</td><td>Homestead title-level US revenue/DAU/payer</td></tr>
+<tr><td>UA/Creative/Promotion</td><td>PARTIAL</td><td>HIGH</td><td>Creator placement + unique OneLink/code + launch-intensive UA→normalization</td><td>Creator clicks/installs/claims, title spend/CPI/CVR/ROAS, paid-organic mix</td></tr>
+<tr><td>Economy/Monetization</td><td>PARTIAL</td><td>HIGH</td><td>Creator incentive connects acquisition to coins/gems economy</td><td>Reward spend-down, inflation/fraud, payer conversion</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL</td><td>HIGH</td><td>Cross-title learning reuse from Sunshine Island explicitly documented</td><td>Shared-system map, staffing and asset-hours</td></tr>
+</tbody></table></div><h2>Evidence / Gaps / Sources</h2>
+<div class="card"><p><code>09_reports/PRIORITY8_DATA_GAP_RECOVERY_v0.1_2026-09-25.csv</code></p>
+<p><code>06_ua_liveops/PRIORITY8_UA_CREATIVE_PERFORMANCE_RECOVERY_v0.4_2026-09-25.csv</code></p>
+<p><code>09_reports/PRIORITY8_EVENT_OFFER_ENGAGEMENT_RECOVERY_v0.1_2026-09-25.csv</code></p>
+<p><code>09_reports/STATUS_AUDIT_v1.9_2026-09-25.csv</code></p>
+<p><code>09_reports/BENCHMARK_BY_OBJECTIVE_v1.0_2026-09-25.csv</code></p></div>
+<h2>Primary / high-value public sources</h2><div class="card"><ul>
+<li>Unity SayGames / My Perfect Hotel case · US Android campaign metrics</li><li>Unity Playrix / Township D28 IAP ROAS case</li>
+<li>Sensor Tower analyst Sam Aune · Gossip Harbor paid-display / creative / retention signals</li>
+<li>AdMapix · Gossip Harbor / Township US 30-day creative teardowns</li><li>CreativeScope · Gossip Harbor / Cozy Florist / Heartopia creative monitoring</li>
+<li>Playio · Office Cat KR / JP campaign cases</li><li>GamesBeat / SayGames · Barbie participation</li><li>Supercell · Hay Day current team size</li>
+</ul></div>
+
+<h2>v1.9 gap delta</h2>
+<div class="tbl"><table><thead><tr><th>Gap</th><th>Status</th><th>New recovery</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>US-only Downloads/IAP</td><td>PARTIAL+</td><td>5-title dated US weekly D/IAP + GH Jan-2026 US monthly + GH/Township Aug-2026 US download snapshots</td><td>Current Sep-2026 monthly US D/IAP across Priority8</td></tr>
+<tr><td>event participation / payer / DAU</td><td>PARTIAL+</td><td>Dated US active-user scale for 5 titles + My Perfect Hotel 700K+ Barbie event completion</td><td>Current DAU, payer count/rate, standardized event participation</td></tr>
+<tr><td>source / ROAS</td><td>PARTIAL+</td><td>Existing Unity/Playio cases + paid-display / creative coverage remain active</td><td>Blended current source mix and efficiency across titles</td></tr>
+</tbody></table></div>
+<h2>Status delta · v2.0</h2><div class="tbl"><table><thead><tr><th>Area</th><th>Status</th><th>New evidence</th><th>Still missing</th></tr></thead><tbody><tr><td>Market/KPI</td><td>PARTIAL++</td><td>Current platform estimates + US daily provider snapshot</td><td>One-provider Sep-2026 US monthly D/IAP</td></tr><tr><td>Economy</td><td>PARTIAL++</td><td>Current fairness/ad-pressure + pass architecture</td><td>Trigger/segment/frequency/conversion</td></tr><tr><td>LiveOps</td><td>PARTIAL++</td><td>Sep overlap/cadence for four titles</td><td>Full 8-title calendar + participation</td></tr><tr><td>Reviews</td><td>PARTIAL++</td><td>Current complaint clusters + first-party incidents</td><td>Full exact review-by-version corpus</td></tr></tbody></table></div>
+<h2>Status delta · v2.2</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Upgrade</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>LiveOps/Event Calendar</td><td>PARTIAL+++</td><td>Current overlap counts, corrected Big Farm starts, Heartopia schedule expansion, Gossip CRM interval</td><td>All-8 participation, asset cost and full historical calendar</td></tr>
+<tr><td>Reviews/Versions</td><td>PARTIAL+++</td><td>Office Cat current release train + first-party schedule corrections + sentiment risk</td><td>Full exact review-by-version export</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL++</td><td>Concurrent-live-surface and cross-system regression burden added</td><td>Asset-hours, QA FTE, outsourcing ratios</td></tr>
+</tbody></table></div>
+<h2>Status delta · v2.2</h2><div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Upgrade</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>FTUE</td><td>PARTIAL++</td><td>Current Heartopia first-hour/week; Hay Day onboarding rebuild; Big Farm Lv1→3; Gossip early-friction; Cozy route</td><td>Exact current T+0→30m</td></tr>
+<tr><td>Progression/Meta/Side</td><td>PARTIAL++</td><td>DG3/DG5/DG12, BFH Lv2/Lv3, Cozy Lv10/Lv31, Township Lv17</td><td>Direct validation for guide-derived gates</td></tr></tbody></table></div>
+<h2>Status delta · v2.4</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Upgrade</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>Economy/Monetization</td><td>PARTIAL+++</td><td>Current first-party subscription, D2C loyalty, free→premium event economy, progression-linked offers</td><td>Trigger/segment/frequency/conversion</td></tr>
+<tr><td>LiveOps</td><td>PARTIAL+++</td><td>First-party social-voucher cadence + recovery mechanics</td><td>Standardized participation and full all-8 history</td></tr>
+<tr><td>Reviews/Versions</td><td>PARTIAL+++</td><td>First-party incident→workaround→fix→compensation chains</td><td>Full exact review-by-version export</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL+++</td><td>v2.3 release-surface/state/regression layer retained</td><td>Asset-hours, current QA FTE, outsourcing ratio</td></tr>
+</tbody></table></div>
+<h2>Status normalization · v2.5</h2>
+<div class="card hero"><b>Method fix:</b> the parent Skill defines Status as <b>DONE / PARTIAL / BLOCKED / TBD</b>. v2.5 removes informal “PARTIAL++/+++” labels from the formal status CSV and adds a separate <b>Coverage_Maturity</b> field.</div>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v2.5 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>Market/KPI</td><td>PARTIAL</td><td>HIGH</td><td>2026-08 same-month US D/IAP synced for 7/8</td><td>Sep refresh + Heartopia same-scope row</td></tr>
+<tr><td>Art/Visual</td><td>PARTIAL</td><td>MEDIUM-HIGH</td><td>Current store visual roles now cover all Priority8</td><td>Local annotated binaries for new four</td></tr>
+<tr><td>Core Gameplay</td><td>PARTIAL</td><td>MEDIUM-HIGH</td><td>Hay Day timed first action + Heartopia current routine</td><td>Exact current first 30s for most titles</td></tr>
+<tr><td>Benchmark-by-Objective</td><td>DONE</td><td>HIGH</td><td>First-30s clarity / promise-fit / visual-anchor objectives added</td><td>Refresh with direct captures</td></tr>
+</tbody></table></div>
+<h2>v2.5 Trend × Cause boundary</h2>
+<div class="card hero"><b>No causal promotion.</b> The verified Aug US table materially improves same-market scale context, but source-mix/spend attribution is still incomplete. Visual/store promise evidence explains product positioning, not download/revenue causality.</div>
+
+
+<h2>Status delta · v2.6</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v2.6 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>Production Burden</td><td>PARTIAL</td><td>HIGH</td><td>Office Cat 8-person/~6-month benchmark + Heartopia backend/reliability + BFH reuse envelope</td><td>Current title teams; asset-hours; QA/outsource ratios</td></tr>
+<tr><td>Market/KPI</td><td>PARTIAL</td><td>HIGH</td><td>Office Cat US revenue share / DAU milestones added</td><td>Sep US monthly refresh</td></tr>
+<tr><td>Benchmark-by-Objective</td><td>DONE</td><td>HIGH</td><td>Lean-to-global, reuse-led 3D and persistent-world objectives added</td><td>Refresh with current staffing/asset-hours</td></tr>
+</tbody></table></div><h2>Status delta · v2.7</h2><div class="card"><p><b>UA/Creative/Promotion:</b> PARTIAL / HIGH — stronger US cohort-quality evidence, but absolute spend/CPI/CTR/CVR and blended source economics remain TBD. <b>Market/KPI:</b> PARTIAL / HIGH — portfolio payer context added, but Heartopia title payer/MAU remains TBD.</p></div><h2>Status delta · v2.8</h2><div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v2.8 delta</th></tr></thead><tbody><tr><td>UA/Creative/Promotion</td><td>PARTIAL</td><td>HIGH</td><td>Observed channel architecture added for Gossip Harbor, Township, Hay Day and Cozy Florist; Heartopia launch mix remains secondary.</td></tr><tr><td>LiveOps/Event Calendar</td><td>PARTIAL</td><td>HIGH</td><td>Township four-track stack + Hay Day modifier/offer/brand-event history.</td></tr><tr><td>Trend/Cause</td><td>PARTIAL</td><td>HIGH</td><td>No causal promotion without MMP source alignment.</td></tr></tbody></table></div><h2>Status delta · v2.9</h2><div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v2.9 delta</th><th>Still missing</th></tr></thead><tbody><tr><td>FTUE</td><td>PARTIAL</td><td>MEDIUM-HIGH</td><td>Big Farm Lv1→10 includes first ad/gem/shop exposure gates</td><td>Minute-level timestamps; other Priority8 maps</td></tr><tr><td>Economy/Monetization</td><td>PARTIAL</td><td>HIGH</td><td>Early rewarded-ad / premium-slot / recurring-shop sequence added</td><td>Price, segment, frequency, conversion</td></tr><tr><td>Reviews/Versions</td><td>PARTIAL</td><td>HIGH</td><td>Exact-version review samples added</td><td>Timestamp + rating + version + review-ID corpus</td></tr></tbody></table></div>
+<h2>Status delta · v3.0</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v3.0 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>LiveOps/Event Calendar</td><td>PARTIAL</td><td>HIGH</td><td>First-party Big Farm weekly voucher program + Sep milestone CRM + lifestyle social layer</td><td>Claim / reactivation / participation telemetry</td></tr>
+<tr><td>Reviews/Versions</td><td>PARTIAL</td><td>HIGH</td><td>Township current patch train + Hay Day post-version review window with counterevidence</td><td>Exact review version / review ID; mature Township 39.0.5 review window</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL</td><td>HIGH</td><td>Township rapid patch operations burden added</td><td>Patch QA staffing, escaped defect rate, asset-hours</td></tr>
+</tbody></table></div>
+<h2>Status delta · v3.1</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v3.1 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>LiveOps/Event Calendar</td><td>PARTIAL</td><td>HIGH</td><td>My Perfect Hotel visible Jul→Sep IP wrapper/version persistence added</td><td>Exact event start/end, participation, asset/approval cost</td></tr>
+<tr><td>Reviews/Versions</td><td>PARTIAL</td><td>HIGH</td><td>Current My Perfect Hotel ad-pressure cluster + Office Cat current counterevidence</td><td>Exact review-version IDs and full current corpus</td></tr>
+<tr><td>Trend/Cause</td><td>PARTIAL</td><td>HIGH</td><td>My Perfect Hotel Jul/Aug moves E0→E1 candidate-driver context</td><td>Source mix, spend, event participation, payer data</td></tr>
+</tbody></table></div>
+<h2>Status delta · v3.2 retained</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>v3.2 delta</th></tr></thead><tbody>
+<tr><td>LiveOps/Event Calendar</td><td>PARTIAL</td><td>Cross-product CRM cadence + Heartopia event-state concurrency</td></tr>
+<tr><td>UA/Creative/Promotion</td><td>PARTIAL</td><td>Owned/community reactivation separated from paid channels</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL</td><td>Concurrent event-state surfaces added as QA/support burden</td></tr>
+</tbody></table></div>
+<h2>Status delta · v3.3</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v3.3 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>LiveOps/Event Calendar</td><td>PARTIAL</td><td>HIGH</td><td>My Perfect Hotel in-game IP duration corrected to Apr23 2026→Mar31 2027; store promo separated</td><td>Monthly event-entry/pass/leaderboard participation</td></tr>
+<tr><td>Trend/Cause</td><td>PARTIAL</td><td>HIGH</td><td>Jul/Aug My Perfect Hotel upgraded E1→E2 via aligned Event/Promotion + Version/Content classes</td><td>Source mix, spend, monthly participation and payer exposure</td></tr>
+<tr><td>Production Burden</td><td>PARTIAL</td><td>HIGH</td><td>Long-horizon IP approval/localization/parallel-LiveOps burden added</td><td>Asset-hours, approval SLA, team split</td></tr>
+</tbody></table></div><h2>Status delta · v3.4</h2><div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>v3.4 delta</th><th>Still missing</th></tr></thead><tbody><tr><td>Market/KPI</td><td>PARTIAL</td><td>Fresh matched US both-store Gossip Harbor Aug KPI + Jul back-calc</td><td>Fresh matched-US rows for other Priority8</td></tr><tr><td>LiveOps</td><td>PARTIAL</td><td>17-point version/event cadence + weekly chapter promise</td><td>Exact event participation and asset-hours</td></tr><tr><td>Trend/Cause</td><td>PARTIAL</td><td>Aug installs↓ / revenue↑ anomaly documented at E1</td><td>Source mix or payer/event cohort</td></tr></tbody></table></div>
+<h2>Status delta · v3.6</h2>
+<div class="tbl"><table><thead><tr><th>Requirement</th><th>Status</th><th>Maturity</th><th>v3.6 delta</th><th>Still missing</th></tr></thead><tbody>
+<tr><td>Market/KPI</td><td>PARTIAL</td><td>HIGH</td><td>Fresh US iOS + GP KPI for Township and Hay Day; combined Jul/Aug calculated</td><td>Same fresh platform rows for remaining Priority8; Sep month</td></tr>
+<tr><td>Economy/Monetization</td><td>PARTIAL</td><td>HIGH</td><td>Platform monetization divergence now explicit</td><td>Payer rate, ARPDAU/ARPPU, offer/event exposure</td></tr>
+<tr><td>Trend/Cause</td><td>PARTIAL</td><td>HIGH</td><td>Township platform divergence E1; Hay Day stable-month E0 counterexample</td><td>Source mix + payer/event cohorts</td></tr>
+<tr><td>US/Global</td><td>PARTIAL</td><td>HIGH</td><td>US-first evidence strengthened at store/platform level</td><td>Remaining Priority8 platform rows</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="changelog" class="sec">
+<div class="card"><h3>v3.5 · 2026-09-26</h3><ul>
+<li>Added Big Farm Homestead soft-launch → Q1 global launch → Q2 post-launch normalization lifecycle.</li>
+<li>Added first-party Q1 evidence: BIG franchise +88% organic growth, higher UA investment, Homestead described as Stillfront's most successful launch to date.</li>
+<li>Added first-party Q2 evidence: BIG SEK172m / +79% organic growth with significantly lower UAC than launch-intensive Q1.</li>
+<li>Added Katie Van Slyke creator sponsorship: unique OneLink + KATIEBIGFARM code + 100,000 Coins / 250 Gems.</li>
+<li>Added creator-persona fit, attribution plumbing and reward-economy translation for Ops Cat.</li>
+<li>No title-level causal claim: company/franchise metrics remain separate from Homestead title KPI.</li>
+</ul></div><div class="card"><h3>v3.4 · 2026-09-26</h3><ul><li>Added matched US both-store Gossip Harbor Aug-2026: 893,223 downloads (-23.5%) and $42.29M revenue (+15.6%).</li><li>Added CALCULATED Jul baseline and calendar RPD ~31.33→47.35 (+51.1%).</li><li>Added 17-point Mar18→Sep23 version/LiveOps history; median gap 13.5 days.</li><li>Added weekly Friday episode promise and reusable narrative-event grammar.</li><li>Added Aug event/version overlap as E1 only; no causal promotion.</li></ul></div>
+<div class="card"><h3>v3.0 · 2026-09-25</h3><ul>
+<li>Added Big Farm Homestead first-party weekly Monday voucher cadence for the July Memory Album program.</li>
+<li>Added Sep3 TikTok 1K-follower voucher and Sep10 Instagram 30K-follower voucher as current owned-media milestone activations.</li>
+<li>Added Sep23 TikTok lifestyle/recipe content as a non-reward owned-media touchpoint.</li>
+<li>Added Township 39.0.3→39.0.4→39.0.5 current patch train; latest patch gap is one day.</li>
+<li>Added Hay Day Sep19 current review-window payment/reward signals plus positive counterevidence after iOS 1.72.86.</li>
+<li>No Trend/Cause E-level promotion without matched attribution/quality timing.</li>
+</ul></div><div class="card"><h3>v2.9 · 2026-09-25</h3><ul><li>Added Big Farm Homestead Lv1→10 FTUE/monetization exposure sequence.</li><li>Added exact-version review samples for Office Cat, Township, Gossip Harbor and Hay Day.</li><li>Version-known but timestamp-missing review rows remain non-chronological.</li><li>Added Ops Cat first-ad / first-offer sequencing test.</li><li>No Trend/Cause E-level promotion without timestamp/source alignment.</li></ul></div><div class="card"><h3>v2.8 · 2026-09-25</h3><ul><li>Added Sep-2026 public observed ad-channel architecture for Gossip Harbor, Township and Hay Day.</li><li>Consolidated The Cozy Florist current Meta-heavy ad-plan architecture and Heartopia historical launch creative mix.</li><li>Added Township Sep25 four-track LiveOps stack.</li><li>Added Hay Day economy-modifier, sale/offer and Joe Jonas brand-event examples.</li><li>Observed ad-channel percentages remain separate from spend share, paid/organic install mix and MMP attribution.</li><li>No Trend/Cause E-level promotion.</li></ul></div>
+<div class="card"><h3>v2.6 · 2026-09-25</h3><ul>
+<li>Added Office Cat launch benchmark: 8 initial developers; Nov-2023 start → Jan-2024 soft launch → May-2024 global launch.</li>
+<li>Added Office Cat company-reported scale and US revenue-share history.</li>
+<li>Added Heartopia current backend evidence: high-frequency saves, PITR, 30× restore improvement, 80+ monitoring metrics and minute-level scaling.</li>
+<li>Added Heartopia historical production-scale context, explicitly not relabeled current.</li>
+<li>Added a Production Envelope matrix from Lean modular to Persistent-world heavy.</li>
+<li>No Trend/Cause E-level promotion.</li>
+</ul></div>
+<div class="card"><h3>v2.5 · 2026-09-25</h3><ul>
+<li>Synced the verified 2026-08 US-only DianDian table from main: 7/8 same-scope Downloads + IAP; Heartopia remains scope-mismatched and RPD stays n.a.</li>
+<li>Expanded current visual/store-promise coverage to all Priority8; added 16 new frame-role records for Hay Day, Township, Gossip Harbor and Heartopia.</li>
+<li>Added timed Hay Day early gameplay: harvest/plant at 00:19–00:27; chickens/feed mill/Lv2 at 00:33–00:50.</li>
+<li>Added current Heartopia established-session routine: pet care 00:00–00:27; gardening/harvest 00:35–01:12.</li>
+<li>Normalized formal Status taxonomy to DONE/PARTIAL/BLOCKED/TBD with separate Coverage_Maturity.</li>
+<li>No Trend/Cause E-level promotion.</li>
+</ul></div><h2>Changelog</h2><div class="card"><h3>v1.9 · 2026-09-25</h3><ul>
+<li>Recovered selected current/historical US KPI and source-mix evidence without relabeling scope.</li><li>Added disclosed US Unity campaign performance for My Perfect Hotel and Township.</li>
+<li>Added KR/JP Office Cat CVR/retention/ROAS campaign evidence with non-US guardrails.</li><li>Added richer 30/90/180 creative evidence for Gossip Harbor; Township/Cozy/Heartopia partial histories.</li>
+<li>Added 700K+ My Perfect Hotel Barbie event completion evidence.</li><li>Added Hay Day current 60+ title-team evidence and strengthened production gap labeling.</li>
+<li>Offer/probability evidence expanded for My Perfect Hotel, Hay Day, Township, Heartopia and Gossip Harbor.</li><li>Trend/Cause evidence levels were not inflated where timing/source scope remains unmatched.</li></ul></div>
+
+<div class="card"><h3>v1.9 · 2026-09-25</h3><ul>
+<li>Added a comparable dated US weekly KPI layer for Gossip Harbor, Township, Hay Day, My Perfect Hotel and Office Cat.</li>
+<li>US evidence now contains downloads, IAP revenue and active-user scale for those five titles.</li>
+<li>Added PRIORITY8_DATA_GAP_RECOVERY_v0.2 with strict US-DATED and AU≠DAU labels.</li>
+<li>Kept current 2026 campaign/source evidence separate from historical US KPI to avoid false E2/E3 attribution.</li>
+<li>Current Sep-2026 normalized US monthly KPI remains explicit TBD/PARTIAL.</li>
+</ul></div>
+<div class="card"><h3>v2.0 · 2026-09-25</h3><ul><li>Current platform KPI recovery.</li><li>Provider-break counterevidence.</li><li>Sep-2026 LiveOps/CRM cadence.</li><li>Review/version risk and monetization fairness layer.</li><li>No unsupported Trend/Cause upgrade.</li></ul></div>
+<div class="card"><h3>v2.1 · 2026-09-25</h3><ul>
+<li>Corrected Big Farm Homestead September event starts using first-party Sep11/Sep18 posts: Deepwoods Pass Sep14; County Fair + Dino Drama Sep21.</li>
+<li>Added current Heartopia overlap: 4 major tracks Sep25, 5 Sep26, 6 Sep30; separate CRM sign-in modifier excluded from major-track count.</li>
+<li>Added Office Cat v1.0.80 content/monetization/QA release-train evidence: City7 + Payment Challenge + save/ranking fixes.</li>
+<li>Calculated Gossip Harbor public reward-link median cadence at 2 days for Sep11–24 sample while retaining weekly narrative cadence separately.</li>
+<li>LiveOps and Reviews/Versions advance to PARTIAL+++; no causal evidence-level upgrade.</li>
+</ul></div>
+<div class="card"><h3>v2.2 · 2026-09-25</h3><ul><li>Heartopia first-hour and first-week progression evidence.</li><li>Hay Day first-party 2026 onboarding rebuild evidence.</li><li>Big Farm Homestead Lv1→3 tutorial/autonomy sequence.</li><li>Gossip Harbor current board/energy friction cliff.</li><li>The Cozy Florist Part-1 route and Lv10/Lv31 progression gates.</li><li>FTUE and Progression advance to PARTIAL++; Trend/Cause levels unchanged.</li></ul></div>
+<div class="card"><h3>v2.4 · 2026-09-25</h3><ul>
+<li>Added Hay Day current first-party Farm Pass Bundle Subscription and Supercell Store D2C loyalty architecture.</li>
+<li>Added Heartopia White Snake free-earn → Heart-Diamond acceleration → Premium-tier event economy.</li>
+<li>Added Big Farm Homestead Growth Fund / Market Deals / Hot Deals / Festival Pass architecture.</li>
+<li>Calculated 11 observed Big Farm public voucher/gift touchpoints Jan16–May21 with median 13-day gap.</li>
+<li>Added first-party Big Farm incident recovery log covering wrong pass, activation crash, pass progression loss and reward-display mismatch.</li>
+<li>Retained v2.3 release-surface/state/regression production-burden layer.</li>
+<li>Economy/Monetization advances to PARTIAL+++; Trend/Cause remains bounded.</li>
+</ul></div><div class="card"><h3>v2.7 · 2026-09-25</h3><ul><li>Added current US My Perfect Hotel Unity cohort-quality case.</li><li>Added current US Township D28 IAP ROAS cohort-quality case.</li><li>Added Office Cat Korea/Japan Playio retention/ROAS cases with strict non-US scope.</li><li>Added X.D. portfolio payer context with Heartopia title-level guardrail.</li><li>Added KPI-calibration separation between external benchmark, competitor case and internal owner targets.</li></ul></div>
+<div class="card"><h3>v3.1 · 2026-09-25</h3><ul>
+<li>Added My Perfect Hotel Barbie Dream Hotel IP wrapper across visible Jul→Sep versions.</li>
+<li>Added pass / leaderboard / character-story / exclusive-skin structure as a LiveOps/collection wrapper.</li>
+<li>Upgraded My Perfect Hotel Jul/Aug reacceleration from E0 to E1 candidate-driver context; no causal promotion.</li>
+<li>Added Sep8–10 current ad-pressure review cluster for My Perfect Hotel with positive counterevidence.</li>
+<li>Added Office Cat Sep17–19 current review counterevidence and one payment/support early-warning row.</li>
+<li>Added Ops Cat IP-wrapper prototype and forced-ad quality guardrails.</li>
+</ul></div>
+<div class="card"><h3>v3.3 · 2026-09-26</h3><ul>
+<li>Corrected My Perfect Hotel Barbie in-game duration to Apr23 2026→Mar31 2027 using first-party SayGames evidence.</li>
+<li>Separated Apr21–May20 App Store event-card merchandising from the in-game event lifecycle.</li>
+<li>Added company-reported 700K+ completions by Jun16 and explicit returning-player / lifecycle-extension strategy.</li>
+<li>Upgraded Jul/Aug My Perfect Hotel anomaly from E1 to E2 using aligned Event/Promotion + Version/Content classes.</li>
+<li>Kept acquisition cause unresolved because paid/organic/source mix and campaign spend remain unavailable.</li>
+</ul></div>
+<div class="card"><h3>v3.2 · 2026-09-26</h3><ul>
+<li>Added Gossip Harbor energy-link CRM cadence and Cozy Florist weekly gift-code evidence.</li>
+<li>Added Heartopia late-Sep/early-Oct high-concurrency event-state map.</li>
+<li>Separated owned/community CRM from paid UA/source mix.</li>
+</ul></div>
+<div class="card"><h3>v3.6 · 2026-09-26</h3><ul>
+<li>Added fresh US Aug-2026 iOS + Google Play Downloads/Revenue for Township and Hay Day.</li>
+<li>Calculated Township combined Aug: 5.842M downloads / $44.115M revenue; vs calculated Jul, downloads -36.2%, revenue -5.4%, calendar RPD +48.3%.</li>
+<li>Documented Township platform divergence: iOS revenue -19.7% vs Google Play revenue +19.6%; Google Play downloads -45.8%.</li>
+<li>Calculated Hay Day combined Aug: 1.776M downloads / $15.080M revenue; no material monthly anomaly under default thresholds.</li>
+<li>Added Hay Day as counterevidence that visible LiveOps/content does not necessarily create a monthly KPI spike.</li>
+<li>Added Ops Cat platform-specific launch/scale gates and blended-RPD guardrail.</li>
+</ul></div>
+</section>
+
+</main><div class="foot">SIMS Full Competitor Intelligence Atlas v3.6 · 2026-09-26 · US-first / Global-secondary · evidence-bounded</div>
+<script>const T=[...document.querySelectorAll('.tab')],S=[...document.querySelectorAll('.sec')];T.forEach(b=>b.onclick=()=>{T.forEach(x=>x.classList.remove('on'));S.forEach(x=>x.classList.remove('on'));b.classList.add('on');document.getElementById(b.dataset.id).classList.add('on')});</script>
+</body></html>
