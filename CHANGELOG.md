@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.4 — 2026-09-25
+- Published `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.4_2026-09-25.html` as the current full atlas.
+- Integrated Focus-4 public gameplay videos and current official Store sources into the latest v1.3 evidence stack.
+- Added Media Evidence workflow: URL → timestamp → evidence frames → FTUE/Core/Meta → Art → Creative Truthfulness.
+- Added public-media source manifest and evidence pack.
+- Preserved copyright boundary: full third-party videos remain linked, not rehosted.
+- Current exact FTUE, US-only KPI/source mix and full creative performance history remain explicit gaps.
+
 ## v1.3 — 2026-09-24
 - Added a normalized two-year DataEye AdXray audit for the Priority 8 using exact Android package searches.
 - Captured all/default/smart de-dup record counts plus Facebook-family, Google-family and US smart-de-dup coverage proxies.
