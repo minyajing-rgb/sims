@@ -1,0 +1,6 @@
+Objective,Benchmark,Why this title,What to learn,What NOT to copy,Evidence
+LiveOps decoupling,Heartopia,"Aug25 iOS client with late-Sep official events","Track client cadence separately from event configuration","Do not infer backend implementation","SOURCE + CALCULATED + INFERRED"
+Launch creative architecture,Heartopia,"~8K Jan creatives; 97.33% video; vertical dominant","Use reusable gameplay/customization/creator templates","Do not copy global ratios into US","SOURCE / GLOBAL SECONDARY"
+Monetization breadth,Heartopia,"US currency ladder plus memberships and event passes","Separate evergreen and event monetization","Do not infer conversion or segmentation","CURRENT US STORE + FIRST-PARTY"
+Social operations,Heartopia,"Chat, UGC, parties, friend progress and blueprints","Treat social features as backend, moderation and QA work","Do not scale state complexity without support capacity","CURRENT US STORE + FIRST-PARTY"
+Release planning,Heartopia,"Sep service updates while iOS remains 0.5.5","Track binary and service releases independently","Do not use App Store history as the full LiveOps calendar","FIRST-PARTY / CURRENT"
