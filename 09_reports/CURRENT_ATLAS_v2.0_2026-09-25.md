@@ -1,0 +1,7 @@
+# Current Atlas
+
+v2.0 — 2026-09-25
+
+HTML: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v2.0_2026-09-25.html`
+Status: `09_reports/STATUS_AUDIT_v2.0_2026-09-25.csv`
+Benchmark: `09_reports/BENCHMARK_BY_OBJECTIVE_v1.2_2026-09-25.csv`

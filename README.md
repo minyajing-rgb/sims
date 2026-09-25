@@ -35,12 +35,15 @@ skills/               可复用分析方法
 
 ## Current Full Competitor Intelligence Atlas
 
-- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.9_2026-09-25.html`
-- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.9_RELEASE_NOTES_2026-09-25.md`
-- **Current pointer:** `09_reports/CURRENT_ATLAS_v1.9_2026-09-25.md`
-- **Status audit:** `09_reports/STATUS_AUDIT_v1.9_2026-09-25.csv`
-- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v1.1_2026-09-25.csv`
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v2.0_2026-09-25.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v2.0_RELEASE_NOTES_2026-09-25.md`
+- **Current pointer:** `09_reports/CURRENT_ATLAS_v2.0_2026-09-25.md`
+- **Status audit:** `09_reports/STATUS_AUDIT_v2.0_2026-09-25.csv`
+- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v1.2_2026-09-25.csv`
 - **Data-gap recovery:** `09_reports/PRIORITY8_DATA_GAP_RECOVERY_v0.2_2026-09-25.csv`
+- **Current platform KPI recovery:** `01_watchlist/PRIORITY8_CURRENT_PLATFORM_KPI_RECOVERY_v0.1_2026-09-25.csv`
+- **Current LiveOps calendar:** `06_ua_liveops/PRIORITY8_CURRENT_LIVEOPS_EVENT_CALENDAR_v0.3_2026-09-25.csv`
+- **Review/version risk recovery:** `09_reports/PRIORITY8_REVIEW_VERSION_RISK_RECOVERY_v0.2_2026-09-25.csv`
 - **UA / Creative recovery:** `06_ua_liveops/PRIORITY8_UA_CREATIVE_PERFORMANCE_RECOVERY_v0.4_2026-09-25.csv`
 - **Event / Offer / Engagement recovery:** `09_reports/PRIORITY8_EVENT_OFFER_ENGAGEMENT_RECOVERY_v0.1_2026-09-25.csv`
 
