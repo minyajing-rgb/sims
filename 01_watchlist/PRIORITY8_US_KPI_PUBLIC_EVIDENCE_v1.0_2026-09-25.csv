@@ -1,0 +1,11 @@
+product,market,platform_scope,window,downloads,iap_revenue,active_users,metric_granularity,evidence_label,source,notes
+Gossip Harbor,US,Unified,Q4 2025 final week,~247K,~$8.2M,>1.2M,weekly,SOURCE / EXTERNAL / DATED,https://sensortower.com/blog/2025-q4-unified-top-5-drama-games-revenue-us-602160ea241bc16eb8940bf3,"US weekly evidence; not current 2026 monthly"
+Township,US,Unified,Q4 2025 final week,~368K,~$6.2M,~2.2M,weekly,SOURCE / EXTERNAL / DATED,https://sensortower.com/blog/2025-q4-unified-top-5-tycoon-games-units-us-602ae798241bc16eb86ec5ed,"Active users declined from ~2.7M to ~2.2M over quarter"
+Hay Day,US,Unified,Q4 2025 final week,"peak 53.9K",~$1.4M,~1.5M,weekly,SOURCE / EXTERNAL / DATED,https://sensortower.com/blog/2025-q4-unified-top-5-tycoon-games-units-us-602ae798241bc16eb86ec5ed,"Revenue peaked ~1.6M early Dec"
+My Perfect Hotel,US,Unified,Q4 2025 final week,>152K,~$56K,>613K,weekly,SOURCE / EXTERNAL / DATED,https://sensortower.com/blog/2025-q4-unified-top-5-business-games-units-us-6023dfa3241bc16eb8392c45,"Downloads rose from ~58K during quarter"
+Office Cat,US,Unified,Q3 2025 final week,~11.3K,~$40.9K,~96.2K,weekly,SOURCE / EXTERNAL / DATED,https://sensortower.com/blog/2025-q3-unified-top-5-cat%20games-revenue-us-608810b928293296047965a0,"Active users fell from ~139.5K to ~96.2K"
+Gossip Harbor,US,iOS+Android fleet/ranking estimate,2026-08-19 ranking period,"758,507",TBD,TBD,provider current-period estimate,SOURCE / EXTERNAL / NEAR-CURRENT,https://www.admapix.com/blog/ad-intelligence/gossip-harbor-ad-strategy-2026,"-19.06% period-over-period; revenue absent"
+Township,US,iOS+Android fleet/ranking estimate,2026-08-19 ranking period,"850,227",TBD,TBD,provider current-period estimate,SOURCE / EXTERNAL / NEAR-CURRENT,https://www.admapix.com/zh/blog/ad-intelligence/township-ad-strategy-2026,"+2.03% period-over-period; revenue unavailable in pull"
+Heartopia,US,TBD,2026 current,TBD,TBD,TBD,TBD,TBD / NOT AVAILABLE,,"No reliable current US-only monthly downloads/revenue found"
+Big Farm Homestead,US,TBD,2026 current,TBD,TBD,TBD,TBD,TBD / NOT AVAILABLE,,"No reliable public current US-only monthly KPI found"
+The Cozy Florist,US,TBD,2026 current,TBD,TBD,TBD,TBD,TBD / NOT AVAILABLE,,"Current US creative plan pool exists; no reliable public US-only monthly KPI found"
