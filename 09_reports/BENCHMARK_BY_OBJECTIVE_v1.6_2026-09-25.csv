@@ -1,0 +1,7 @@
+Objective,Benchmark,Why this title,What to learn,What NOT to copy,Evidence
+Pass subscription value,Hay Day,"Current first-party bundle links recurring pass to progression and storage utility","Subscription needs persistent utility beyond cosmetics","Do not add subscription before pass value and renewal UX are clear","FIRST-PARTY / CURRENT"
+D2C loyalty,Hay Day,"Supercell Store rewards purchases with bonus and ID-reward progress","Web store can layer loyalty on top of IAP","Do not infer store share or CAC without transaction data","FIRST-PARTY / CURRENT"
+Free-to-premium event economy,Heartopia White Snake,"Free quests earn event currency while hard currency accelerates and unlocks premium tier","Keep visible free path while premium expands collection","Do not copy without value transparency and legal review","CURRENT-SCHEDULED"
+CRM voucher cadence,Big Farm Homestead,"11 dated first-party voucher/gift touchpoints Jan16-May21; median observed gap 13d","Use community rewards between major updates","Do not treat observed posts as retention attribution","CALCULATED FROM FIRST-PARTY BLOG"
+Pass incident recovery,Big Farm Homestead,"Pass incidents show rollback workaround and progress-preserving recovery","Design entitlement preservation before scaling passes","Do not compensate every incident with generic currency only","FIRST-PARTY"
+Energy generosity,Gossip Harbor,"Current guide documents layered free-energy earn paths","Use multiple earn paths before hard purchase pressure","Do not treat guide totals as publisher telemetry","CURRENT GUIDE"
