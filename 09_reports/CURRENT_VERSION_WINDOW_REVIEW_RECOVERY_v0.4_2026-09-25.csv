@@ -1,0 +1,8 @@
+product,platform,version,version_date,review_or_signal_date,signal,alignment_class,evidence_label,source_ref,causal_use
+Township,Android,39.0.3,2026-09-17,,Major content release baseline,Release baseline,SOURCE / CURRENT VERSION,public version history,Baseline for patch-train timing
+Township,Android,39.0.4,2026-09-23,,Patch release one day before 39.0.5,Patch train,SOURCE / CURRENT VERSION,public version history,No public fix note recovered
+Township,Android,39.0.5,2026-09-24,,Latest current Android version,Patch train,SOURCE / CURRENT VERSION,public version history,Too fresh for mature post-version review window on Sep25
+Township,Android,39.0.3→39.0.5,2026-09-17→2026-09-24,,3 visible versions in 8 calendar days; latest gap 1 day,Calculated patch cadence,CALCULATED / CURRENT,public version history,Release-operations signal only
+Hay Day,iOS,1.72.86,2026-08-18,2026-09-19,Farm Pass and diamond double-charge/refund complaint,Post-version window; exact review version unknown,REVIEW / CURRENT WINDOW,US review page,Payment/support early-warning only
+Hay Day,iOS,1.72.86,2026-08-18,2026-09-19,Wheel reward value/fairness complaint,Post-version window; exact review version unknown,REVIEW / CURRENT WINDOW,US review page,Reward-value sentiment only
+Hay Day,iOS,1.72.86,2026-08-18,2026-09-19,Positive current sentiment about recent changes,Post-version window; exact review version unknown,REVIEW / COUNTEREVIDENCE,US review page,Counterevidence against universalizing complaints
