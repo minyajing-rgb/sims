@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.5 — 2026-09-25
+- Published offline-safe Full Competitor Intelligence Atlas v1.5.
+- Removed automatic third-party image/video loading from the local HTML path to prevent repeated permission prompts.
+- Added Cozy/Light-Sim category research v1.0.
+- Added FTUE + Media Evidence Research Chain v1.0.
+- Added category-level decisions for first 3 seconds, first 30 minutes, D7+ meta, art scope, LiveOps weight and small-team production burden.
+- Media evidence now uses explicit source links + timestamps instead of autoplay/embed behavior.
+
 ## v1.4 — 2026-09-25
 - Published `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.4_2026-09-25.html` as the current full atlas.
 - Integrated Focus-4 public gameplay videos and current official Store sources into the latest v1.3 evidence stack.
