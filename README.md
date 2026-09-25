@@ -96,8 +96,11 @@ skills/               可复用分析方法
 ### Category Research
 - `00_master/COZY_LIGHTSIM_CATEGORY_RESEARCH_v1.0_2026-09-25.md`
 - `03_gameplay/FTUE_MEDIA_RESEARCH_CHAIN_v1.0_2026-09-25.md`
-- `09_reports/SIMS_COZY_LIGHTSIM_CATEGORY_RESEARCH_ATLAS_v1.0_2026-09-25.html`
+- `09_reports/SIMS_COZY_LIGHTSIM_CATEGORY_RESEARCH_ATLAS_v1.1_2026-09-25.html`
+- `09_reports/PRIORITY8_FTUE_NEW_PLAYER_COVERAGE_MATRIX_v1.0_2026-09-25.csv`
+- `09_reports/PRIORITY8_FTUE_NEW_PLAYER_ANALYSIS_v1.0_2026-09-25.md`
 - Local HTML uses offline-safe source links instead of auto-loading third-party video/images.
+- New-player evidence is now explicit by title: TIMED vs SEQUENCE vs LEVEL-GATE vs TBD.
 
 ### Current Full Competitor Intelligence Atlas
 - **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.5_OFFLINE_SAFE_2026-09-25.html`
