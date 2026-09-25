@@ -18,7 +18,7 @@
 </header>
 <div class="notice"><b>证据边界：</b> DataEye 的“广告记录 / 智能去重 / 预估曝光 / 下载量”是供应商口径，不是官方 spend、CTR、CVR 或归因安装。下文的媒体和美国百分比是智能去重素材的<b>覆盖指数</b>，不是预算份额；同一素材可能跨媒体出现，所以不可相加。</div>
 <nav class="tabs">
-  <button class="active" data-tab="decision">Cozy 决策</button><button data-tab="matrix">UA 矩阵</button><button data-tab="creative">素材拆解</button><button data-tab="cross">趋势交叉验证</button><button data-tab="af">A–F 结论</button>
+  <button class="active" data-tab="decision">Cozy 决策</button><button data-tab="matrix">UA 矩阵</button><button data-tab="creative">素材拆解</button><button data-tab="cross">趋势交叉验证</button><button data-tab="closure">数据补全</button><button data-tab="af">A–F 结论</button>
 </nav>
 
 <main>
@@ -91,6 +91,41 @@
   </div>
 </section>
 
+<section id="closure" class="panel">
+  <div class="section"><h2>Priority 8 · 美国当前月下载 / IAP</h2>
+    <p class="muted">点点可见表格，筛选为 <b>地区=美国、月=2026-08</b>，捕获于 2026-09-25。RPD 是同月收入÷下载，仅用于同口径日历月比较；不是 cohort ARPI、LTV、CAC 或 ROAS。</p>
+    <div class="tablewrap"><table><thead><tr><th>游戏</th><th>US 下载</th><th>US IAP</th><th>Calendar RPD</th><th>证据状态</th></tr></thead><tbody>
+      <tr><td>Gossip Harbor</td><td class="num">1,047,629</td><td class="num">$24,919,912</td><td class="num">$23.79</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>Township</td><td class="num">1,214,831</td><td class="num">$20,678,092</td><td class="num">$17.02</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>Hay Day</td><td class="num">300,917</td><td class="num">$5,841,220</td><td class="num">$19.41</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>Big Farm Homestead</td><td class="num">155,673</td><td class="num">$459,702</td><td class="num">$2.95</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>The Cozy Florist</td><td class="num">349,075</td><td class="num">$360,629</td><td class="num">$1.03</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>Office Cat</td><td class="num">1,779</td><td class="num">$28,014</td><td class="num">$15.75</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>My Perfect Hotel</td><td class="num">561,384</td><td class="num">$377,229</td><td class="num">$0.67</td><td><span class="badge source">VERIFIED</span></td></tr>
+      <tr><td>Heartopia</td><td class="num">57,677</td><td class="num">$1,211,751</td><td class="num">n.a.</td><td><span class="badge inferred">SCOPE MISMATCH</span> 下载来自产品合集的美国 Top-5 国家拆分；US 筛选下载表无行，收入来自 US 筛选表，禁止计算 RPD。</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="section"><h2>这次要求：已取得、部分取得、不可公开取得</h2>
+    <div class="tablewrap"><table><thead><tr><th>字段</th><th>状态</th><th>已取得</th><th>仍缺 / 不能推</th></tr></thead><tbody>
+      <tr><td>US monthly Downloads / IAP</td><td><span class="badge source">PARTIAL</span></td><td>8 款 2026-08 当前月；7 款同一 US 表口径</td><td>3–5 年完整 US 月表尚未标准化；Heartopia 下载/收入 scope 不同</td></tr>
+      <tr><td>Paid / organic / source mix</td><td><span class="badge tbd">NOT AVAILABLE</span></td><td>仅有素材、媒体、地区覆盖代理</td><td>没有 MMP 或广告账户归因，不能由素材数反推</td></tr>
+      <tr><td>Spend / CPI / CTR / CVR / ROAS</td><td><span class="badge tbd">NOT AVAILABLE</span></td><td>无验证过的 campaign KPI</td><td>预估曝光、创意数、RPD 都不能替代 ROAS</td></tr>
+      <tr><td>30 / 90 / 180-day creative history</td><td><span class="badge inferred">BLOCKED</span></td><td>已有两年窗 DataEye 代理与代表素材</td><td>当前 AdXray 登录已过期；重新登录后补标准化窗口</td></tr>
+      <tr><td>T+0→30m + D1/D3/D7/D14</td><td><span class="badge tbd">NOT AVAILABLE</span></td><td>可做公开商店/实机观察协议</td><td>竞品 cohort 不是公开字段；需统一 14 天 playtest</td></tr>
+      <tr><td>Review-by-version</td><td><span class="badge source">PARTIAL</span></td><td>Apple 官方 RSS 最近 50 条可按版本切片，Priority8 已抓</td><td>不是全量历史；The Cozy Florist 美国区无样本，改用英国区</td></tr>
+      <tr><td>Offer trigger / segmentation / probability / frequency</td><td><span class="badge source">PARTIAL</span></td><td>Hay Day 有官方等级触发、一次性/短时、个性化依据与概率入口</td><td>其他产品绝大多数玩家级分层、实验组和频次未公开</td></tr>
+      <tr><td>Event participation / payer / DAU</td><td><span class="badge source">PARTIAL</span></td><td>My Perfect Hotel 官方称 70 万+ 玩家完成 Barbie event</td><td>不是 DAU/payer；其余大多无 title-level 当前精确值</td></tr>
+      <tr><td>Team / asset-hours / QA / outsourcing</td><td><span class="badge source">PARTIAL</span></td><td>Hay Day 官方称团队 60+；多款活动时长有官方证据</td><td>绝大多数精确 FTE、工时、QA 数和外包比例未公开，禁止按公司人数分摊</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="section grid">
+    <article class="card span6 recommend"><h3>对 Cozy Sims 可直接用</h3><ul><li>把 US 当前月拆成“规模 × 日历月 RPD”两轴，但用同 scope 才比较。</li><li>把 review-by-version 当异常发现器，不当总体口碑。</li><li>Offer 学习优先用公开规则最完整的 Hay Day：等级触发、短时、一次性、账号进度个性化。</li><li>以活动完成数、版本节奏和官方时长做内容需求下限，不把它们等同参与率或产能。</li></ul></article>
+    <article class="card span6 avoid"><h3>不能写进模型</h3><ul><li>不能把创意数量或媒体覆盖当 spend / paid share。</li><li>不能用集团 MAU、公司人数或招聘人数分摊到单款。</li><li>不能把同月 RPD 当 LTV 或 ROAS。</li><li>不能从更新频率推 asset-hours、QA FTE 或 outsourcing ratio。</li></ul></article>
+  </div>
+</section>
+
 <section id="af" class="panel">
   <div class="section"><h2>A–F 证据结论</h2><div class="af">
     <article class="card"><h3>A · What changed</h3><ul><li>Priority 8 的广告素材量、Facebook/Google/US 覆盖与代表卡已补。</li><li>原报告“creative history 全缺失”被缩小为：已有两年窗代理，但仍无 spend/CTR/CVR/paid-organic。</li><li>可见四种获量系统：剧情冲突、奖励/成长、真实 core、身份/生活方式。</li></ul></article>
@@ -103,7 +138,7 @@
 </section>
 </main>
 
-<footer class="foot">Sources: licensed DataEye AdXray visible UI (captured 2026-09-24); DianDian Priority 8 monthly panel through 2026-08; official App Store, Google Play, game websites and official update/news pages. Evidence labels: SOURCE = source-provided; OBSERVED = visible card/page; CALCULATED = transparent arithmetic; INFERRED = hypothesis; TBD = unresolved.</footer>
+<footer class="foot">Sources: licensed DataEye AdXray visible UI (captured 2026-09-24; current 30/90/180 refresh blocked by expired login); DianDian Priority 8 US monthly panel captured 2026-09-25; official Apple feeds, App Store, Google Play, game websites and publisher/update/news pages. Evidence labels: SOURCE = source-provided; OBSERVED = visible card/page; CALCULATED = transparent arithmetic; INFERRED = hypothesis; TBD = unresolved.</footer>
 </div>
 <script>
 const DATA=[
