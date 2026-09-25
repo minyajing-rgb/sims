@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.6 — 2026-09-25
+- Added Priority8 new-player / FTUE coverage matrix and analysis.
+- Explicitly separated My Perfect Hotel's minute-level historical evidence from other titles' sequence / level-gate evidence.
+- Added Office Cat, Big Farm Homestead, The Cozy Florist, Heartopia, Township, Hay Day and Gossip Harbor newbie evidence status.
+- Published category atlas v1.1 and full offline-safe atlas v1.6.
+
 ## v1.5 — 2026-09-25
 - Published offline-safe Full Competitor Intelligence Atlas v1.5.
 - Removed automatic third-party image/video loading from the local HTML path to prevent repeated permission prompts.
