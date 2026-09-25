@@ -1,0 +1,16 @@
+Requirement,Status,Coverage,Gap
+Market/KPI,PARTIAL++,Current provider evidence retained,Current normalized US monthly D/IAP incomplete
+Art/Visual,PARTIAL+,Focus4 annotated evidence retained,Broader current frames incomplete
+Core Gameplay,PARTIAL+,Priority loops retained,Current first-30s recordings incomplete
+FTUE,PARTIAL++,Current onboarding evidence expanded,Exact current T+0→30m incomplete
+Progression/Meta/Side,PARTIAL++,Current progression gates expanded,Some gates remain guide-derived
+Economy/Monetization,PARTIAL++,Current signals retained,Offer frequency and conversion incomplete
+LiveOps/Event Calendar,PARTIAL+++,Current overlap/cadence retained,Participation incomplete
+UA/Creative/Promotion,PARTIAL++,Current recovery retained,Absolute efficiency and normalized histories incomplete
+Reviews/Versions,PARTIAL+++,Current version/risk evidence retained,Full exact review-version export missing
+Trend/Cause,DONE/PARTIAL,Evidence-bounded crosschecks retained,Matched current US source mix missing
+Production Burden,PARTIAL++,Existing production evidence retained,Asset-hours and QA ratios missing
+Benchmark-by-Objective,DONE,Onboarding objectives added,US acquisition efficiency incomplete
+Product Translation,DONE/PARTIAL,Tutorial-release and pressure instrumentation added,Prototype telemetry needed
+US/Global,DONE/PARTIAL,US-first scope retained,Current normalized US table incomplete
+Evidence Audit,DONE,v2.2 coverage recorded,Material gaps remain
