@@ -75,6 +75,20 @@ Full Atlas scope:
 - Township public US IAP snapshot: semantic price ladder $1.99–$19.99.
 - Heartopia SANRIO pool: draw-dependent probability disclosure; pool-specific, not universal gacha rule.
 
+### DataEye AdXray / UA Creative
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_OBSERVATIONS_2026-09-24.csv`
+- `06_ua_liveops/DATAEYE_PRIORITY8_ADX_AUDIT_2026-09-24.md`
+- `01_watchlist/PRIORITY8_AD_CREATIVE_PRIMARY_CROSSCHECK_2026-09-24.md`
+- `09_reports/SIMS_PRIORITY8_ADX_UA_CREATIVE_ANALYSIS_v1.0_2026-09-24.html`
+- `01_watchlist/DIANDIAN_PRIORITY8_US_CURRENT_MONTH_2026-08.csv`
+- `09_reports/PRIORITY8_REQUESTED_DATA_COVERAGE_MATRIX_2026-09-25.csv`
+- `09_reports/PRIORITY8_REMAINING_DATA_PRIMARY_SOURCE_AUDIT_2026-09-25.md`
+- Scope: Priority 8 Android package exact-search, 2024-09-24 to 2026-09-24.
+- Current US Downloads / IAP snapshot covers 2026-08; Heartopia download and revenue scopes are explicitly not merged for RPD.
+- DataEye smart de-dup is a creative-volume proxy, not spend, CTR/CVR, paid share or verified campaign count.
+- The standardized current 30/90/180-day refresh is blocked until the licensed DataEye session is logged in again.
+- Licensed raw creatives remain local; the repository stores normalized observations, source/method and evidence-bounded conclusions.
+
 ### Team / Production
 - Hay Day: **current title team >60** as of Jun-2026.
 - Township: ~20 at creation → ~130 by 2023; historical only.
