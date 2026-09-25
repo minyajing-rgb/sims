@@ -1,0 +1,11 @@
+objective,primary_benchmark,secondary_benchmark,why_this_title,what_to_learn,what_not_to_copy,evidence_status
+Lean prototype staffing,My Perfect Hotel,Hay Day,"Historical small expert teams","One readable core and narrow initial scope","Assume historical team size equals current team","PARTIAL+"
+Mature live-service scale,Township,Heartopia,"Public organization/team-scale signals","Scale organization with system breadth","Mature staffing as MVP template","PARTIAL+"
+Shared-code production acceleration,Big Farm Homestead,Office Cat,"Current shared-code/system evidence + modularity","Reuse code/UI/event/environment systems","Bespoke feature stack for every update","STRONG/PARTIAL"
+High creative throughput,The Cozy Florist,My Perfect Hotel,"Current 30d external creative/ad-plan tracker + publisher tooling","Measure winner-rate per asset-hour and reuse","Creative volume as a PMF metric","PARTIAL++"
+Narrative portfolio reuse,Gossip Harbor,Township,"Multi-title merge expertise / mature event engines","Reuse engine and content shells","Bespoke weekly mechanics","PARTIAL+"
+IP/global operations,Heartopia,My Perfect Hotel,"Global IP reuse plus approvals/localization; current IP liveops","Reuse proven assets and separate approval pipeline","IP before retention proof","PARTIAL+"
+US public scale evidence,Township,Gossip Harbor,"Near-current Aug-2026 US download estimates + dated US weekly revenue/AU","Keep market scope explicit and separate current vs dated evidence","Relabel dated weekly data as current monthly KPI","PARTIAL+"
+Evergreen creative longevity,Township,Gossip Harbor,"910d and 398d observed live assets with rolling-30d delivery","Keep evergreen winners alongside refresh lane; fingerprint assets","Assume longevity alone proves winner or ROAS","PARTIAL++"
+Current Meta-heavy creative operations,The Cozy Florist,Heartopia,"Current 30d creative/ad-plan monitoring with market/channel coverage","Separate product-content burden from acquisition creative factory","Coverage share as spend share","PARTIAL++"
+Source-mix causal readiness,Gossip Harbor,Township,"Current US creative delivery context but no verified paid/organic/spend mix","Require matched source mix before E2+ causal claims","Use ad-plan/impression proxies as attribution","PARTIAL"
