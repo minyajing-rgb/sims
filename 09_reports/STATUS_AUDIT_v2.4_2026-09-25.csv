@@ -1,0 +1,16 @@
+Requirement,Status,Coverage,Still Missing
+Market/KPI,PARTIAL++,Current and dated provider evidence,Normalized Sep-2026 US monthly D/IAP across Priority8
+Art/Visual,PARTIAL+,Focus4 annotated visual evidence,Broader current event/paywall/store frames
+Core Gameplay,PARTIAL+,Priority loops classified,Current first-30s captures
+FTUE,PARTIAL++,Current onboarding/gates,Exact current T+0-to-30m across Priority8
+Progression/Meta/Side,PARTIAL++,Current gates and taxonomy,Direct validation for guide-derived gates
+Economy/Monetization,PARTIAL+++,Current subscription D2C event-premium and progression-linked architecture,Trigger segmentation frequency conversion
+LiveOps/Event Calendar,PARTIAL+++,Current overlap plus first-party CRM/recovery patterns,Standardized participation and full all-title history
+UA/Creative/Promotion,PARTIAL++,Current creative/source/performance evidence,Absolute spend/CPI/CTR/CVR and all-title same-provider histories
+Reviews/Versions,PARTIAL+++,Current version/quality/recovery evidence,Full exact review-by-version corpus
+Trend/Cause,DONE/PARTIAL,Evidence-bounded E0/E1 crosschecks,Matched current US source mix
+Production Burden,PARTIAL+++,Release-surface/state/regression burden,Asset-hours QA FTE outsourcing ratio
+Benchmark-by-Objective,DONE,v1.6 objectives,US acquisition efficiency
+Ops Cat Product Translation,DONE/PARTIAL,Monetization ladder CRM separation recovery rules,Own prototype/pass telemetry
+US/Global,DONE/PARTIAL,US-first scope retained,Current normalized US KPI
+Evidence/Status Audit,DONE,v2.4 explicit status,Material gaps remain
