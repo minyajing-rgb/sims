@@ -1,0 +1,8 @@
+Objective,Benchmark,Why this title,What to learn,What NOT to copy,Evidence
+Observed ad-channel concentration,Gossip Harbor,Current observed activity: AppLovin 55% / AdMob 18% / Vungle 8%,Pair channel concentration with long-lived creative-winner evidence,Do not call observed channel % spend or install mix,SOURCE / CURRENT OBSERVED
+Broad multi-channel distribution,Township,17 observed channels: Unity 18% / Facebook 13% / Instagram 12%,Diversified delivery can coexist with Unity long-LTV optimization,Do not infer budget shares,SOURCE / CURRENT OBSERVED
+Mature farm UA mix,Hay Day,16 observed channels: AppLovin 20% / Facebook 9% / Audience Network 9%,Long-lived farm title still has active performance distribution,Do not infer dependence on paid installs,SOURCE / CURRENT OBSERVED
+Meta creative factory,The Cozy Florist,6939 plans / 2291 creatives in 30d with about 94% FB/IG coverage,High creative throughput plus market-specific plan pools,Coverage overlaps and is not budget allocation,SOURCE / CURRENT
+Launch creative burst,Heartopia,about 8K January launch creatives and 97.33% video,Localized video libraries can create global launch visibility,Historical launch is not steady-state mix,SOURCE / HISTORICAL LAUNCH
+Event-engine orchestration,Township,Pass + Expedition + Collection + Co-op adventure active Sep25,Wrap reusable engines instead of inventing four new cores,Do not copy four-track concurrency into MVP,SOURCE / CURRENT EVENTS
+Low-asset LiveOps modifier,Hay Day,2x crop-growth event reuses the farm core,Economy modifiers create freshness with low feature burden,Do not destabilize economy/sinks,SOURCE / RECENT EVENT
