@@ -93,10 +93,16 @@ skills/               可复用分析方法
 - `01_watchlist/HEARTOPIA_DOWNLOAD_TRAJECTORY_2026-09-24.md`
 - `04_data_method/DIANDIAN_MONTHLY_SCHEMA_v0.2.md`
 
+### Category Research
+- `00_master/COZY_LIGHTSIM_CATEGORY_RESEARCH_v1.0_2026-09-25.md`
+- `03_gameplay/FTUE_MEDIA_RESEARCH_CHAIN_v1.0_2026-09-25.md`
+- `09_reports/SIMS_COZY_LIGHTSIM_CATEGORY_RESEARCH_ATLAS_v1.0_2026-09-25.html`
+- Local HTML uses offline-safe source links instead of auto-loading third-party video/images.
+
 ### Current Full Competitor Intelligence Atlas
-- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.4_2026-09-25.html`
-- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.4_RELEASE_NOTES_2026-09-25.md`
-- **Current pointer:** `09_reports/CURRENT_ATLAS_v1.4_2026-09-25.md`
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.5_OFFLINE_SAFE_2026-09-25.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v1.5_RELEASE_NOTES_2026-09-25.md`
+- **Current pointer:** `09_reports/CURRENT_ATLAS_v1.5_2026-09-25.md`
 - Full 16-tab scope: Executive / Market-KPI / Art / Core / FTUE / Progression-Meta-Side / Economy-Monetization / LiveOps / UA-Creative / Trend-Cause / Reviews-Versions / Focus Game / Product Translation / US-Global / Evidence-Gaps-Sources / Changelog.
 - **Fresh Focus-4 US storefront:** `09_reports/FOCUS4_US_STORE_CURRENT_SNAPSHOT_v0.1_2026-09-25.csv`
 - **Fresh Review/LiveOps audit:** `09_reports/FOCUS4_CURRENT_REVIEW_LIVEOPS_AUDIT_v0.1_2026-09-25.md`
