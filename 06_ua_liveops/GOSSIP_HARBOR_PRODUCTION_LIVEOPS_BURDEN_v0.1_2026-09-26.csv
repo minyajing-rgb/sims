@@ -1,0 +1,7 @@
+dimension,observed_evidence,evidence_label,decision_read,ops_cat_translation,gap
+Visible client cadence,"17 version points Mar18 to Sep23; median gap 13.5d; mean 11.8d",CALCULATED + US APP STORE VERSION HISTORY,Binary/content train is active but slower than event cadence,Separate client cadence from configurable event cadence,Backend/config split undisclosed
+Narrative cadence,NEW EPISODE EVERY FRIDAY,SOURCE / CURRENT US APP STORE,Story production is a standing weekly SLA,Only promise weekly narrative if pipeline is measurable,Writer/art/localization/QA hours TBD
+LiveOps evolution,"~20 events/month before Q2 2024 to ~50 in Q2-Q3 2024 to ~95-100 by Q3-Q4 2025",APPMAGIC / BALANCY SECONDARY,Scale came from cadence/overlap/iteration,Copy reusable engine and measurement discipline not event count,Current 2026 exact event count/team size TBD
+UI bottleneck,Balancy says UI becomes structural constraint as LiveOps accumulates,BALANCY / POCKETGAMER,Attention/navigation capacity can limit scale,Set max concurrent surfaces and click-depth guardrail,Current UI-density capture TBD
+Creative production breadth,"2029 new creatives / 2779 campaign records in 30d",SOURCE / CREATIVESCOPE,UA itself is a production system,Build reusable script/scene grammar,Creative headcount/asset-hours TBD
+Delivery concentration,One 25s file carries 70.5% of measured US 30d delivery,SOURCE / ADMAPIX US,Production breadth and delivery concentration are separate,Explore broadly and exploit winners,Spend/CTR/CVR/CPI/ROAS TBD
