@@ -1,0 +1,5 @@
+Objective,Benchmark,Why_this_title,What_to_learn,What_NOT_to_copy,Evidence
+Concurrent event-state ceiling,Heartopia,At least six major named programs overlap Sep30-Oct9,Budget concurrency by persistent state machines and shared resources,Do not copy six-way concurrency into a lean product,CURRENT EVENT WINDOWS / CALCULATED
+Event-state migration,Heartopia,Sep2 hotfix changed rolling 24h respawn to fixed 06:00 reset with transition handling,Recurring timers need timezone migration and rollback semantics,Do not treat timers as harmless configuration,CURRENT OFFICIAL-POST-DERIVED
+Cross-feature incident recovery,Heartopia,Sep24 Build Mode and Hot Air Balloon interaction removed players from event and required compensation,Predefine entitlement repair and compensation templates,Do not invent recovery policy after an incident,CURRENT OFFICIAL-POST-DERIVED
+US-first market guardrail,Heartopia,Launch-month evidence was APAC-led while current US store remains meaningful,Use Heartopia for product and state design rather than direct US scale targets,Do not import APAC launch economics into US gates,SENSORTOWER-DERIVED + CURRENT US STORE
