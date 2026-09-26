@@ -1,0 +1,10 @@
+type,date_or_window,observation,evidence_label,source,decision_read,guardrail
+Named store event,2025-06-24→2025-07-06,Forest Friends — furry adventure,SOURCE / US STORE EVENT AGGREGATOR,AppsHunter US,Short thematic event can sit on top of same hotel core,Participation/monetization TBD
+Named store event,2025-07-20→2025-08-02,Carnival Hotel — rhumba/new hotel theme,SOURCE / US STORE EVENT AGGREGATOR,AppsHunter US,New hotel/theme doubles as event merchandising,Participation/asset burden TBD
+Quality/live-state fix,2025-11-27,Halloween leaderboard points accrual fix,SOURCE / US APP STORE VERSION HISTORY,US App Store,Leaderboard adds live-state/score QA burden,Incident scope/impact TBD
+Seasonal event,2025-12-17,My Perfect Christmas Holiday — adventure/challenges/skins/rewards,SOURCE / US APP STORE VERSION HISTORY,US App Store,Seasonal adventure wrapper can coexist with hotel core,Exact end/participation TBD
+IP store event card,2026-04-21→2026-05-20,Barbie Dream Hotel store-event merchandising window,SOURCE / US STORE EVENT AGGREGATOR,AppsHunter US,"Store event card is a marketing window, distinct from persistent destination lifetime",Do not confuse card end with Barbie destination end
+IP destination,2026-04-23→2027-03-31,Barbie Dream Hotel standalone destination with same management core,FIRST-PARTY SAYGAMES,SayGames/GamesBeat,Long-lived IP destination designed for retention/reactivation,Global duration; not US-specific economics
+IP special beat,2026-06-04,Gala Night within Barbie Dream Hotel,SOURCE / US APP STORE VERSION HISTORY,US App Store,Narrative/IP beat refreshes destination without new core,Exact duration TBD
+Participation,By 2026-06-16,>700K completed Barbie event; company says significant existing-player return,COMPANY-REPORTED,SayGames/GamesBeat,Direct participation/reactivation signal strengthens long-lived IP case,No eligible-user denominator or causal incrementality
+Current client,2026-09-11,v1.37.1 still merchandises Barbie event pass + leaderboard,SOURCE / CURRENT US APP STORE,US App Store,IP wrapper persists through multiple client cycles,Repeated release note does not prove fresh activation

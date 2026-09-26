@@ -1,0 +1,15 @@
+Requirement,Status,Coverage_Maturity,Coverage,Limitation,Next_Action
+Market/KPI,PARTIAL,HIGH,Current US store 4.7/702K/#20 Simulation/424MB + global 300M downloads / $100M+ lifetime milestone,No Sep US monthly installs/IAP/DAU/payer,Acquire Sep US provider/MMP cut
+Art/Visual,PARTIAL,HIGH,Core low-poly/isometric service readability + Barbie reskin/destination contrast,No new 3–8 annotated screenshot pack archived locally in this run,Archive core vs Barbie annotated frames
+Core Gameplay,HIGH,HIGH,Manual service chores → automation/staff → amenities → new hotels remains stable across IP destination,Exact current first-30s device timing not refreshed,Capture 2026 clean install
+FTUE,PARTIAL,HIGH,Historical timed FTUE remains strongest available: manual chores before automation and later meta,Historical 2024 timing may differ from current 2026,Capture current T+0→30m
+Progression/Meta/Side,HIGH,HIGH,Hotels/amenities/staff/skins/pet/pass/leaderboard/IP destination/later properties mapped,Current system reach/participation incomplete,Validate current unlock reach
+Economy/Monetization,PARTIAL,HIGH,US IAP ladder + No Ads + Gems + Daily Offer + Pet + hybrid UA value case,Offer trigger/segment/frequency/conversion and ad load missing,Capture current offer/ad flow
+LiveOps/Event Calendar,PARTIAL,HIGH,Forest Friends + Carnival Hotel + Christmas + Halloween leaderboard + Barbie/Gala lifecycle,Historical full calendar still incomplete,Recover more exact store-event windows
+UA/Creative/Promotion,PARTIAL,HIGH,US Unity network case: 2.2x scale / +19% D7 ROAS / +50% D7 ARPU; publisher creative/playable tools,"No blended paid/organic/source mix, CPI/CTR/CVR/spend",Acquire MMP/network mix
+Reviews/Versions,PARTIAL,HIGH,Current US 4.7/702K plus AppsHunter 4.3K written-review themes and 25-version cadence,No exact review→version corpus,Acquire review export
+Trend/Cause,PARTIAL,HIGH,Apr–Jun Barbie trend reaches E2 candidate with participation/reactivation crosscheck; other windows E1,No payer/source/cohort attribution,Hold causal language
+Production Burden,PARTIAL,HIGH,Studio company size 11–50 + cross-discipline art + monetization GD + publisher shared analytics/LiveOps/creative capacity,"Exact My Perfect Hotel title team, shared-service hours and asset-hours unknown",Recover title-specific owner/FTE/asset-hour data
+Benchmark-by-Objective,DONE,HIGH,"v3.9 base + v4.0 Gossip delta + v4.1 My Perfect Hotel delta cover operating-model, network-UA, long-lived-IP, shared-service elasticity and ad-pressure objectives",Direct title-team and blended economics missing,Maintain
+Ops Cat Product Translation,PARTIAL,HIGH,"Adds internal-vs-shared capability map, flex capacity, network-case boundary and IP-gate rules",Own publisher/shared-service model not locked,Define capability sourcing in G0
+Evidence/Status Audit,DONE,HIGH,Company/title/network/provider scopes explicitly separated,Material gaps remain,Update next release
