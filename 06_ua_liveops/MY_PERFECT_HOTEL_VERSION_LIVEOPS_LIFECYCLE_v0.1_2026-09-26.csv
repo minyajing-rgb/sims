@@ -1,0 +1,13 @@
+type,date_or_window,observation,evidence_label,source,decision_read,guardrail
+Cadence summary,2025-02-05→2026-09-11,"25 visible App Store versions; CALCULATED median gap 22d; mean 24.3d",CALCULATED + SOURCE,US App Store version history,"Roughly 3–4 week visible client cadence","Visible client history is not backend/config cadence"
+Version,2025-03-12,"1.20.1: New hotel",SOURCE / US APP STORE VERSION HISTORY,US App Store,"Core expansion cadence point","Exact hotel name not stated"
+Version,2025-07-21,"1.24.0: New hotel",SOURCE / US APP STORE VERSION HISTORY,US App Store,"Core expansion cadence point","Exact hotel name not stated"
+Quality fix,2025-11-27,"1.29.2: Halloween leaderboard points fix",SOURCE / US APP STORE VERSION HISTORY,US App Store,"Leaderboard/live-state QA burden","Incident scope unknown"
+Seasonal event,2025-12-17,"My Perfect Christmas Holiday",SOURCE / US APP STORE VERSION HISTORY,US App Store,"Seasonal adventure / skins / rewards","Exact end/participation TBD"
+IP launch,2026-04-23,"Barbie Dream Hotel launched as standalone destination using same hotel-management core",SOURCE / FIRST-PARTY,SayGames,"Durable IP wrapper reuses core","Global event; not US-specific performance"
+IP special beat,2026-06-04,"Gala Night within Barbie Dream Hotel",SOURCE / US APP STORE VERSION HISTORY,US App Store,"IP content refresh without replacing core","Exact duration TBD"
+IP lifecycle,2026-04-23→2027-03-31,"Barbie integration runs nearly a year",SOURCE / FIRST-PARTY INTERVIEW,SayGames / GamesBeat interview,"Retention destination rather than a short burst","Duration does not prove active participation"
+Participation,By 2026-06-16,">700K players completed the Barbie event; company says many pre-existing players returned",SOURCE / COMPANY-REPORTED,SayGames / GamesBeat interview,"Meaningful participation and reactivation intent","No active-user denominator or incremental causal lift"
+Parallel LiveOps,2026-06-16 interview,"Normal LiveOps continue; Halloween event planned later in 2026; more hotels planned",SOURCE / COMPANY-REPORTED PLAN,SayGames / GamesBeat interview,"Long IP program does not replace normal pipeline","Planned content is not yet observed"
+Scale milestone,2026-06-16,"300M cumulative downloads",SOURCE / FIRST-PARTY INTERVIEW,SayGames / GamesBeat interview,"Evergreen lifecycle scale","Global cumulative only"
+Production roles,Public job-post evidence,"Art Lead coordination spans 2D / 3D / UIUX / Tech Art / Animation / VFX",SOURCE / PUBLIC JOB POSTING,Redux Games job post,"Cross-discipline production burden remains real","Role taxonomy ≠ current team size"
