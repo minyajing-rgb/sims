@@ -1,0 +1,13 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market/KPI,PARTIAL,"US Aug matched-store KPI + current store","Sep US D/IAP/DAU/payer/source mix missing","Acquire Sep provider/MMP cut"
+Art/Visual,PARTIAL,"Board/story/UA visual grammar","Annotated raw screenshot pack partial","Archive current frames"
+Core Gameplay,PARTIAL,"Merge/order/story + energy/board constraints","Exact first-30s timing missing","Capture clean install"
+FTUE,PARTIAL,"Early LiveOps/offers/future events documented","Exact T+ gates TBD","Timestamp session"
+Economy/Monetization,PARTIAL,"US IAP + scarcity/relief + offer architecture","Trigger/segment/conversion missing","Capture live route"
+LiveOps/Event Calendar,PARTIAL,"20→100 evolution + current events","Current exact event grid/participation missing","Recover current grid"
+UA/Creative/Promotion,PARTIAL,"CreativeScope breadth + AdMapix US concentration","Spend/CTR/CVR/CPI/ROAS missing","Acquire MMP/network economics"
+Trend/Cause,PARTIAL,"US Aug E1 decoupling + July E1 creative refresh","Payer/source/event cohorts missing","Hold causal language"
+Production Burden,PARTIAL,"Weekly story + UI ceiling + creative burden","Team/hours/QA/support missing","Recover production inputs"
+Benchmark-by-Objective,DONE,"v3.9 base + Gossip Harbor v4.8 HTML objectives","Impact telemetry incomplete","Maintain"
+Ops Cat Product Translation,PARTIAL,"Event rail/dependency/story SLA/UA winner rules","Own data missing","Prototype and measure"
+Evidence/Status Audit,DONE,"Scope/counter-evidence preserved","Material gaps remain","Update next release"
