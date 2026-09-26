@@ -1,0 +1,15 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market/KPI,PARTIAL,Township US lifecycle/currentness added,Sep US payer/source mix missing,Acquire same-scope US telemetry
+Art/Visual,PARTIAL,Priority8 matrix inherited,Annotated screenshots incomplete,Add only if decision-changing
+Core Gameplay,DONE,Priority8 core grammar retained,Own baseline missing,Measure own core action
+FTUE,PARTIAL,Current sequence evidence retained,Clean T+0→30m incomplete,Capture current clean sessions
+Progression/Meta/Side,DONE,Township current parallel lanes confirmed,Participation missing,Track lane participation
+Economy/Monetization,PARTIAL,Review/fairness risk signals added,Payer/offer conversion missing,Acquire payer cohorts
+LiveOps,HIGH-PARTIAL,Current v39 bundle confirmed,Event participation missing,Do not infer success from release notes
+UA/Creative,HIGH-PARTIAL,Township bimodal delivery added,Spend/CPI/ROAS/source mix missing,Acquire network/MMP data
+Reviews/Versions,HIGH-PARTIAL,Quantified review themes added,Exact review-version join missing,Export only for flagged anomalies
+Trend/Cause,HIGH-PARTIAL,Aug divergence held at E1 risk association,No aligned payer/source/event cohorts,Do not promote causality
+Production Burden,DONE,Mature org direction retained,Exact current FTE/hours missing,Use as scale-stage benchmark
+Benchmark-by-Objective,DONE,v5.9 delta added,Not yet canonicalized,Consolidate at next canonical release
+Product Translation,DONE,Core Identity Share and Creative Truth Gate added,Own baseline missing,Instrument own product
+Evidence/Status Audit,DONE,Provider/scope labels explicit,Access-gated data remains,Continue only on evidence gain
