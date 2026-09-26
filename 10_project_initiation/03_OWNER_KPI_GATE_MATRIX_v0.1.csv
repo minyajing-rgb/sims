@@ -1,0 +1,37 @@
+Stage,Dimension,KPI,Definition,External Reference,Owner Target,Gate Type,Owner,Status,Notes
+G0,Product,One-sentence clarity,"User/team can explain product promise in one sentence",Competitor positioning research,TBD,OWNER DECISION,Product Owner,TBD,Qualitative gate
+G0,Product,Core loop clarity,"Action→reward→ownership→progression is explicit",Atlas Core benchmark,TBD,OWNER DECISION,Product Owner,TBD,Must be measurable in prototype
+M1,Activation,First Action Completion,Users who complete first real action / entrants,Reference only,TBD,HARD GATE,Product/Data,TBD,No competitor KPI copied
+M1,Activation,Time to Visible Transformation,Elapsed time to first meaningful before/after,Hay Day/MPH structural references,TBD,HARD GATE,Product/Data,TBD,OWNER TARGET to lock after first internal cohort
+M1,Ownership,First Owned-Space Choice,Users making first meaningful persistent choice / entrants,Heartopia/Cozy ownership references,TBD,HARD GATE,Product/Data,TBD,
+M1,Quality,P0 flow defects,Payment/account/save/data/blocking errors,Other project method: P0=0,0,HARD GATE,QA/Tech,OWNER TARGET,Structural rule is transferable
+M2,FTUE,Tutorial Completion,Completed FTUE / starters,External category benchmarks = context only,TBD,HARD GATE,Product/Data,TBD,
+M2,Engagement,Core Loop Repeat Rate,Users repeating core action cycle ≥N times,TBD,TBD,HARD GATE,Product/Data,TBD,N to lock with build
+M2,Quality,First Resource Stall,Median first meaningful stall and behavior after stall,Gossip/Big Farm pattern,TBD,DIAGNOSTIC,Economy/Data,TBD,Classify Learn/Wait/Pay/Churn
+M2,Monetization,First Rewarded Ad Opt-in,Rewarded-ad viewers / exposed users,Competitor mechanism reference,TBD,DIAGNOSTIC,Monetization/Data,TBD,Not required in earliest prototype
+M2,Intent,Would Play Tomorrow,Positive intent / tested users,User research only,TBD,HARD GATE,Research/Product,TBD,
+M3,Retention,D1 Retention,D1 return / mature new-install cohort,External benchmark only,TBD,HARD GATE,Product/Data,TBD,Do not copy Casino 30%
+M3,Retention,D3 Retention,D3 return / mature new-install cohort,External benchmark only,TBD,HARD GATE,Product/Data,TBD,
+M3,Retention,D7 Retention,D7 return / mature new-install cohort,External benchmark only,TBD,HARD GATE,Product/Data,TBD,
+M3,Retention,D14 Retention,D14 return / mature cohort,External benchmark only,TBD,DIAGNOSTIC,Product/Data,TBD,
+G4,Retention,D30 Retention,D30 return / mature cohort,External benchmark only,TBD,HARD GATE,Product/Data,TBD,
+G4,UA,Store CVR,Installs / qualified store visits,TBD,TBD,HARD GATE,UA,TBD,Separate iOS/Android
+G4,UA,CPI,UA spend / paid installs,Competitor cases / market benchmark only,TBD,HARD GATE,UA,TBD,Separate channel/platform
+G4,UA,CTR,Clicks / impressions,TBD,TBD,DIAGNOSTIC,UA,TBD,
+G4,UA,IPM,Installs / 1000 impressions,TBD,TBD,DIAGNOSTIC,UA,TBD,
+G4,Traffic,Paid / Organic / Owned / Web Mix,Attributed install share by source,Competitor source mix mostly TBD,TBD,DIAGNOSTIC,Publishing/Data,TBD,Must not collapse owned CRM into paid
+G4,Monetization,First Payer Rate,First payers / new-install cohort,TBD,TBD,HARD GATE,Monetization/Data,TBD,Define window before test
+G4,Monetization,Payer Rate,Paying active users / active users,TBD,TBD,HARD GATE,Monetization/Data,TBD,
+G4,Monetization,ARPDAU,Daily revenue / DAU,TBD,TBD,DIAGNOSTIC,Data,TBD,Split IAP / IAA
+G4,Monetization,IAA Ads / Session,Forced + rewarded ad impressions / session,TBD,TBD,GUARDRAIL,Monetization/Data,TBD,
+G4,LiveOps,Event Entry,Event entrants / eligible active users,TBD,TBD,DIAGNOSTIC,Ops/Data,TBD,
+G4,LiveOps,Event Completion,Completers / entrants,TBD,TBD,GUARDRAIL,Ops/Data,TBD,
+G4,LiveOps,CRM Claim→Return,Returning users after claim / claimers,Gossip/Cozy/BigFarm mechanism refs,TBD,DIAGNOSTIC,Ops/Data,TBD,
+G5,Value,D30 Revenue / Install,Cumulative attributed revenue / installs,Calendar RPD is NOT this,TBD,HARD GATE,Data/Publishing,TBD,
+G5,Value,D60 / D90 LTV,Cohort net value by age,TBD,TBD,HARD GATE,Data/Publishing,TBD,
+G5,UA,ROAS,Cumulative attributed net revenue / UA spend,Other project method only,TBD,HARD GATE,Publishing/UA,TBD,
+G5,UA,Payback,Day cohort recovers acquisition spend,Other project used D90/D180 but NUMBERS DO NOT TRANSFER,TBD,HARD GATE,Publishing,TBD,
+G6,Production,Asset Hours / New Area,Tracked production hours per shippable area,Production benchmark evidence,TBD,HARD GATE,Art/PM,TBD,
+G6,Production,Asset Hours / Event,Tracked production hours per event wrapper,Production benchmark evidence,TBD,HARD GATE,Art/Ops/PM,TBD,
+G6,Production,Escaped Defects / Release,Production defects reaching live,Office Cat/Heartopia release evidence,TBD,GUARDRAIL,QA/Tech,TBD,
+G6,Production,Support Incidents / Event,Support issues linked to event/config,TBD,TBD,GUARDRAIL,Ops/Support,TBD

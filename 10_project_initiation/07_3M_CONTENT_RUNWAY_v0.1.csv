@@ -1,0 +1,15 @@
+Month,Workstream,Deliverable,Content_or_Event,Engine,Acceptance,Dependency,Owner,Status
+M1,Core,Vertical Slice Backyard v0.1,"Messy→Improving→Beautiful backyard",Core action + ownership,"5–10m playable; no P0 blocker; analytics reads first action/transformation",Core tech/art,Product+Tech+Art,OPEN
+M1,Content,Micro-zones 1–2,"Lawn / Patio",Area progression,"Readable before-after; reusable prop kit",Art kit,Art+Design,OPEN
+M1,Narrative,Story Modules 1–10,"Neighbor intro / hidden object / repair choice",Bounded story template,"No economy/progression controlled by AI",Narrative framework,Design,OPEN
+M1,Analytics,P0 Activation Dashboard,"First action / transformation / owned choice",Data,"Events replayable by build/cohort",Canonical schema,Data,OPEN
+M2,FTUE,0–30m Prototype v0.2,"Tool upgrade / first capacity pressure / collection intro",FTUE,"No broken flow; all gates instrumented",M1 build,Product+Data,OPEN
+M2,Content,Micro-zones 3–4,"Flower corner / Shed",Area progression,"New zone reuses core verbs not new core",M1 art pipeline,Art+Design,OPEN
+M2,LiveOps,Event Engine v0.1,"Neighborhood Garden Fair",Quest + Exchange,"Config-driven reward/currency tables; rollback works",Backend/config,Ops+Tech,OPEN
+M2,CRM,Claim System v0.1,"Sunday Gift",Login/CRM,"Unique claim ID; claim→return measurable",Account/backend,Ops+Data,OPEN
+M3,LiveOps,Event Reskin v0.2,"Moonlight Garden Fair",Same Quest + Exchange engine,"Theme changes without code rewrite",M2 engine,Ops+Art,OPEN
+M3,Meta,Collection v0.1,"Little Treasures Album",Collection,"12–20 items; sources/sinks/duplicates defined",Economy,Design+Data,OPEN
+M3,Monetization,Monetization v0.1,"Rewarded utility + optional convenience",Ads/IAP,"Exposure after value proof; telemetry complete",FTUE/economy,Product+Monetization,OPEN
+M3,Content Runway,Next 8–12 weeks plan,"2 modifier events + 2 quest/exchange themes + collection refresh",Reuse-led,"Asset-hours and config burden estimated",Production tracking,PM+Ops+Art,OPEN
+M3,Data,P0 Operating Dashboards,"FTUE / Retention / Economy / Monetization / LiveOps",Analytics,"Daily diagnosis possible; definitions locked",Event schema,Data,OPEN
+M3,Gate,M3 Foundation Review,"Foundation package",Stage Gate,"PASS/HOLD with explicit gaps and Owners",All M1–M3,Project Lead,OPEN

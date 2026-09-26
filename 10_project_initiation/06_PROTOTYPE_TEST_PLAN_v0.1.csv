@@ -1,0 +1,11 @@
+Test_ID,Stage,Hypothesis,Variant_A,Variant_B,Primary_KPI,Guardrail,Required_Instrumentation,Pass_Rule,Status
+T01,M1,Core action is immediately legible,Current action framing,Simplified action framing,First Action Completion,Exit before first action,session_start/action_start/action_complete,OWNER TARGET TBD,OPEN
+T02,M1,Visible transformation creates satisfaction,Subtle state change,High-contrast before/after,Transformation Completion + preference,Performance/load time,area_state_before/after + survey,OWNER TARGET TBD,OPEN
+T03,M1,Ownership improves intent,Fixed placement,First meaningful decor choice,Would Play Tomorrow + Owned Choice Rate,Decision friction,decor_open/place/confirm + survey,OWNER TARGET TBD,OPEN
+T04,M2,AI personalization adds value,Generic task/story,Preference-aware bounded story,Story interaction + self-reported relevance,Confusion / latency,preference_seed/story_shown/story_choice,OWNER TARGET TBD,OPEN
+T05,M2,Rewarded ad timing should follow value proof,After tutorial release,After first resource bottleneck,Ad Opt-in + D1,Post-ad exit / FTUE completion,ad_exposed/ad_start/ad_complete/session_exit,OWNER TARGET TBD,LATER
+T06,M2,Capacity friction should arrive after grammar,Early capacity pressure,Delayed capacity pressure,Core Repeat + session completion,Stalled session / frustration,inventory_full/stall/action_attempt,OWNER TARGET TBD,OPEN
+T07,M3,One reusable event engine can create freshness,Base quest-exchange theme,Second reskin theme,Event Entry + Completion,Config errors / support,event_eligible/enter/quest/currency/exchange,OWNER TARGET TBD,LATER
+T08,G4,Creative promise must match first session,Gameplay creative,Before-after ownership creative,CTR→CVR→Tutorial→D1,Promise mismatch review/survey,creative_id/store_visit/install/tutorial,D1 owner target TBD,LATER
+T09,G4,Platform economics differ,iOS cohort,Android cohort,CPI/D1/D7/Payer/ROAS,Sample size,platform/channel/cohort attribution,No blending before stable,LATER
+T10,G4,Owned CRM cadence can reactivate,Weekly gift,2–3 day resource gift,Claim→Return→D1-after-return,Claim-only / economy inflation,crm_id/claim/return/core_action,OWNER TARGET TBD,LATER

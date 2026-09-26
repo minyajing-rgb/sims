@@ -1,0 +1,16 @@
+ID,Stage,Work_Package,Owner,Due_Window,Dependency,Acceptance,Output,Priority,Status
+W01,G0,Project Charter lock,Product Owner,W0,None,"Scope / out-of-scope / product thesis / retention thesis / monetization thesis signed",01_PROJECT_CHARTER_v0.1.md,P0,OPEN
+W02,G0,KPI definitions lock,Product+Data,W0–W1,W01,"Each KPI has formula / denominator / stage / owner / target status",03_OWNER_KPI_GATE_MATRIX_v0.1.csv,P0,OPEN
+W03,G0,LiveOps benchmark master,Research+Ops,W0–W1,Atlas,"Actual event titles and engine taxonomy cover Priority8; missing fields=TBD",04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.1.csv,P0,OPEN
+W04,G0,LiveOps engine selection,Product+Ops,W1,W03,"P0/P1/P2 engines selected; concurrency ceiling explicit",05_OPS_CAT_LIVEOPS_ENGINE_SELECTION_v0.1.csv,P0,OPEN
+W05,M1,Vertical slice core,Product+Tech+Art,W1–W4,W01,"5–10m playable; action/transformation/ownership work; P0=0",Playable build,P0,OPEN
+W06,M1,P0 analytics,Data+Tech,W2–W4,W05,"First action/transformation/owned choice events replayable by cohort/build",Activation dashboard,P0,OPEN
+W07,M1,Art production baseline,Art+PM,W1–W4,W05,"Asset hours logged by prop/zone/state; reusable kit identified",Production baseline,P0,OPEN
+W08,M2,30m FTUE prototype,Product+Design,W5–W8,W05,"All major gates/pressure/first monetization exposure instrumented",FTUE v0.2,P0,OPEN
+W09,M2,Prototype research test,Research+Data,W6–W8,W08,"Test plan executed with evidence; pass/iterate/kill decision documented",Prototype test report,P0,OPEN
+W10,M2,Event engine v0.1,Ops+Tech,W6–W8,W05,"Quest/currency/exchange config works; rollback and expiry tested",Reusable event engine,P1,OPEN
+W11,M3,Economy/monetization v0.1,Economy+Product,W9–W12,W08,"Source/sink, free path, first rewarded/premium exposure and telemetry reviewed",Economy model,P0,OPEN
+W12,M3,3-month content runway,Ops+Art+PM,W9–W12,W10,"Next 8–12 weeks can be produced with measured asset/config burden",07_3M_CONTENT_RUNWAY_v0.1.csv,P0,OPEN
+W13,M3,P0 dashboards,Data,W9–W12,W06/W08,"FTUE/Retention/Economy/Monetization/LiveOps daily diagnosis possible",Dashboards,P0,OPEN
+W14,M3,Foundation Stage Gate,Project Lead,W12,W05–W13,"PASS/HOLD; all gaps have Owner/Due; no hidden TBD",Stage Gate decision,P0,OPEN
+W15,G4,US soft-launch plan,Publishing+UA+Product,Post-M3,W14,"Platform/channel cohorts separated; attribution/support/rollback/budget ready",Soft Launch Plan,P0,TBD

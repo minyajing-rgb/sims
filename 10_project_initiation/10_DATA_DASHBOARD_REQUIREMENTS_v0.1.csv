@@ -1,0 +1,11 @@
+Dashboard,Stage,Must_Answer,Core_Metrics,Required_Dimensions,Source,Status
+D01 Activation,M1,"Where do users fail before value proof?","Session Start; First Action; Action Complete; First Transformation; First Owned Choice; Tutorial Release","Build; platform; acquisition source; creative ID","Game events",DESIGN
+D02 FTUE,M2,"What happens in first 30m?","T+0/T+5/T+10/T+30; unlock reach; stall; exit; first offer/ad","Build; platform; cohort; device","Game events",DESIGN
+D03 Retention,M3/G4,"Why do users return?","D1/D3/D7/D14/D30; system reach; return action","Platform; source; creative; new/returning","Cohort events",DESIGN
+D04 Economy,M2/M3,"Where does value enter/leave?","Source/Sink; wallet; capacity; stall; tool/area cost; reward claim; spend-down","Cohort; payer; nonpayer; progression tier","Economy ledger",DESIGN
+D05 Monetization,M3/G4,"What monetizes without harming quality?","First payer; payer rate; ARPDAU IAP/IAA; offer exposure/conversion; ad opt-in; ads/session; post-ad exit","Platform; source; segment; offer; progression","Purchase/ad events",DESIGN
+D06 LiveOps,M3/G4,"Does an event add value incrementally?","Eligible; Entry; Completion; currency earned/spent; shop use; incremental revenue/return; support incidents","Event ID; cohort; platform; payer; source","Event/config/support",DESIGN
+D07 CRM,M3/G4,"Do claims create real return?","Sent; Click; Claim; Return; Core Action; D1-after-return; resource spend-down","CRM ID; channel; source; user cohort","Deep link/claim events",DESIGN
+D08 UA,G4/G5,"Which traffic deserves scale?","Spend; Impressions; CTR; CVR; IPM; CPI; D1/D7; payer; IAA/IAP; ROAS","Platform; channel; campaign; creative; country","MMP + ad network + game",TBD
+D09 Production,M1–G6,"Can the team sustain this content cadence?","Asset hours/zone; asset hours/event; config hours; QA cases; escaped defects; hotfixes; support incidents","Release; event; asset type; owner","PM/QA/support",DESIGN
+D10 Executive,Gate Review,"Scale / Iterate / Kill?","Selected gate KPIs + evidence status + risks + budget burn","Stage; version; platform; market","All",DESIGN

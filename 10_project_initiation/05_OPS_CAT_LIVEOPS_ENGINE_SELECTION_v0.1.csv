@@ -1,0 +1,11 @@
+Priority,Engine,Working Internal Title Example,Core Mechanic,Why It Exists,Production Model,Launch Timing,Primary KPI,Guardrail,Status
+P0,Resource Modifier,Garden Boost Weekend,"2x harvest / faster production / bonus resource","Low-cost freshness using core verbs",Config-first,D7+,Entry + return + core actions,Economy distortion,SELECT
+P0,Quest + Exchange,Neighborhood Garden Fair,"Quest → event currency → exchange → decoration","Reusable medium-weight event backbone",One reusable state machine,D7+,Entry / completion / exchange use,Support/config errors,SELECT
+P0,Collection,Little Treasures Album,"Collect set pieces from normal play + event","Longer return goal / ownership",Reusable album framework,D7–D14,Collection progress / D7 return,Duplicate frustration,SELECT
+P1,Pass,Bright Life Pass,"Tasks → progression track → free/premium rewards","Recurring value after retention proves",Config + reward tables,After D7 retention proof,Pass entry / completion / payer,Paywall perception,CONDITIONAL
+P1,Narrative Wrapper,Moonlight Neighbor Story,"Existing core actions → story beats → themed rewards","Theme refresh without new core mechanics",Story templates + config,After core pipeline proves,Story entry / completion / return,Narrative asset burden,CONDITIONAL
+P1,Login / CRM,Sunday Gift,"Claim → return → next core action","Low-cost owned/community reactivation",Server/config,After account/claim flow stable,Claim→Return / D1-after-return,Claim-only users,SELECT
+P2,Leaderboard,Neighborhood Helpers Cup,"Core-task points → ranking → rewards","Competition / aspiration","Config + anti-cheat,After fair economy and segmenting exists,Participation / completion / support,Fairness / whales,LATER
+P2,Co-op / Guild,Community Garden,"Shared contribution → milestone reward","Social retention","New social state / backend,After D30 proof,Co-op participation / D30 return,Backend/support load,LATER
+P2,IP / Collab,Guest Garden Takeover,"Themed area + character/story + pass + collection","Reactivation / commercial wrapper","Brand approval + content wrapper,Only after generic wrapper proves,Return / event revenue / D30,Approval + cost,LATER
+P2,Physical Reward,Real Flower Weekend,"Virtual achievement → eligible physical reward","PR / community bridge","Fulfillment ops,Only after virtual CRM proves,Claim→Return / PR lift,Fraud / fulfillment cost,LATER

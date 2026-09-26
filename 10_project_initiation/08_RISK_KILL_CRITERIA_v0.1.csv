@@ -1,0 +1,13 @@
+Risk_ID,Category,Risk,Early_Signal,Mitigation,Kill_or_Hold_Criterion,Owner,Status
+R01,Core,Core action is not satisfying,Low repeat / poor qualitative response,Iterate action feel and feedback,If repeated M1 iterations cannot create clear satisfaction → KILL/PIVOT,Product+Design,OPEN
+R02,Clarity,User cannot explain product promise,Confused first-session interviews,Simplify fantasy and UI hierarchy,If promise remains unclear after two messaging/product iterations → HOLD,Product,OPEN
+R03,Ownership,Transformation feels cosmetic not meaningful,Low owned-choice / no return intent,Increase persistent consequence and progress,If ownership adds no intent/return signal → reduce simulation scope,Product,OPEN
+R04,Production,Art/content throughput too heavy,Asset hours exceed runway,Reduce 3D/detail; increase modular reuse,If one area/event cost breaks 3m runway under team envelope → RESCOPE,HOD Art+PM,OPEN
+R05,AI,AI feels gimmicky or inconsistent,Low relevance / latency / unsafe output,Bound templates; reduce AI surface,If AI does not improve user value vs control → remove from critical path,Product+AI,OPEN
+R06,Retention,Prototype has weak next-day intent,Low Would Play Tomorrow / D1 when live,Fix ownership/progression before content expansion,If repeated cohorts fail owner D1 gate → DO NOT SCALE,Product+Data,TBD
+R07,UA,Creative gets clicks but product does not convert,High CTR / weak Store CVR or D1,Align promise and first session,If no creative-product pair meets owner unit-quality gate → HOLD UA,UA+Product,TBD
+R08,Monetization,Revenue depends on frustration,High spend + high stall/complaint/exit,Rebalance free path and value,If payer lift damages D7/support beyond owner guardrail → ROLLBACK,Monetization+Data,TBD
+R09,LiveOps,Event concurrency exceeds team capacity,Config errors / support / missed deadlines,Reduce to one reusable engine + light CRM,If second heavy engine increases escaped defects/support beyond owner limit → REMOVE,Ops+QA,OPEN
+R10,Economy,Reward/CRM inflation,Claimers accumulate excess resource and skip progression,Cap/target rewards and monitor spend-down,If claim cohort damages economy/retention quality → STOP CAMPAIGN,Economy+Ops,TBD
+R11,Scope,Project drifts into Heartopia-scale world too early,Social/open-world requirements enter M1/M2,Enforce out-of-scope list,Any persistent-world/social expansion before M3 gate requires owner re-approval,Product Owner,ACTIVE
+R12,Financial,Full production committed before proof,Headcount/budget locked before prototype gate,Stage funding,No full-production commitment before M2/M3 evidence,Owner Committee,ACTIVE
