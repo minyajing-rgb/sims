@@ -8,7 +8,7 @@ Current research release: **v4.4 · 2026-09-26**
 - Big Farm named event lifecycle: `06_ua_liveops/BIG_FARM_HOMESTEAD_NAMED_EVENT_LIFECYCLE_v0.2_2026-09-26.csv`
 - Big Farm tech/production pipeline: `06_ua_liveops/BIG_FARM_HOMESTEAD_TECH_PRODUCTION_PIPELINE_v0.1_2026-09-26.csv`
 - Big Farm Trend/Cause E1: `09_reports/BIG_FARM_HOMESTEAD_TREND_CAUSE_E1_v0.1_2026-09-26.csv`
-- Priority8 named LiveOps catalog: `10_project_initiation/04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.4_2026-09-26.csv`
+- Priority8 named LiveOps catalog: `10_project_initiation/04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.3_2026-09-26.csv` + `10_project_initiation/04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.4_BIG_FARM_DELTA_2026-09-26.csv`
 - Status audit: `09_reports/STATUS_AUDIT_v4.4_2026-09-26.csv`
 - Benchmark-by-Objective: `09_reports/BENCHMARK_BY_OBJECTIVE_v3.6_2026-09-26.csv`
 
