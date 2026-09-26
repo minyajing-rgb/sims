@@ -1,0 +1,6 @@
+product,market_scope,window_or_surface,metric,value,evidence_label,decision_read,guardrail
+Gossip Harbor,US iOS,Current store,Rating / ratings / rank,4.6 / 205K / #10 Casual,SOURCE / CURRENT US APP STORE,Strong mature US store footprint,Not DAU / retention / payer telemetry
+Gossip Harbor,US matched stores,Aug 2026,Downloads,"893,223 (-23.5% vs Jul)",SOURCE / SOCIALPETA MATCHED-STORE US,US acquisition volume fell materially,Store estimates; not installs by source
+Gossip Harbor,US matched stores,Aug 2026,Store revenue,"$42.29M (+15.6% vs Jul)",SOURCE / SOCIALPETA MATCHED-STORE US,US spending rose while downloads fell,Store estimate excludes unestablished web/D2C and ads
+Gossip Harbor,US iOS,Current store,IAP ladder,"Gems $1.99/$4.99; Coffee $2.99; Premium Energy $3.99; Mini/Event/Seafood ~$3.99; Super Pass IV $7.99; Special bundles $2.99/$4.99",SOURCE / CURRENT US APP STORE,"Currency + energy + event pack + pass + bundle stack","Visible list not full catalog; no trigger/segment/frequency/conversion"
+Gossip Harbor,US iOS,Current store,Current events,"The Turning Leaves + The Nova Morel Voyage",SOURCE / CURRENT US APP STORE,Collection and narrative-voyage surfaces are active,Store cards are not participation telemetry
