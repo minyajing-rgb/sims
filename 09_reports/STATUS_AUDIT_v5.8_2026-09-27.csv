@@ -1,0 +1,15 @@
+Requirement,Status,Coverage,Primary_Gap
+Market/KPI,PARTIAL,Priority8 plus Heartopia current US/global split,US Sep D/IAP/DAU/payer/source mix
+Art/Visual,PARTIAL,Priority8 matrix,Annotated current screens
+Core Gameplay,DONE,Core grammar normalized,Own prototype baseline
+FTUE,PARTIAL,Current evidence paths for Priority8,Clean T+0 to 30m
+Progression/Meta/Side,DONE,Taxonomy populated,Participation/reach
+Economy/Monetization,PARTIAL,Architecture strong,Conversion/payer mix
+LiveOps,HIGH-PARTIAL,Canonical master plus Heartopia overlap,Participation/economics
+UA/Creative,PARTIAL,Operating models strong,US spend/CPI/CVR/ROAS/source mix
+Reviews/Versions,PARTIAL,Current incident/cadence evidence,Exact review-by-version
+Trend/Cause,HIGH-PARTIAL,E0-E2 guardrails retained,Aligned US source/payer/event cohorts
+Production Burden,DONE,Operating models normalized,Exact hours/FTE/server
+Benchmark-by-Objective,DONE,Canonical plus deltas,Next consolidation
+Product Translation,DONE,MVO plus v5.8 state controls,Own baselines
+Evidence Audit,DONE,Scope and labels explicit,Access-gated fields
