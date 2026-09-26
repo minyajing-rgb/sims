@@ -1,0 +1,21 @@
+Game,Market,Actual_Event_Title,Event_Family,Visible_Release_Window,Exact_Event_Window,Core_Meta_Side,Reuse_Engine,Evidence_Status,Source,Gap
+Township,US,Journey Collection,Card Collection,v33.0.0 Jan8,TBD,Meta/LiveOps,Collection engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact start/end/participation TBD
+Township,US,Broadway Pass,Season Pass,v33.1.0 Feb2,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Carnival Pass,Season Pass,v33.1.0 Feb2,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Spring Collection,Card Collection,v34.0.0 Feb18,TBD,Meta/LiveOps,Collection engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/participation TBD
+Township,US,Spring Pass,Season Pass,v34.0.0 Feb18,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Easter Pass,Season Pass,v34.0.0 Feb18,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Culinary Collection,Card Collection,v35.0.0 Apr1,TBD,Meta/LiveOps,Collection engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/participation TBD
+Township,US,Celebrity Pass,Season Pass,v35.0.0 Apr1,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Culinary Pass,Season Pass,v35.0.0 Apr1,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Italian Pass,Season Pass,v36.0.2 May14,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Futuristic Pass,Season Pass,v36.0.2 May14,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Beach Collection,Card Collection,v37.0.0 Jun24,TBD,Meta/LiveOps,Collection engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/participation TBD
+Township,US,Voyage Pass,Season Pass,v37.0.0 Jun24,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Summer Pass,Season Pass,v37.0.0 Jun24,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Undersea Pass,Season Pass,v38.1.0 Aug24,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Western Pass,Season Pass,v39.0.2 Sep17,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Halloween Pass,Season Pass,v39.0.2 Sep17,TBD,Meta/Monetization,Pass engine,US APP STORE VERSION HISTORY,https://apps.apple.com/us/app/township/id638689075,Exact dates/conversion TBD
+Township,US,Harvest Pass,Season Pass,2026-09-11,2026-09-11→2026-10-01,Meta/Monetization,Pass engine,CURRENT US STORE EVENT,https://appshunter.io/events/6806343387,Conversion/segment TBD
+Township,US,Guest from Space,Expedition,2026-09-12,2026-09-12→2026-10-01,Side/LiveOps,Expedition engine,CURRENT US STORE EVENT,https://appshunter.io/events/6809856874,Participation/spend TBD
+Township,US,Harvest Collection,Card Collection,2026-09-15,2026-09-15→2026-10-13,Meta/LiveOps,Collection engine,CURRENT US STORE EVENT,https://appshunter.io/events/6809869359,Drop/duplicate/completion TBD
