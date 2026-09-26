@@ -36,11 +36,11 @@ skills/               可复用分析方法
 
 ## Current Full Competitor Intelligence Atlas
 
-- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v4.1_2026-09-26.html`
-- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v4.1_RELEASE_NOTES_2026-09-26.md`
-- **Current pointer:** `09_reports/CURRENT_ATLAS_v4.1_2026-09-26.md`
-- **Status audit:** `09_reports/STATUS_AUDIT_v4.1_2026-09-26.csv`
-- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v3.3_2026-09-26.csv`
+- **Current HTML:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v4.3_2026-09-26.html`
+- **Release notes:** `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v4.3_RELEASE_NOTES_2026-09-26.md`
+- **Current pointer:** `09_reports/CURRENT_ATLAS_v4.3_2026-09-26.md`
+- **Status audit:** `09_reports/STATUS_AUDIT_v4.3_2026-09-26.csv`
+- **Benchmark-by-Objective:** `09_reports/BENCHMARK_BY_OBJECTIVE_v3.5_2026-09-26.csv`
 - **Data-gap recovery:** `09_reports/PRIORITY8_DATA_GAP_RECOVERY_v0.2_2026-09-25.csv`
 - **Current platform KPI recovery:** `01_watchlist/PRIORITY8_CURRENT_PLATFORM_KPI_RECOVERY_v0.1_2026-09-25.csv`
 - **Current LiveOps calendar:** `06_ua_liveops/PRIORITY8_CURRENT_LIVEOPS_EVENT_CALENDAR_v0.3_2026-09-25.csv`
@@ -60,7 +60,7 @@ Research has moved into a separate decision layer:
 - **Project Charter:** `10_project_initiation/01_PROJECT_CHARTER_v0.1.md`
 - **Stage Gate:** `10_project_initiation/02_STAGE_GATE_METHOD_v0.1.csv`
 - **Owner KPI Gate Matrix:** `10_project_initiation/03_OWNER_KPI_GATE_MATRIX_v0.1.csv`
-- **Priority8 LiveOps Master Event Catalog:** `10_project_initiation/04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.1.csv`
+- **Priority8 LiveOps Master Event Catalog:** `10_project_initiation/04_PRIORITY8_LIVEOPS_MASTER_EVENT_CATALOG_v0.3_2026-09-26.csv`
 - **Ops Cat LiveOps Engine Selection:** `10_project_initiation/05_OPS_CAT_LIVEOPS_ENGINE_SELECTION_v0.1.csv`
 - **Prototype Test Plan:** `10_project_initiation/06_PROTOTYPE_TEST_PLAN_v0.1.csv`
 - **3-Month Content Runway:** `10_project_initiation/07_3M_CONTENT_RUNWAY_v0.1.csv`
