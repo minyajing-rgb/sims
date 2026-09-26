@@ -1,0 +1,9 @@
+Product,Core_Complexity,Content_Art_Burden,LiveOps_State_Burden,Social_Backend_Burden,UA_Creative_Burden,Narrative_Burden,MVP_Reference_Fit,Evidence_Basis,Guardrail
+Office Cat,LOW-MEDIUM,MEDIUM,MEDIUM,LOW,MEDIUM,LOW,HIGH,Lean launch-team + reusable event evidence,Current live-team size/asset-hours TBD
+My Perfect Hotel,LOW,MEDIUM,MEDIUM,LOW,HIGH via publisher,LOW-MEDIUM,VERY HIGH,Simple core + publisher growth stack,Shared-service allocation TBD
+Hay Day,MEDIUM,MEDIUM-HIGH,HIGH,MEDIUM-HIGH,HIGH,LOW-MEDIUM,MEDIUM,Mature farm + 60+ team + experiments,Not MVP staffing benchmark
+Township,MEDIUM-HIGH,HIGH,VERY HIGH,HIGH,VERY HIGH,HIGH,LOW-MEDIUM,Parallel mature content lanes,Do not copy concurrency
+Big Farm Homestead,MEDIUM-HIGH,HIGH,HIGH,MEDIUM-HIGH,MEDIUM,HIGH,MEDIUM-HIGH,Modern 3D shared-tech pipeline,Prior tech lowers lead time
+The Cozy Florist,MEDIUM,HIGH,HIGH,MEDIUM,VERY HIGH,MEDIUM,MEDIUM,Release + creative + localization + fulfillment,Hidden ops burden
+Heartopia,HIGH,VERY HIGH,VERY HIGH,VERY HIGH,VERY HIGH,MEDIUM-HIGH,LOW,Persistent social world,Not lean MVP benchmark
+Gossip Harbor,LOW-MEDIUM core / HIGH ops,MEDIUM,VERY HIGH,MEDIUM,VERY HIGH,VERY HIGH,MEDIUM,Simple core + weekly story + event/UA factory,Ops complexity dominates
