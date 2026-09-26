@@ -1,0 +1,6 @@
+scope,window,metric,value,evidence_label,decision_read,guardrail
+Cross-market tracked creative system,2026-06-28 to 2026-07-27,New creatives / campaign records / reused,"2029 / 2779 / 459",SOURCE / CREATIVESCOPE,Very broad candidate-generation and refresh system,Coverage records are not spend
+Tracked market coverage,same window,United States campaign records,701,SOURCE / CREATIVESCOPE,US is a major observed coverage market,Coverage is not spend/install share
+US delivery concentration,30d to 2026-08-19,Entries / unique files,"15 / 14",SOURCE / ADMAPIX US,Small measured US delivery set can coexist with huge production breadth,Method differs from CreativeScope
+US delivery concentration,30d to 2026-08-19,Top 25s file share,"70.5% of 6.382B estimated impressions",SOURCE / ADMAPIX US,Winner exploitation is extreme,Rolling 30-day provider metric
+US creative longevity,to 2026-08-19,Top file age,398 days,SOURCE / ADMAPIX US,Evergreen winner lifetime can exceed a year,Age does not prove conversion efficiency
