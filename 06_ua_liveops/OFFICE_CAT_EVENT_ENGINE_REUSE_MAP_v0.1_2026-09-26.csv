@@ -1,0 +1,9 @@
+engine_family,observed_named_instances,core_reuse,new_asset_burden,config_state_burden,ops_cat_read,evidence_status
+Seasonal reward wrapper,"Cat Day 2025; Halloween 2025; Christmas 2025; Valentine's 2026; Easter 2026; Cat Day 2026",High,Low–Medium,Medium,"Strong small-team pattern: change theme/reward while preserving event grammar",SOURCE-derived taxonomy
+Offer engine,Black Friday Package,High,Low,Low–Medium,"Useful monetization layer; keep separate from gameplay-event KPI",SOURCE-derived taxonomy
+Mining wrapper,Shiny Meow Mine,Medium–High,Medium,Medium,"One reusable resource-event engine can support themed returns",SOURCE-derived taxonomy
+Party + Currency + Exchange,2nd Anniversary Event,High,Medium,Medium,"Excellent reusable P0/P1 Ops Cat engine candidate",SOURCE-derived taxonomy
+Ranking layer,"Cat Day 2026; Meowperation: Cattery!",High,Low–Medium,High,"Attach ranking after the core event proves; adds fairness/state QA burden",SOURCE-derived taxonomy
+Area expansion + challenge,City 7 + Payment Challenge,Medium,High,High,"Do not use as MVP event pattern; content + monetization + state QA are coupled",SOURCE-derived taxonomy
+Harvest wrapper,Prosperous Meow Apple Orchard,Medium–High,Medium,Medium,"Maps directly to Ops Cat garden/yard fantasy if built on core verbs",SOURCE / current store
+Collection + ranking,Meowperation: Cattery!,High,Medium,High,"Useful later-stage engine after collection and fair ranking are proven",SOURCE / current store
