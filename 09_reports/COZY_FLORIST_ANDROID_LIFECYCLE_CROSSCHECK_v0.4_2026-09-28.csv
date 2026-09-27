@@ -1,0 +1,8 @@
+Evidence_Class,Scope,Date,Value,Evidence_Label
+AndroidRank milestone,Global Android estimated installs,2026-02-01,100000,SOURCE
+AndroidRank milestone,Global Android estimated installs,2026-03-15,500000,SOURCE
+AndroidRank milestone,Global Android estimated installs,2026-04-05,1000000,SOURCE
+AndroidRank estimate,Global Android estimated installs,2026-09-06,2032301,SOURCE
+Chrome-Stats currentness,Global Android tracked downloads,2026-09-26,3173658,SOURCE
+US App Store current,US iOS store snapshot,2026-09-28,4.8 / 29K ratings / #57 Simulation / 1.5GB,SOURCE
+US iOS current version,US iOS,~2026-09-25 derived,1.0.66,SOURCE + DERIVED DATE

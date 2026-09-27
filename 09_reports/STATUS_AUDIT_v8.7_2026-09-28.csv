@@ -1,0 +1,15 @@
+Requirement,Status,Coverage_Maturity,Coverage,Limitation,Next_Action,Evidence_Needed
+Market/KPI,HIGH-PARTIAL,HIGH,US store refreshed; global Android lifecycle context added,No US monthly installs/IAP/DAU/payer/source mix; provider definitions differ,Keep provider series separate,US same-scope monthly telemetry
+Art/Visual,HIGH,HIGH,Premium floral visual benchmark inherited,No new art evidence,No change,—
+Core Gameplay,DONE,HIGH,Garden/shop dual core persists through long mission progression,No timed D0 action sheet,Use mission-order only,Current T+0→30m
+FTUE,HIGH-PARTIAL,HIGH,Current walkthrough gives mission spine through 111+,No minute-timed first30m; Part1 endpoint derived,Do not inflate to HIGH,Timed first30m / first commerce exposure
+Progression/Meta/Side,DONE,HIGH,Mission depth + Boutique Lv10 + Advancement/Alchemy Lv31 establish early→mid→late curve,No time-to-level / participation,Separate level gate from time gate,Time-to-L10/L31 + participation
+Economy/Monetization,HIGH,HIGH,Late optimization mapped; Diamond enters final flower advancement slot,Official odds/reroll EV/free earn/payer cohorts unavailable,No payer-value inference,Reroll rates / Prime Dew economy / payer mix
+LiveOps/Event Calendar,DONE,HIGH,Near-weekly Jul–Sep code CRM rail added,Code list secondary; redemption impact unknown,Treat as CRM cadence not event performance,Redemption / return cohorts
+UA/Creative/Promotion,DONE,HIGH,Japan launch gift code + social UGC adds localization/community promotion example,Global-secondary; no US spend/source share,Do not relabel as US paid UA,US source mix
+Reviews/Versions,DONE,HIGH,iOS 1.0.66 / Android 1.0.80 separate version trains; current reviews inherited,Reviews self-selected,No causal claim,Review-version-exposure cohorts
+Trend/Cause,HIGH-PARTIAL,HIGH,Global Android lifecycle milestones add E0-scale context,Global/provider-level; heterogeneous providers cannot be stitched,No E-level promotion,US same-provider install/revenue/source series
+Production Burden,DONE,HIGH,111+ missions plus Boutique guild story and advanced optimization support heavy content/config/localization class,Creator upload cadence is not developer content cadence; exact hours unavailable,Use depth/system breadth only,Title team / asset/config/QA hours
+Benchmark-by-Objective,DONE,HIGH,Mission-spine CRM late-premium and provider-integrity benchmarks added,Delta not canonicalized,Consolidate later,Decision-changing evidence
+Ops Cat Product Translation,DONE,HIGH,Mission Spine Budget / Meta Depth Gate / CRM Drip Rail / Provider-Series Integrity / Late Premium Optimization Sink,Own baselines absent,Instrument prototype progression/CRM,Mission completion / meta timing / redemption / source definitions
+Evidence/Status Audit,DONE,HIGH,Walkthrough US store Android providers guides and code history separated by evidence class/scope,No direct current timed device capture,Continue only on timed/session or same-scope commercial evidence gain,Clean capture + US same-scope telemetry

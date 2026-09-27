@@ -1,0 +1,5 @@
+Pattern,Window,Observed,Evidence_Label,Decision_Read,Guardrail,Source
+Observed code cadence,2026-07-02→2026-09-25,"15 dated expiry/valid-until markers; adjacent gaps 7 7 7 7 7 7 7 7 7 7 4 3 7 1; 11/14 gaps fall in 6–8 days",CALCULATED FROM CURRENT SECONDARY CODE LIST,Strong weekly-style CRM/community reward drip with extra campaign codes,Expiry dates do not prove issue dates or attribution,Pocket Gamer code history
+Weekly baseline,Jul2→Sep17,Near-weekly Thursday-like sequence,OBSERVED / CALCULATED,Low-asset retention touchpoint between content releases,Do not call it official weekly publisher schedule without original posts,Pocket Gamer
+Extra campaign codes,Sep14 / Sep24 / Sep25,Additional codes outside weekly baseline,OBSERVED SECONDARY,Campaign bursts layered on baseline CRM,Originating channel TBD,Pocket Gamer
+Japan launch gift,2026-02-06,Localized launch paired gift code + X hashtag UGC campaign,SOURCE · REGIONAL FIRST-PARTY PRESS RELEASE VIA MEDIA,Market entry used localization + product reward + community activation,Global-secondary; not US paid UA,GetNews / Japan launch release

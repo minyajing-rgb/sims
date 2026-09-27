@@ -1,0 +1,14 @@
+Stage,Evidence_Date,Progression_Gate,Evidence_Label,Decision_Read,Guardrail,Source
+Part 1,2026-01-24,Mission 1→~29 (derived from Part 2 starting at 29),DERIVED · CURRENT WALKTHROUGH COVERAGE,Opening progression structure only,Not timed FTUE; upload date is not content release,YouTube KruMobile Part 1
+Part 2,2026-02-07,Mission 29→52,SOURCE · CURRENT WALKTHROUGH COVERAGE,Mid-early progression continues,Creator upload cadence ≠ game content cadence,YouTube KruMobile Part 2
+Part 3,2026-02-08,Mission 52→58,SOURCE · CURRENT WALKTHROUGH COVERAGE,Uneven mission-content density,No time-to-mission inference,YouTube KruMobile Part 3
+Part 4,2026-02-15,Mission 58→69,SOURCE · CURRENT WALKTHROUGH COVERAGE,Progression remains mission-driven beyond first 50 objectives,Upload date is not unlock date,YouTube KruMobile Part 4
+Part 5,2026-02-28,Mission 69→76,SOURCE · CURRENT WALKTHROUGH COVERAGE,Mission ladder continues,No D-day mapping,YouTube KruMobile Part 5
+Part 6,2026-03-01,Mission 76→90,SOURCE · CURRENT WALKTHROUGH COVERAGE,Large mid-game mission block,No content-release cadence inference,YouTube KruMobile Part 6
+Part 7,2026-03-02,Mission 90→101,SOURCE · CURRENT WALKTHROUGH COVERAGE,Public walkthrough confirms 100+ mission depth,No population progression timing,YouTube KruMobile Part 7
+Part 8,2026-03-04,Mission 101→111,SOURCE · CURRENT WALKTHROUGH COVERAGE,Public walkthrough confirms at least 111 missions,No release-cadence inference,YouTube KruMobile Part 8
+Part 9,2026-04-25,Mission range TBD,SOURCE · CURRENT WALKTHROUGH COVERAGE,Progression continues after Mission 111,Exact mission count TBD,YouTube KruMobile Part 9
+Part 10,2026-04-29,Mission range TBD,SOURCE · CURRENT WALKTHROUGH COVERAGE,Further post-111 progression,Exact mission count TBD,YouTube KruMobile Part 10
+Level 10,2026-05-15,Boutique / Dressing Room / Outfit collection,CURRENT SECONDARY,Identity/customization delayed beyond opening flower/shop loop,Not first-party; exact T+ TBD,GrindNStrat outfit guide
+Level 31 + Flower Lv10,2026-05-15,Flower Advancement + Alchemy,CURRENT SECONDARY,Late optimization converts surplus materials into attribute progression,Participation/payer impact TBD,GrindNStrat advancement guide
+Flower Lv10/13/16,2026-05-15,Advancement attribute slots,CURRENT SECONDARY,Diamond enters final Lv16 optimization layer,Exact reroll EV/payer conversion TBD,GrindNStrat advancement guide
