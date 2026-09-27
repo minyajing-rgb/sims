@@ -1,0 +1,15 @@
+Requirement,Status,Coverage_Maturity,Coverage,Limitation,Next_Action,Evidence_Needed
+Market/KPI,HIGH-PARTIAL,HIGH,Inherited v6.8 US-first matrices,No new KPI this wave,No action,Sep US telemetry
+Art/Visual,HIGH-PARTIAL,HIGH,"21 current official-store screenshots across 7/8 Priority8 + 8-game matrix + Ops Cat A/B/C","My Perfect Hotel direct current screenshot asset remains TBD; remote images not cached","Direct MPH current capture + optional cache","MPH current screenshots / offline cache"
+Core Gameplay,DONE,HIGH,Visual evidence cross-checks store/core promise,No new timed capture,No action,Current first-30s
+FTUE,HIGH-PARTIAL,HIGH,Inherited Priority8 current-web closure,Clean stopwatch missing,Capture don't infer,Priority8 T+0-30m
+Progression/Meta/Side,DONE,HIGH,Visual ownership/collection/biome/story evidence,Participation incomplete,No action,Participation/reach
+Economy/Monetization,HIGH-PARTIAL,HIGH,Inherited evidence + premium-promise visual risk,No new payer data,No action,US payer/offer cohorts
+LiveOps/Event Calendar,DONE,HIGH,Inherited current calendars + event art,No event economics,No action,Event cohorts
+UA/Creative/Promotion,HIGH-PARTIAL,HIGH,Store screenshot promise can now be audited,No current US efficiency data,Visual promise audit only,US source mix + efficiency
+Reviews/Versions,DONE,HIGH,Inherited current coverage,No new causality,No action,Review-version joins if anomaly
+Trend/Cause,HIGH-PARTIAL,HIGH,No new KPI anomaly,No aligned new KPI cohort,No E-level change,Same-scope US telemetry
+Production Burden,DONE,HIGH,Visual burden comparison explicit,Exact asset-hours/FTE unavailable,Use relative burden,Asset hours/FTE
+Benchmark-by-Objective,DONE,HIGH,Five visual objectives added,Not canonicalized,Consolidate later,Decision evidence
+Ops Cat Product Translation,DONE,HIGH,Visual A/B/C + visual gates,Own metrics not measured,Prototype tests,Own CTR/CVR + first-action readability
+Evidence/Status Audit,DONE,HIGH,Visual evidence scope separated from performance scope,Remote URLs may change; MPH incomplete,Preserve capture date,Image cache / MPH visuals

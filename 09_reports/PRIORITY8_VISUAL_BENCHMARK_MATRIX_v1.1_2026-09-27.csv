@@ -1,0 +1,9 @@
+Product,Camera,Rendering,Density,Brand_Read,Production_Burden,Ops_Cat_Use
+Office Cat,Portrait isometric,Simplified stylized 3D,Low-medium,Cat office + money state,LOW-MEDIUM,Foundation
+My Perfect Hotel,Portrait top-down/isometric,Low-poly stylized 3D,Medium,Bellhop + hotel service,MEDIUM,Manual-core; current image cache TBD
+Hay Day,Landscape isometric,Stylized 3D,Medium-high,Iconic animals/crops,MEDIUM-HIGH,Mass-market readability
+Township,Landscape isometric,Stylized 3D,High,Farm+city+bold verbs,HIGH,Mature-system readability
+Big Farm Homestead,Wide aerial isometric,Mid-fidelity stylized 3D,High,Large homestead/world,HIGH,Scale-stage map
+The Cozy Florist,Portrait medium-isometric,High-detail stylized 3D/illustrative,Very high,Flowers+ornate garden,HIGH,Premium cozy
+Heartopia,Landscape third-person/cinematic,High-detail stylized 3D,Very high,Avatar/fashion/social world,VERY HIGH,Late-scale identity/social
+Gossip Harbor,Portrait 2D,Illustrated 2D+UI,Core medium-high/story high,Merge+drama+renovation,MEDIUM-HIGH,Narrative wrapper
