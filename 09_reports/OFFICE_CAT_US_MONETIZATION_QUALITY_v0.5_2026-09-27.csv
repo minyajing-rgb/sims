@@ -1,0 +1,11 @@
+Surface,Price_or_State,Evidence_Label,Decision_Read,Guardrail
+US App Store current snapshot,2026-09-27,SOURCE · CURRENT US APP STORE,4.8 / 73K ratings / Advertising / IAP / Loot Boxes,Not monthly US KPI
+onetime_1,$1.99,SOURCE · CURRENT US APP STORE,Low-ticket one-time purchase,Opaque SKU identity
+onetime_2,$5.99,SOURCE · CURRENT US APP STORE,Higher one-time purchase,Opaque SKU identity
+Gem 300,$1.99,SOURCE · CURRENT US APP STORE,Premium currency entry,Top-IAP list not full catalog
+Gem 1800,$8.99,SOURCE · CURRENT US APP STORE,Higher premium-currency step,Full pack table unavailable
+Cat Bank tiers,$2.99 / $3.99 / $4.99 / $5.99,SOURCE · CURRENT US APP STORE,Deferred-value bank family,Trigger/fill/reset TBD
+Starter pack,$2.99,SOURCE · CURRENT US APP STORE,Starter conversion surface,Contents/trigger TBD
+Ad-free purchase,TBD current US,OBSERVED · CURRENT REVIEW + STORE CONFLICT,Ad-removal exists,Do not map opaque SKU or historical regional price
+Premium-progression friction,Current review corpus,OBSERVED REVIEW SIGNAL,Gem-only decor perceived as tied to happiness/full-rent,Not internal economy telemetry
+Rewarded-ad dependency,Current Aug-2026 review,CURRENT SECONDARY REVIEW,Ads gate reward claims/speedups/boss cash,One review/playthrough

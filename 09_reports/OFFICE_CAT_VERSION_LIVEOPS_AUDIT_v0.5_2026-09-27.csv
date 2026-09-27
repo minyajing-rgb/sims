@@ -1,0 +1,9 @@
+Audit_Item,Version_or_Value,Date_or_Window,Evidence_Label,Decision_Read,Guardrail
+Current iOS US,1.0.80,2026-08-31,SOURCE · CURRENT FIRST-PARTY STORE,Current iOS anchor,No KPI impact inferred
+Current Android US,1.0.80,2026-08-31,SOURCE · CURRENT THIRD-PARTY STORE INTELLIGENCE,Cross-provider agreement,Not direct first-party GP capture
+2026 visible cadence,10 versions,2026-01-23 to 2026-08-31,CALCULATED,Median 13d / mean 24.4d,Server updates may occur between clients
+Valentine preload,1.0.72 / 1.0.73,Feb5 / Feb11,SOURCE · CURRENT VERSION HISTORY,Preload + near-event release,Repeated note ≠ two event launches
+Cat Day preload + fast fix,1.0.76 / 1.0.77,Jul13 / Jul15,SOURCE · CURRENT VERSION HISTORY,Event preload + stabilization,Activation date ≠ client date
+City7 / Payment Challenge,1.0.78 / 1.0.79,Aug20 / Aug21,SOURCE · CURRENT VERSION HISTORY,Permanent content + challenge + next-day fix,Challenge economics TBD
+Current App Store events,Current Sep 2026,Current,SOURCE · CURRENT US APP STORE,Halloween / Meowperation / Mining visible,Not exhaustive backend calendar
+Current review quality,Recent 4.70 / all-time 4.61,Current monitor,OBSERVED REVIEW SIGNAL,Ads/rewards/ad-free expectations remain quality risk,Not population prevalence or KPI causality

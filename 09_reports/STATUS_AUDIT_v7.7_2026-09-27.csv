@@ -1,0 +1,15 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market/KPI,HIGH-PARTIAL,Current US store refreshed,No current US monthly installs/IAP/DAU/payer/source mix,Obtain same-scope US telemetry
+Art/Visual,HIGH-PARTIAL,Office Cat visual pack inherited from v6.9,MPH image cache remains Atlas-wide gap,No Office Cat action
+Core Gameplay,DONE,Office upgrade/company satisfaction/staff loop covered,Exact first-action T+ missing,Capture current first30m
+FTUE,HIGH-PARTIAL,Current qualitative first-half-hour evidence,No current stopwatch sheet,Capture 1.0.80 T+0→30m
+Progression/Meta/Side,DONE,City7/Payment Challenge/Daily Rankings/current events mapped,Unlock timing/participation missing,Capture unlock/event exposure
+Economy/Monetization,HIGH,Visible IAP catalog + review friction mapped,Opaque SKU/ad-free price/offer triggers/IAA-IAP split missing,Capture in-game offers
+LiveOps/Event Calendar,DONE,2026 version-event rail + current store events,No exhaustive backend calendar/participation,Obtain event cohorts
+UA/Creative/Promotion,DONE,Inherited UA evidence + Creative Truth review signal,No current Office Cat spend/source mix,Obtain US media/source data
+Reviews/Versions,DONE,1.0.80 + cadence + quality themes,Review sample not population prevalence,Join review/version/ad exposure
+Trend/Cause,HIGH-PARTIAL,No E-level promotion,No aligned monthly US performance/source cohorts,Keep causal claims off
+Production Burden,DONE,Preload/fix cadence strengthens live burden evidence,Exact live FTE/art/config/QA hours missing,Obtain production allocation
+Benchmark-by-Objective,DONE,New v7.7 Office Cat benchmarks,Delta not canonicalized,Consolidate later
+Ops Cat Product Translation,DONE,Ad-Free Contract/Happiness Guardrail/Ad Dependency/Preload Ledger/Creative Truth,Own baseline absent,Instrument monetized prototype
+Evidence/Status Audit,DONE,Opaque SKUs/review/version/third-party Android separated,Current US ad-free price/exact FTUE unresolved,Continue on evidence gain
