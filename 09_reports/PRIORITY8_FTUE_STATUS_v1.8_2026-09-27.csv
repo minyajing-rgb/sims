@@ -1,0 +1,9 @@
+Product,Status,Evidence,Coverage,Limitation,Next_Action
+Gossip Harbor,HIGH,Sep-2026 ~90m current multi-run D0 deconstruction,Exact D0 timing / relief / guidance handoff.,Geo/platform/build unspecified.,Retain.
+Heartopia,HIGH,2026 cross-source first-hour + 10–15m Builder Tablet + D1+ gates,Strong structural D0→D7 map.,Minute-by-minute current mobile stopwatch incomplete.,Capture current mobile.
+The Cozy Florist,HIGH-PARTIAL,Current first-hour review + Level10 Boutique + current version/store/economy/live-event evidence,"Opening unlock/plant/sell→bouquet loop, premium visual promise, monetization/live-event structure now materially stronger.",No clean T+0→30m; first order/bouquet/shop/offer exact timing remains missing.,P0: capture current 1.0.66 first 30m.
+Office Cat,HIGH-PARTIAL,Current qualitative first-half-hour + 1.0.80 store/economy/version,Current D0 quality/economy context.,Exact T+0→30m missing.,Capture current 1.0.80.
+Big Farm Homestead,HIGH-PARTIAL,2026 level guides + current LiveOps/FTUE workaround,Lv1–5 handoff known.,Exact T+0→30m missing.,Capture current walkthrough/device.
+My Perfect Hotel,HIGH-PARTIAL,Current 2026 tutorial video/store/economy,Manual→automation structure known.,Exact stopwatch missing.,Timestamp current tutorial.
+Hay Day,HIGH-PARTIAL,2026 NPE tests + first-party onboarding rebuild,FTUE experimentation known.,Exact current clean timing missing.,Capture current current/test build.
+Township,HIGH-PARTIAL,2026 first-hour guide + official unlock support,Early supply-chain structure known.,Exact current timing missing.,Capture current clean session.
