@@ -1,0 +1,15 @@
+Requirement,Status,Coverage_Maturity,Coverage,Limitation,Next_Action
+Market/KPI,HIGH-PARTIAL,HIGH,Current US store refreshed; prior US lifecycle/creative context inherited.,Sep US monthly D/IAP/DAU/payer/source missing.,No store/review field replaces monthly KPI.
+Art/Visual,HIGH,HIGH,Current official-store screenshots/visual matrix inherited.,No major Township visual gap.,No action.
+Core Gameplay,DONE,HIGH,Farm/city logistics primary; Match-3 tied to pass/expedition/T-Cash.,Exact first-input T+ missing.,Use structure not timed D0 claim.
+FTUE,HIGH-PARTIAL,HIGH,PassLv7; CollectionLv10; Teams/RegattaLv12; EconomyShiftLv35+M3-800.,Exact clean T+0→30m missing.,Capture current iOS39.0.2 first30m.
+Progression/Meta/Side,DONE,HIGH,Pass/collection/expedition/team/regatta graph mapped.,Participation/reach/unlock minutes missing.,Keep structure separate from usage.
+Economy/Monetization,HIGH,HIGH,US IAP + Economy Shift + Pass + Piggy + T-Cash graph mapped.,Payer mix/offer triggers/economy allocation unavailable.,Normalize pre/post by economy version.
+LiveOps/Event Calendar,DONE,HIGH,Current pass+adventure+collection overlap; system couplings mapped; cadence quantified.,No backend exhaustive calendar/participation economics.,Use visible architecture only.
+UA/Creative/Promotion,DONE,HIGH,US two-speed creative fleet inherited; Creative Truth risk preserved.,No exact US spend/CPI/ROAS/source mix.,No performance inference from coverage.
+Reviews/Versions,DONE,HIGH,Current iOS39.0.2; median16d cadence; Android conflict; recent3.20 vs all-time4.69.,Self-selected reviews; Android exact current unresolved.,No causal KPI claim.
+Trend/Cause,HIGH-PARTIAL,HIGH,Economy Shift + review divergence are crosschecks; no aligned US monthly trend/source/payer data.,No same-scope anomaly dataset.,Retain E0/E1 risk only.
+Production Burden,DONE,HIGH,Median16d cadence + recurring multi-lane package = HEAVY mature.,Exact FTE/lane-hours unavailable.,Use package/cadence model only.
+Benchmark-by-Objective,DONE,HIGH,Economy migration; cross-loop pass; collection integrator; package factory; review divergence added.,Delta not canonicalized.,Consolidate later.
+Ops Cat Product Translation,DONE,HIGH,Economy Version Ledger; Pass Cross-Loop Budget; Collection Integrator; Exit Test; Activation Ledger.,Own baselines absent.,Instrument before rebase/pass launch.
+Evidence/Status Audit,DONE,HIGH,First-party store/support/version separated from provider conflict/reviews.,US monthly performance/economy allocation/Android exact version access-gated.,Continue only on evidence gain.

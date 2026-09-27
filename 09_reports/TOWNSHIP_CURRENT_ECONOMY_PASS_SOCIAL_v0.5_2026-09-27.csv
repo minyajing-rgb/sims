@@ -1,0 +1,10 @@
+Surface_or_System,Window_or_Price,Observed,Evidence_Label,Decision_Read,Guardrail
+US App Store current snapshot,2026-09-27,4.8 / 2.2M ratings / #13 Casual / 325.2MB / Loot Boxes / Messaging & Chat / IAP.,SOURCE · CURRENT US APP STORE,Current US store position and monetization/social flags are directly observable.,Not monthly US installs/revenue/DAU/payer/source mix.
+Current US visible IAP ladder,$1.99–$19.99,"Tiny Cash $1.99; Piggy $2.99; Golden Ticket $4.99; Small Cash $4.99; Boost $5.99; Standard $6.99; Medium $9.99; Large $19.99; Offer $3.99; Beginner $1.99.",SOURCE · CURRENT US APP STORE,Premium currency + piggy + pass + boosts + offers.,Top-IAP list is not attach-rate share.
+Economy Shift,Town35 + Match-3 800; gradual,New economy activates after both gates and rolls out gradually; balances and costs are proportionally reindexed.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Use account economy-version tagging.,Exact experiment allocation TBD.
+Town Pass,30 stages / Level7+,Easy1 Hard3 SuperHard5 points; 8 lives; +30% Barn; +5 opening moves; guild gift; paid rewards.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Cross-loop monetization.,Conversion/churn TBD.
+Pass safe,After 30 stages,Repeatable safe while season remains active.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Extends end-of-track value.,Reward EV TBD.
+New-player Piggy,Limited-time new players,Fills via helicopters/trains/planes; repeat purchase while active.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Monetization embedded in logistics.,Eligibility/attach TBD.
+Collection,Town Level10,Cards from competitions/expedition/season/regatta/mine/trains/teammates.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Cross-system collection integrator.,Drop/completion TBD.
+Expedition energy,Current,Match-3 main energy source; regen/purchase also available; leftover converts to coins.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Side game feeds exploration.,Energy economics TBD.
+Teams / Regatta,Level12 / up to50,Lives/products/cards/city help; Pass raises life request cap 5→8; no Regatta task cooldown; Gold cap17.,SOURCE · CURRENT FIRST-PARTY SUPPORT,Social + pass + competition coupled.,Cohort outcomes TBD.
