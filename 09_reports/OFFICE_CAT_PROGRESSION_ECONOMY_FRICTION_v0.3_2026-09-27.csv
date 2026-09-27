@@ -1,0 +1,8 @@
+System,Observed_Evidence,Evidence_Label,Guardrail
+Player level,"Company star-ups + facility upgrades drive level; each company star-up adds +1 level",CURRENT 2026 SECONDARY GUIDE,"Use structure, not exact coefficients"
+Tenant happiness,"Company EXP speed depends on cat mood; meetings grant substantial EXP",CURRENT 2026 SECONDARY GUIDE,"Keep baseline progression viable without paid-only mood items"
+Active vs offline,"Player reports offline ~4% of active; ~32% after 8x ad multiplier",PLAYER-MEASURED,"Not official server truth"
+Legendary Chairman,"Player reports ~80s return and payout ~5 minutes tenant revenue",PLAYER-MEASURED,"Single-player measurement"
+Facility priority,"Office > Meeting > Management/CEO; many non-income rooms can be deferred",CURRENT 2026 SECONDARY GUIDE,"Run rational-player skip test"
+Hidden inflation,"Later areas repeat headline unlocks while facility/power costs rise",CURRENT 2026 SECONDARY GUIDE,"Audit true effort behind nominal milestones"
+Gem rescue,"Guide reports 50-gem Frames can add +1 level; >1,500 gems/building if broadly used",CURRENT 2026 SECONDARY GUIDE,"Not audited current US economy"
