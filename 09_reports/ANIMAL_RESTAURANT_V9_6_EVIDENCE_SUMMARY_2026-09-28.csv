@@ -1,0 +1,13 @@
+Area,Status,Key_Evidence,Main_Gap
+Market_KPI,PARTIAL,"US 4.9/168K/iOS12.32; Global monthly master; Android currentness separate","US monthly installs/IAP/DAU/payer/source mix"
+Art_Visual,DONE,"Flat illustrated 2D; modular rooms; animal silhouettes; high catalog reuse","Annotated local screenshot pack"
+Core,DONE,"Promote→customers→serve→Cod→upgrade→rating/unlock→collection","Current first30s timing"
+FTUE,PARTIAL,"Rating gates 200/800/1000/1500/2500/3000/4000","T+0→30m and time-to-rating"
+Meta,DONE,"Friends/offline/performers/fishing/pets/takeout/terrace/collections","Participation/reach"
+Economy,PARTIAL,"Multi-currency + current US IAP + pass/diamond/ad surfaces","IAA/payer/pass attach"
+LiveOps,DONE,"2026 pass/catalog/holiday cadence; Sep overlap","Participation/completion"
+UA,PARTIAL,"Owned/store promotion + product-faithful hooks","Paid/organic/source/spend/creative history"
+Reviews_Versions,DONE,"Current ad-quality reports; iOS release cadence; Android separate","Incident prevalence"
+Trend_Cause,PARTIAL,"May spike E1; June reversal counter-evidence","Source/payer/event/IAA cohorts"
+Production,PARTIAL,"Low render burden; high catalog/config/localization burden","Current FTE/hours/outsource"
+Translation,DONE,"Early Ownership; Collection→Traffic; Catalog-over-Pass; Ad Integrity; 2D Catalog Factory","Own-product baselines"
