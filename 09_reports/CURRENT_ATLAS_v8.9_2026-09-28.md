@@ -2,7 +2,9 @@
 
 Current research release: **v8.9 · 2026-09-28**
 
-- HTML: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v8.9_2026-09-28.html`
+## Release artifacts
+- Local Full HTML: `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v8.9_2026-09-28.html`
+- GitHub HTML: **PENDING — connector safety check blocked HTML write in this run**
 - Release notes: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v8.9_RELEASE_NOTES_2026-09-28.md`
 - BFH launch-scale Trend/Cause: `09_reports/BIG_FARM_HOMESTEAD_LAUNCH_SCALE_TREND_CAUSE_v0.9_2026-09-28.csv`
 - BFH creator-UA evidence: `09_reports/BIG_FARM_HOMESTEAD_CREATOR_UA_EVIDENCE_v0.5_2026-09-28.csv`
