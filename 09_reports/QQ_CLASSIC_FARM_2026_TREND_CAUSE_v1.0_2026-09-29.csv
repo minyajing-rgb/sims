@@ -1,0 +1,8 @@
+Window,Observed,Evidence_Level,Interpretation,Counter_Evidence
+2026-02-06_to_02-10,"First-day users >35M; Feb10 popularity #1 / grossing #5",E3,"Launch burst aligns with classic-IP nostalgia, zero-install QQ+WeChat distribution and referral/brand activation","Users are not installs/DAU; source mix unavailable"
+2026-02_to_03,"March monthly rank #11 in a different provider summary",E1,"Post-launch normalization candidate","Provider and time-window differ from Feb snapshot"
+2026-03-09,"Corgi/Love Fruit event reports show unusually fast EXP acceleration",E1,"Economy configuration risk","Community report; no population telemetry"
+2026-05,"DataEye #1 / GameLook #2; Pumpkin event quality complaints",E2,"Commercial rank remained head-tier while event fairness became a risk","Provider methods differ; rank does not measure experience quality"
+2026-06,"Outside published GameLook Top10 while Lotus Summer was active",E1,"Content-rich event did not guarantee Top10 position","Exact rank/revenue unavailable"
+2026-07,"GameLook monthly grossing #7",E1,"Top10 recovery overlaps season handoff","No attribution or cohort data"
+2026-08_to_09,"Current content continues but comparable market KPI not recovered",E0,"Performance unresolved","No comparable rank/revenue/download evidence"
