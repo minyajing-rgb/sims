@@ -1,0 +1,12 @@
+Dimension,Item,Finding,Confidence,Source_Class,Window
+Market,US App Store,"4.6 / 35K / #66 Family / 3.9GB / v0.5.5",HIGH,Apple US App Store,2026-09-29
+Market,US SocialPeta iOS Aug,"202K downloads / $3.9M revenue / D -34.4% / R -22.9%",PROVIDER,SocialPeta,2026-08
+Market,US SocialPeta GP Aug,"100.8K downloads / $2.0M revenue / D -48.1% / R -30.8%",PROVIDER,SocialPeta,2026-08
+UA,Launch creative factory,"~8K Jan creatives / 97.33% video / peak 1057 daily",PROVIDER,SocialPeta Jan report,2026-01
+UA,Current iOS creative,"3183 creatives / 9 channels / 45 geos",PROVIDER,SocialPeta,Last30d Sep26
+UA,Current GP creative,"1321 creatives / 9 channels / 103 geos",PROVIDER,SocialPeta,Last30d Sep26
+Product,Current social features,"Friend Styling / Hot Air Balloon / Party / Hide&Seek / Parkour / UGC",HIGH,Apple+Steam official,Current
+LiveOps,Late-Sep event density,"Party + Burger + Mid-Autumn + Starspell + White Snake",HIGH,Official Steam/App Store,Sep-Oct2026
+Quality,Build-load pressure,"Current community says paid/rare furniture can exceed usable home load",MEDIUM,Reddit,2026-06/07
+Quality,Gacha fairness,"High-engagement complaints about dupes/pity/price/full-set pressure",MEDIUM,Reddit,2026-02/07
+Trend,Jul→Aug,"Global downloads -22.3%; collection revenue -16.1%; US provider also contracts",E2_DIRECTIONAL,Repo+SocialPeta,2026-07→08
