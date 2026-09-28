@@ -1,0 +1,4 @@
+Date_Window,Product,Scope,Observed_Change,Evidence_Level,Interpretation,Counter_Evidence
+2025-12->2026-01,Township,Global,"Downloads +57.0%; Revenue +8.1%; calendar pseudo-ARPI -31.2%.",E1,UA/content are plausible contributors.,"Global vs US/source scope mismatch; source share missing."
+2026-06->2026-07,Township,Global,"Downloads +41.8%; Revenue +8.9%; calendar pseudo-ARPI -23.2%.",E1,Large content package overlaps reach spike.,No July paid/organic/source evidence.
+2026-07->2026-08,Township,Global,"Downloads -26.9%; Revenue +3.3%; calendar pseudo-ARPI +41.3%.",E0,Cohort/payer/denominator candidate.,No payer/ARPDAU/source/event participation.

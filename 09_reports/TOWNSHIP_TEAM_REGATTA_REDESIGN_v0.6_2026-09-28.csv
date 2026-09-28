@@ -1,0 +1,9 @@
+Audit_Item,Window,Observed,Evidence_Label,Decision_Read,Guardrail
+Team capacity,Current 2026,Up to 50 players,SOURCE · CURRENT FIRST-PARTY SUPPORT,Large social group needs governance.,Retention by team size TBD.
+Roles,Current 2026,Leader / up to 5 Co-leaders / Member; Elder removed,SOURCE · CURRENT FIRST-PARTY SUPPORT,Simplified governance with multiple operators.,Moderation workload TBD.
+Inactive leader succession,60 days inactivity,Leadership transfers to longest-tenured co-leader/member,SOURCE · CURRENT FIRST-PARTY SUPPORT,System repairs abandoned governance.,Recovery effect TBD.
+Activity indicator,Current 2026,Inactive/Low/Medium/High based on lives/products/cards/Regatta,SOURCE · CURRENT FIRST-PARTY SUPPORT,Team quality uses multi-system behavior.,Formula weights private.
+Chat utility,Current 2026,Lives q4h; products q4h; cards q24h; train/plane help,SOURCE · CURRENT FIRST-PARTY SUPPORT,Chat is transactional assistance.,Fulfillment rates TBD.
+Regatta task board,Current 2026,12 tasks = 6 Match-3 + 6 Town; successful level required,SOURCE · CURRENT FIRST-PARTY SUPPORT,Competition balances side/core lanes.,Task-choice distribution TBD.
+Regatta throughput,League-based,Task caps 9/11/13/15/17; no cooldown after taking tasks,SOURCE · CURRENT FIRST-PARTY SUPPORT,League progression raises workload ceiling.,Session burden TBD.
+Team-switch anti-abuse,Within 24h,Repeated switching escalates cooldown from 5m to max 120m,SOURCE · CURRENT FIRST-PARTY SUPPORT,Anti-abuse targets repeated switching.,Abuse-rate data TBD.
