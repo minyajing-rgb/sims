@@ -5,10 +5,15 @@ Current research release: **v10.7 · 2026-09-29**
 Focus game: **向往的生活官方游戏**
 Market rule: **US-first / Global-secondary**
 
-- Team HTML: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v10.7_TEAM_2026-09-29.html`
+Committed on this branch:
 - Trend/Cause: `09_reports/LONGING_LIFE_OFFICIAL_GAME_2026_TREND_CAUSE_v1.0_2026-09-29.csv`
-- Evidence: `09_reports/LONGING_LIFE_V10_7_EVIDENCE_SUMMARY_2026-09-29.csv`
-- Status Audit: `09_reports/STATUS_AUDIT_v10.7_2026-09-29.csv`
+
+Local canonical deliverables completed in this research run:
+- `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v10.7_2026-09-29.html`
+- `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v10.7_COMPACT_2026-09-29.html`
+- Operating System / LiveOps / Benchmark / Status Audit / Evidence Summary / Release Notes
+
+GitHub HTML and auxiliary evidence writes were blocked by connector safety validation in this run; they are not reported as committed.
 
 Important:
 - current BeeFun title is NOT the old 2023 Mango farm-sim
