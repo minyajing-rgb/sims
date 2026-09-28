@@ -1,0 +1,13 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market/KPI,HIGH,"US current store + Global same-scope monthly downloads/IAP","US monthly installs/IAP/DAU/payer/source missing","Acquire US same-scope series"
+Art/Visual,HIGH,"Current official screenshots + store creative sequence","No stable local annotated screenshot cache","Capture 3–8 current screenshots when bytes available"
+Core Gameplay,DONE,"Generator→merge→order→coin→story/renovation","Current timed first30s missing","Native T+0→30m capture"
+FTUE,HIGH-PARTIAL,"Early order/energy/board grammar","First event/card/pass/offer timing missing","Version-tagged FTUE capture"
+Progression/Meta/Side,DONE,"Story, Special Requests, Cards/Prestige, Seasons, event families","Unlock/reach incomplete","Feature exposure/participation"
+Economy/Monetization,HIGH,"Energy/Coins/Gems/board/cards + current US IAP","Payer/ARPPU/offer triggers missing","Payer/pass/offer cohorts"
+LiveOps,DONE,"Current/recent events + recurring event taxonomy","Backend exhaustive calendar/participation missing","Exact event inventory/entry/completion"
+UA/Creative,HIGH,"14.7K creatives/30d; 17 channels; 253 countries","Observed activity ≠ spend/CPI/ROAS","US media economics/source shares"
+Reviews/Versions,DONE,"Current reviews + 10 visible recent iOS versions","Reviews self-selected","Review-by-version/support telemetry"
+Trend/Cause,HIGH,"E0/E1 records with counter-evidence","No US payer/source/event cohorts","No causal promotion"
+Production Burden,DONE,"Heavy narrative/config/QA/creative cadence","Current FTE/hours missing","Current staffing and asset/config hours"
+Ops Cat Translation,DONE,"6 new control rules","Own baseline not live","Prototype/instrument"
