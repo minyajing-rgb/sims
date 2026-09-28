@@ -1,0 +1,12 @@
+Evidence_Area,Status,Key_New_Evidence,Guardrail
+Market/KPI,HIGH-PARTIAL,"US App Store 4.9/119K; global same-scope Jan-Aug master; 45M cumulative downloads / KRW40B cumulative sales corporate context","US monthly installs/IAP/DAU/payer/source mix TBD"
+Art/Visual,HIGH,"Portrait 2D kawaii/pastel; chibi cats; modular worktops/counters/tables; strong cat+food thumbnail readability","Local annotated screenshot pack TBD"
+Core,DONE,"Order→cook/serve→tips→upgrade→hire/automate→stage clear→expand→offline return","Current first30s timed capture TBD"
+FTUE,HIGH-PARTIAL,"Mini-game gate level1-4; events gate Area1 Stage5/Taco Place","Stage gate ≠ time gate; T+0→30m TBD"
+Meta,DONE,"Costumes/Suitcases/Wardrobe/Area Pass/Island Travel/Special Customers/Peak Time/50-level mini-game/offerwall","Participation and duplicate-sink cohorts TBD"
+Economy,HIGH,"Current NoAds Lite/Upgrade, Peak Time packs/pass; event pass/support/temp worker monetization","Current payer/IAA/offer cohorts TBD"
+LiveOps,DONE,"Island Travel weekly Thursday; Peak Time between periods; current Camem/Bert Halloween store event","Availability ≠ participation/performance"
+UA,HIGH,"Mistplay US source case: D7 ARPU +20%, D7 retention +100%, D30 retention +70%; Sep-2026 Japan LINE Mini App/H5 plan","Source case ≠ total media mix; H5 performance TBD"
+Trend/Cause,HIGH-PARTIAL,"Mar and Jul monetization rebounds remain unexplained; Aug downloads -24.3% / IAP -41.0% flagged E1 lifecycle risk","No E2/causal promotion"
+Production,HIGH,"Lean→Medium native 2D production; Neptune dedicated hybrid-casual division; new H5 platform engineering requirements","Current title FTE/asset/config-QA hours TBD"
+Product Translation,DONE,"Event→Evergreen NPC; Appearance/Stats Separation; Rewarded-UA Ledger; Ad Entitlement Contract; Native→MiniApp Gate","Ops Cat baselines not live"
