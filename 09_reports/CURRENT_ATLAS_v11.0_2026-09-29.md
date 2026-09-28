@@ -1,0 +1,10 @@
+# CURRENT SIMS FULL COMPETITOR INTELLIGENCE ATLAS
+
+Release: v11.0 · 2026-09-29
+Focus: Township
+Market: US-first / Global-secondary
+
+Local canonical: SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v11.0_2026-09-29.html
+GitHub team view: 09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v11.0_TEAM_2026-09-29.html
+Trend evidence: 09_reports/TOWNSHIP_2026_TREND_CAUSE_v1.0_2026-09-29.csv
+Status audit: 09_reports/STATUS_AUDIT_v11.0_2026-09-29.csv
