@@ -1,0 +1,12 @@
+Layer,Window_or_Unlock,Observed,Evidence_Label,Decision_Read,Guardrail
+US current,2026-09-28,4.8 / 30K ratings / #86 Simulation / 1.5GB / iOS 1.0.66; Loot Boxes + Advertising + Messaging/Chat + IAP,SOURCE · US APP STORE,US-first current anchor,Store snapshot is not monthly KPI
+Core,Current,Plant/grow→harvest→orders/bouquet/shop→Gold/EXP/materials→upgrade flower/shop/garden→social/guild/event/collection→return,SOURCE/OBSERVED,Flower cultivation and order fulfillment remain core,T+0→30m TBD
+Mission progression,Current walkthrough,Mission ladder publicly covers at least 1→111+ with later continuation,CURRENT WALKTHROUGH,Deep mission spine,Upload date ≠ release date
+Boutique,Level10,Boutique/Dressing Room/Outfit collection,CURRENT SECONDARY,Identity layer after opening flower loop,Time-to-L10 TBD
+Advancement/Alchemy,Level31 + mature flower,Flower Advancement and Alchemy add attribute optimization and surplus-material sinks,CURRENT SECONDARY,Long-tail optimization,Exact EV/payer impact TBD
+Astral/Star Spirit,Current 2026,Premium draw + flower cards + duplicate XP + timed Astral production/dispatch + social assistance + dedicated currency/shop,CURRENT SECONDARY/COMMUNITY,Connects collection/gacha/social/production,Exact current caps/pity/pass benefits TBD
+Guild competition,Current,Guild competition intersects flower progression; reviews flag premium-flower fairness concerns,OBSERVED REVIEW SIGNAL,Competitive monetization fairness risk,Exact scoring not verified
+Real bouquet,Current store,Lucky players can redeem real flower bouquets,SOURCE · US APP STORE,Digital→physical differentiation,Eligibility/cost/fraud/redemption TBD
+US IAP,Current,Generic price ladder $0.99→$29.99,SOURCE · US APP STORE,Wide conversion ladder,Pack contents/segmentation TBD
+D2C,Current,Official RiftSky payment center exists,SOURCE,Web/D2C monetization channel,US share/pricing/payer overlap TBD
+Production,Current,RiftSky states in-house R&D/operations/localization and broad ad-platform relationships,SOURCE · DEVELOPER SITE,Supports fast localization/iteration,Company capability ≠ title FTE

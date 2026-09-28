@@ -1,0 +1,11 @@
+Evidence_Area,Observed,Evidence_Label,Guardrail
+US current,4.8 / 30K ratings / #86 Simulation / 1.5GB / iOS 1.0.66,SOURCE · US App Store,Rank volatile; not monthly KPI
+Android current,1.0.80 Sep22 / 3.17M tracked downloads / 4.73 context,SOURCE · current tracker,Provider/tracked downloads != US/Diandian series
+Global scale,Mar peak 1.946M downloads / $1.158M IAP; Aug 1.384M / $791K,SOURCE · main 19-game master,Same-scope Global only
+Current LiveOps,Story Series + Dragon Chant; explicit new content/events in 1.0.62/1.0.63,SOURCE · App Store events/version history,Exact backend calendar TBD
+Creative factory,"2,291 creatives / 6,939 plans / 66 markets / ~84% video",OBSERVED · CreativeScope,Not spend/CPI/ROAS
+Social/CRM,Discord + near-weekly code cadence; Japan UGC launch,SOURCE/SECONDARY,Claim/return/source share TBD
+D2C,Official RiftSky payment center,SOURCE,US D2C share/pricing TBD
+Meta,Advancement/Alchemy/Astral/guild/outfits/social visits,CURRENT SECONDARY/COMMUNITY,Exact caps/pity/scoring TBD
+Production,RiftSky in-house R&D/ops/localization; >100 ad-platform relationships,SOURCE · developer site,Company capability != title FTE
+Primary risk,Competitive/guild pay pressure + ad-promise mismatch + high event density,OBSERVED REVIEW SIGNAL,Self-selected; no prevalence
