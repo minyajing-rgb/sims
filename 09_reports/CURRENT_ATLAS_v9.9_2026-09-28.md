@@ -5,13 +5,16 @@ Current research release: **v9.9 · 2026-09-28**
 Focus game: **Cat Snack Bar**
 Market priority: **US-first / Global-secondary**
 
-- HTML: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v9.9_2026-09-28.html`
-- Release notes: `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v9.9_RELEASE_NOTES_2026-09-28.md`
-- Operating system: `09_reports/CAT_SNACK_BAR_OPERATING_SYSTEM_v0.8_2026-09-28.csv`
-- LiveOps / Version / UA: `09_reports/CAT_SNACK_BAR_LIVEOPS_VERSION_UA_v0.8_2026-09-28.csv`
+## GitHub committed in this release
+- Evidence summary: `09_reports/CAT_SNACK_BAR_V9_9_EVIDENCE_SUMMARY_2026-09-28.csv`
 - Trend/Cause: `09_reports/CAT_SNACK_BAR_2026_TREND_CAUSE_v0.8_2026-09-28.csv`
-- Benchmark delta: `09_reports/BENCHMARK_BY_OBJECTIVE_v9.9_DELTA_2026-09-28.csv`
-- Status audit: `09_reports/STATUS_AUDIT_v9.9_2026-09-28.csv`
+
+## Local completed artifacts
+- Full HTML: `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v9.9_2026-09-28.html`
+- Compact HTML: `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v9.9_COMPACT_2026-09-28.html`
+- Operating system / LiveOps-Version-UA / Benchmark / Status / Release Notes evidence pack
+
+GitHub HTML write was blocked by connector safety checks in this run; it is **not** claimed as committed.
 
 Important:
 - source-level rewarded-UA cases are not total media mix.
