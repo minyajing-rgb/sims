@@ -4,19 +4,14 @@ Current research release: **v10.9 · 2026-09-29**
 Focus game: **Hay Day**
 Market rule: **US-first / Global-secondary**
 
-Local canonical:
-- `SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v10.9_2026-09-29.html`
-
-GitHub team HTML target:
+GitHub artifacts:
 - `09_reports/SIMS_FULL_COMPETITOR_INTELLIGENCE_ATLAS_v10.9_TEAM_2026-09-29.html`
+- `09_reports/HAY_DAY_V10_9_GITHUB_STATUS_2026-09-29.md`
 
-Evidence:
-- `09_reports/HAY_DAY_2026_TREND_CAUSE_v1.0_2026-09-29.csv`
-- `09_reports/HAY_DAY_V10_9_EVIDENCE_SUMMARY_2026-09-29.csv`
-- `09_reports/STATUS_AUDIT_v10.9_2026-09-29.csv`
+Local canonical HTML and research CSVs were completed and QA-checked in the research workspace.
 
 Important:
-- US SocialPeta and Global Diandian absolute estimates are separate provider series.
+- US and Global provider series stay separate.
 - calendar pseudo-RPD is diagnostic only.
 - partial-exposure tests are not universal launch dates.
 - no CAUSAL promotion.
