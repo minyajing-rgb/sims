@@ -1,0 +1,10 @@
+Date_Window,Product,Scope,Observed_Change,Evidence_Level,Interpretation,Counter_Evidence
+2025-11→12,Big Farm Homestead,Global same-scope,"Downloads 104377→542045 (+419.3%); IAP 23063→157113 (+581.2%); pseudo-ARPI 0.22→0.29 (+31.2%)",E2,"Worldwide opening and Dec soft-launch definition align with first scale jump","No app-level UA spend/source"
+2025-12→2026-01,Big Farm Homestead,Global same-scope,"Downloads 542045→839842 (+54.9%); IAP 157113→530198 (+237.5%); pseudo-ARPI 0.29→0.63 (+117.8%)",E2,"Q1 global-launch scaling plus creator lane support acquisition-scale candidate","Creator is one late-month source; BIG +88% is franchise scope"
+2026-01→02,Big Farm Homestead,Global same-scope,"Downloads +4.6%; IAP +58.6%; pseudo-ARPI +51.6%",E1,"Chapter10 and County Fair redesign overlap expansion","No payer/event exposure"
+2026-02→03,Big Farm Homestead,Global same-scope,"Downloads -16.9%; IAP +36.3%; pseudo-ARPI +64.0%",E1,"Revenue expands despite acquisition decline; pass operations visible","Pass incidents are counter-evidence to a simple positive-event story"
+2026-03→04,Big Farm Homestead,Global same-scope,"Downloads +5.7%; IAP +2.7%; pseudo-ARPI -2.8%",E0,"Comparatively stable","No independent driver"
+2026-04→05,Big Farm Homestead,Global same-scope,"Downloads +25.0%; IAP +3.8%; pseudo-ARPI -17.0%",E1,"Claire Picnic/social/Discord/Samsung expansion overlap reach growth","Source/store contribution unknown; pass incident mid-May"
+2026-05→06,Big Farm Homestead,Global same-scope,"Downloads -36.4%; IAP -12.7%; pseudo-ARPI +37.3%",E1,"Consistent with Stillfront-reported post-launch UA normalization","No BFH app-level spend/CPI/source mix; ratio can rise mechanically"
+2026-06→07,Big Farm Homestead,Global same-scope,"Downloads -21.5%; IAP +0.5%; pseudo-ARPI +28.1%",E1,"Media normalization plus installed-base value candidate","No payer/ARPDAU/cohort revenue/source shares"
+2026-07→08,Big Farm Homestead,Global same-scope,"Downloads +5.2%; IAP +5.1%; pseudo-ARPI -0.2%",E1,"Chapter11/Anniversary overlap modest recovery","No source/event participation/payer cohorts"
