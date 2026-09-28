@@ -1,0 +1,5 @@
+Audit_Item,Version_or_Value,Date_or_Window,Observed,Evidence_Label,Decision_Read,Guardrail
+Current US store,"4.7 / 700K / #31 Simulation / 424MB",2026-09-28,"Current US App Store snapshot.",SOURCE,"US-first current anchor.","Rank is volatile."
+Current iOS version,1.37.1,2026-09-11,"Current release continues Barbie Dream Hotel messaging.",SOURCE,"Barbie lane remains current.","Repeated note does not prove a new feature launch."
+Barbie-note persistence,"6 visible iOS versions","2026-04-22 to 2026-09-11","1.33.2 / 1.34.0 / 1.35.2 / 1.36.0 / 1.36.6 / 1.37.1.",CALCULATED,"Multi-client support/promotion persistence.","Repeated notes may be marketing repetition."
+Current ad-removal IAP,$9.99,Current US,"Permanent ad-removal product with daily rewards.",SOURCE,"Evergreen relief monetization runs alongside IP LiveOps.","Attach/conversion TBD."
