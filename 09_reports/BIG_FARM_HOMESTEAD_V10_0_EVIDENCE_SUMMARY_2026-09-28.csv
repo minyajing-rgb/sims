@@ -1,0 +1,13 @@
+Area,Evidence_Status,Key_Findings,Guardrail
+US current,HIGH,"4.7 / 3K ratings / #37 Family / 450.7MB; current US events include Friends & Family + Deepwoods","Store snapshot is not monthly KPI"
+Launch definition,HIGH,"Early Access Jun16; expanded Aug28; worldwide gates Dec1; corporate scale Q1; UA normalization Q2","Do not collapse into one launch date"
+Global lifecycle,HIGH,"Nov2025 104K downloads/$23K IAP → May2026 peak 964K/$1.22M → Aug 506K/$1.126M","Global is not US; pseudo-ARPI is not LTV"
+Current LiveOps,HIGH,"Deepwoods + Friends&Family + Player Tournament + Dino Drama + Heart of Herd in Sep28 window",">=5 named layers is not participation"
+Cross-loop season,HIGH,"Deepwoods quests/chores → 72-memory album + Feed Mill skin + profile/avatar + loyalty","Pass attach/completion TBD"
+Core QoL,HIGH,"Market Order handoff 5s→1s, 80% lower dead time","No KPI causal claim"
+Operations quality,HIGH,"Wrong-pass/progress preservation; pass-crash voucher; May compensation; tutorial workaround","Quality signal is not incident prevalence"
+UA scale,HIGH,"Stillfront Q1 global scale; Q2 UA investment normalization","Corporate evidence is not BFH source share"
+Creator/CRM,MEDIUM-HIGH,"Katie Van Slyke sponsor/code/OneLink; social/Discord vouchers; recipe TikTok","No spend/CPI/source share"
+Art/production,HIGH,"First full-3D mainline Big Farm; shared packaged code with Sunshine Island; title-specific assets/settings","Shared code does not remove title art/QA burden"
+FTUE,HIGH-PARTIAL,"L8 Golden Hills; L12 Community Island/Guild/Tournament","Level gate is not time gate"
+US commercial gaps,TBD,"US monthly installs/IAP/DAU/payer/source; US SKU/pass attach/offer segmentation","No fabrication"
