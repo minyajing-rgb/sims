@@ -1,0 +1,6 @@
+Date_Window,Product,Scope,Observed_Change,Evidence_Level,Interpretation,Counter_Evidence
+2025-11→2025-12,Hay Day,Diandian Global same-scope,"Downloads -5.8%; IAP +16.4%",E1,"Winter update/season overlaps installed-base value increase","Payer/event exposure missing"
+2026-03→2026-04,Hay Day,Diandian Global same-scope,"Downloads -10.3%; IAP +17.2%; pseudo-RPD +30.7%",E1,"Early-game/order test overlap","Feature exposure is cohort-limited; source/payer missing"
+2026-04→2026-05,Hay Day,Diandian Global same-scope,"Downloads +5.9%; IAP +1.3%",E1,"Early-game/order tests continue","Small movement and mixed exposure"
+2026-05→2026-06,Hay Day,Diandian Global same-scope,"Downloads -4.5%; IAP -7.2%",E1,"Anniversary/brand activity lands mid-June","Late-month activity did not prevent contraction"
+2026-07→2026-08,Hay Day,Global master plus separate US-iOS provider,"Global downloads +8.7%; IAP -0.5%; US-iOS provider downloads ~flat and revenue -9.5% MoM",E1,"August QoL overlaps; US/Global scopes diverge","Different provider/market/platform scopes; do not blend"

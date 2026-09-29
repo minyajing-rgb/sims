@@ -1,0 +1,11 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market/KPI,HIGH-PARTIAL,"US store + US-iOS Aug provider + Global same-scope trend","US combined KPI/source unavailable","Acquire US monthly source/payer"
+Art/Visual,HIGH,"Current visual system analyzed","Annotated screenshot pack not embedded","Add current screenshot pack"
+Core Gameplay,DONE,"Production/trade/order/ownership loop mapped","Session share unavailable","No blocking action"
+FTUE,HIGH-PARTIAL,"Official onboarding rebuild + 2026 early-game tests","Exact T+0→30m and exposure flags missing","Native capture with feature-flag ledger"
+Economy/Monetization,HIGH,"US IAP/pass + current monetization surfaces","IAA/payer/segmentation TBD","Acquire payer/IAA/offer data"
+LiveOps,DONE-PARTIAL,"Current-year event/version spine","Participation/cannibalization TBD","Add event cohorts"
+UA/Creative,HIGH-PARTIAL,"Current observed creatives + brand campaigns","Spend/CPI/CTR/CVR/ROAS TBD","Acquire MMP/media performance"
+Trend/Cause,DONE-PARTIAL,"Global E0-E1 chain + US scope comparison","Source/payer/exposure missing","No causal promotion"
+Production Burden,HIGH,"Official current team over 60","Role/hour mix private","Treat as mature ceiling"
+Evidence Audit,DONE,"Scope/TBD states explicit","US combined/timed FTUE/media efficiency remain open","Continue P0 closure"
