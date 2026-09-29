@@ -1,0 +1,8 @@
+Window,Metric_Scope,Observed_Change,Evidence_Level,Interpretation,Counter_Evidence
+2026-01→02,Regional revenue only,"$90,655→$870,659 (+860.4%)",E1,"Launch ramp association","Downloads unavailable; no source/payer cohort"
+2026-02→03,Regional revenue only,"$870,659→$3,041,607 (+249.3%)",E1,"Market-scale association","Rank/grossing is outcome evidence, not a driver"
+2026-03→04,Regional revenue only,"$3,041,607→$4,106,505 (+35.0%)",E1,"Season/content overlap","Late-month collaboration limits attribution"
+2026-04→05,Regional revenue only,"$4,106,505→$3,878,168 (-5.6%)",E0,"UNEXPLAINED","No aligned independent evidence"
+2026-05→06,Regional revenue only,"$3,878,168→$4,033,730 (+4.0%)",E1,"Holiday event presence","Late-month event cannot explain full month"
+2026-06→07,Regional revenue only,"$4,033,730→$4,275,015 (+6.0%)",E1,"IP event association","No payer/source cohort"
+2026-07→08,Regional revenue only,"$4,275,015→$6,774,291 (+58.5%)",E3,"Major brand/version campaign + creator/live content + extreme creative-output ramp","No downloads/spend/source/payer cohorts; not causal"
