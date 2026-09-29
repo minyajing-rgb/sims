@@ -1,0 +1,15 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+Market_KPI,HIGH_PARTIAL,Current US store plus same-scope monthly master,US monthly installs IAP DAU payer source missing,Keep scopes separate
+Art_Visual,HIGH,Pastel one-screen visual system plus current interface-density risk,Annotated current screenshot pack missing,Add screenshot pack later
+Core,DONE,Restaurant idle core mapped,Session share missing,No change
+FTUE,HIGH_PARTIAL,Structural first restaurant known,Current timed T0 to T30 missing,Native clean-account capture
+Meta_Side,DONE_PARTIAL,Costume wardrobe special customers recurring events mapped,Reach and drop tables incomplete,Keep TBD
+Economy_Monetization,HIGH,Current US price ladder and reward-flow risk mapped,IAA payer offer cohorts missing,Instrument value paths
+LiveOps,DONE_PARTIAL,Jun-Aug named-event gap closed,Exact remaining standing-event dates incomplete,Close only decision-relevant gaps
+UA_Creative,HIGH_PARTIAL,Native browser H5 Japan distribution added,Current US attribution performance missing,Keep distribution separate from attribution
+Reviews_Versions,DONE,Current quality signal and client-light cadence mapped,Reviews are self-selected,Use as early warning
+Trend_Cause,DONE_PARTIAL,Event calendar integrated and August quality-risk association updated,No source payer exposure cohorts,No causal promotion
+Production,HIGH,Lean rendering medium-heavy live operations and distribution burden,Exact staffing hours missing,Use burden band only
+Benchmark_by_Objective,DONE,Event coverage commercial density reward atomicity H5 portability added,Not a generic ranking,Use by objective
+Product_Translation,DONE,New Ops Cat controls added,Prototype telemetry not live,Prototype first
+Evidence_Audit,DONE,Current source gaps are explicit,US economics timed FTUE remain open,Continue P0 closure
