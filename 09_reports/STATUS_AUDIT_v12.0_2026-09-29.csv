@@ -1,0 +1,13 @@
+Requirement,Status,Coverage,Limitation,Next_Action
+19-game_Product_Cards,DONE-PARTIAL,19 of 19 products have versioned full-stack Product Card research,Several cards retain market-source-FTUE gaps,Move to evidence-gap closure
+Market_KPI,DONE-PARTIAL,Latest Aug master plus US availability boundaries consolidated,US monthly data missing for many titles and some scope gaps remain,Close current US provider-MMP gaps
+Art_Visual,DONE-PARTIAL,Visual archetypes and production bands consolidated,Annotated screenshot packs incomplete,Capture current frames for reference set only
+Core_FTUE,DONE-PARTIAL,A-B-C core path synthesized,Current timed FTUE incomplete across most titles,Capture reference-set T0-T5-T10-T30
+Meta_Economy,DONE,Persistent ownership reset collection social patterns consolidated,Exact pity-drop tables missing for selected titles,Close decision-changing economy gaps
+LiveOps,DONE-PARTIAL,Reusable event-engine patterns consolidated,Backend participation-cadence incomplete,Prioritize event cohort data
+UA_Creative,PARTIAL,Best recovered UA evidence consolidated,Current paid-source-performance unavailable for most titles,Close current US source and creative performance
+Trend_Cause,DONE-PARTIAL,Scope and evidence discipline applied across analyses,Unavailable fields and unresolved windows remain,No synthetic RPD or causal promotion
+Production,DONE-PARTIAL,Burden bands consolidated,Exact staffing and asset-hours absent,Use bands and close staffing for first-title references
+Benchmark_by_Objective,DONE,Objective-specific benchmark sets consolidated,Not a generic ranking,Use as decision index
+Ops_Cat_Translation,DONE,A-B-C prototype path plus stop-hold rules created,Internal prototype telemetry not live,Implement instrumentation before adding breadth
+Evidence_Status_Audit,DONE,P0-P1 gaps prioritized in v12.0,External-access gaps remain,Future runs close P0 first
