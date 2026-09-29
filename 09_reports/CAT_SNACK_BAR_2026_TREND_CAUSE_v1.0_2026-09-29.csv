@@ -1,0 +1,12 @@
+Date_Window,Product,Scope,Observed_Change,Crosscheck_Flags,Evidence_Level,Interpretation,Counter_Evidence,Testable_Action
+2025-09→2025-10,Cat Snack Bar,Global same-scope Diandian,"D +10.5%; IAP +11.4%; pRPD +0.8%",HALLOWEEN / PEAK_TIME_CURRENTNESS,E1,Seasonal-currentness candidate,"One content class; source mix unavailable",Do not infer cause
+2025-10→2025-11,Cat Snack Bar,Global same-scope Diandian,"D -19.7%; IAP -24.5%; pRPD -6.0%",WARDROBE / ASCENDED / CAKE_COUNTER,E1,Feature expansion did not arrest contraction,"No source/payer cohort",Use as counter evidence
+2025-11→2025-12,Cat Snack Bar,Global same-scope Diandian,"D -6.7%; IAP -28.1%; pRPD -22.9%",UNEXPLAINED,E0,Unexplained contraction,"Freecash arrives Dec26 too late",Leave unexplained
+2025-12→2026-01,Cat Snack Bar,Global same-scope Diandian,"D +10.5%; IAP -34.7%; pRPD -40.9%",MINIGAME / OFFERWALL_COUNTER,E1,Currentness without IAP lift,"No source/cohort data",Separate exposure from payer behavior
+2026-01→2026-02,Cat Snack Bar,Global same-scope Diandian,"D -18.5%; IAP -14.6%; pRPD +4.8%",UNEXPLAINED,E0,Normalization,"No strong February evidence",Leave unexplained
+2026-02→2026-03,Cat Snack Bar,Global same-scope Diandian,"D +9.5%; IAP +79.7%; pRPD +64.1%",FLOWER_TEA_LATE,E1,Flower Cats Tea Time starts Mar23,"Too late to explain full month; no event payer cohort",Check exposed cohorts
+2026-03→2026-04,Cat Snack Bar,Global same-scope Diandian,"D -1.4%; IAP +19.7%; pRPD +21.4%",FLOWER_TEA / HEART_QUEEN,E1,Event-currentness candidate,"No participation/payer cohorts",Measure event entry/completion/payer
+2026-04→2026-05,Cat Snack Bar,Global same-scope Diandian,"D -4.0%; IAP -0.7%; pRPD +3.4%",HEART_QUEEN_COUNTER,E1,Active event produced no clear uplift,"Event presence does not prove impact",Use as counter evidence
+2026-05→2026-06,Cat Snack Bar,Global same-scope Diandian,"D -0.9%; IAP -11.3%; pRPD -10.5%",UNEXPLAINED,E0,Unexplained softening,"No verified June named event/source",Leave unexplained
+2026-06→2026-07,Cat Snack Bar,Global same-scope Diandian,"D -5.9%; IAP +45.1%; pRPD +54.2%",UNEXPLAINED_MONETIZATION,E0,Material monetization divergence,"No same-window event/source/payer evidence",Prioritize July payer/event/offer history
+2026-07→2026-08,Cat Snack Bar,Global same-scope Diandian,"D -24.3%; IAP -41.0%; pRPD -22.1%",CURRENT_AD_QUALITY_RISK,E1,Dated Jul-Aug reviews align on intrusive ads/popups,"Reviews self-selected; source mix unknown; not causal",Audit ads/session popups D1/D7 by version
