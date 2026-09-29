@@ -1,0 +1,12 @@
+Date_Window,Product,Scope,Observed_Change,Evidence_Level,Interpretation,Counter_Evidence
+2025-09→2025-10,Animal Restaurant,Global same-scope,"Downloads +14.9%; IAP +11.8%; pseudo-RPD -2.7%",E1,"Seasonal-currentness candidate","No source/payer cohort"
+2025-10→2025-11,Animal Restaurant,Global same-scope,"Downloads -10.9%; IAP -1.3%; pseudo-RPD +10.8%",E0,"UNEXPLAINED","No independent November driver"
+2025-11→2025-12,Animal Restaurant,Global same-scope,"Downloads +13.3%; IAP +4.1%; pseudo-RPD -8.1%",E1,"Christmas seasonal scale signal","No source/payer crosscheck"
+2025-12→2026-01,Animal Restaurant,Global same-scope,"Downloads -2.3%; IAP -43.1%; pseudo-RPD -41.8%",E0,"UNEXPLAINED value reset","January content does not close driver"
+2026-01→2026-02,Animal Restaurant,Global same-scope,"Downloads -10.6%; IAP +7.1%; pseudo-RPD +19.8%",E1,"Lunar New Year installed-base value candidate","Mid-month timing; no payer/exposure cohort"
+2026-02→2026-03,Animal Restaurant,Global same-scope,"Downloads +11.1%; IAP -28.6%; pseudo-RPD -35.7%",E1,"Spring-event counter evidence","Event presence does not imply monetization lift"
+2026-03→2026-04,Animal Restaurant,Global same-scope,"Downloads -8.1%; IAP +0.6%; pseudo-RPD +9.5%",E1,"Blind Box / late Bouquet currentness","Bouquet starts Apr29"
+2026-04→2026-05,Animal Restaurant,Global same-scope,"Downloads +1.6%; IAP +145.0%; pseudo-RPD +141.1%",E2,"Creamy Kingdom Phase1 premium-pass launch association","Children's Day starts May28; no pass-attach/payer cohort"
+2026-05→2026-06,Animal Restaurant,Global same-scope,"Downloads +8.1%; IAP -46.4%; pseudo-RPD -50.4%",E2,"Pass-active counter evidence suggests launch/front-load concentration","Pass remains active but monetization normalizes"
+2026-06→2026-07,Animal Restaurant,Global same-scope,"Downloads -7.1%; IAP +25.8%; pseudo-RPD +35.5%",E1,"Doll Fragment Diamond event / pass-end candidate","No payer/event-exposure cohort"
+2026-07→2026-08,Animal Restaurant,Global same-scope,"Downloads -16.8%; IAP +7.5%; pseudo-RPD +29.3%",E2,"Creamy Kingdom Phase2 launch association","No paid/source/payer cohort; ad-quality complaints are counter evidence"
