@@ -1,0 +1,11 @@
+Priority,Gap,Applies_To,Why_It_Matters,Shortest_Closure
+P0,Current US monthly installs IAP DAU payer source mix,Most titles,Required for US launch economics and cannot be replaced by Global data,MMP-provider-internal US data
+P0,Timed current FTUE T0 to T30m,Most titles,Needed for 3s 5m 30m product design decisions,Native capture or simulator
+P0,Paid organic creative performance,Most titles,Needed to separate content-event effects from acquisition changes,Media-MMP-provider export
+P0,Core-vs-meta session share,Township; My Chic Mall; Heartopia; Gossip Harbor,Needed to detect side-core capture and acquisition-promise drift,Telemetry or controlled current capture
+P0,IAA plus IAP dual ledger,Good Pizza; My Perfect Hotel; Eatventure; Cat Snack Bar; Animal Restaurant,IAP-only data can understate total monetization,Ad revenue viewer impressions plus IAP cohorts
+P1,Event entry completion payer attach,Most live titles,Event presence is not event impact,Telemetry-provider-community archive
+P1,Official gacha duplicate pity exchange tables,Heartopia; My Chic Mall; Office Cat; Gossip Harbor; Eatventure,Needed for completion and fairness modeling,Official in-game economy capture
+P1,Title team asset config QA hours,Almost all titles,Needed to convert benchmark into small-studio feasible roadmap,Studio interviews or production evidence
+P1,Current annotated screenshots,Most titles,Needed for visual production and UI-density comparison,Official store or native captures
+P2,Complete backend event calendars,Several titles,Lower decision value than FTUE source payer gaps,Official-community archives
