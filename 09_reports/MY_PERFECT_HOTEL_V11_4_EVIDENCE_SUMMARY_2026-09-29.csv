@@ -1,0 +1,15 @@
+Dimension,Item,Finding,Confidence,Source_Class,Window
+Market,US App Store,4.7 / 703K / #19 Simulation / 424MB / v1.37.1 Sep11,HIGH,Apple US App Store,2026-09-29
+Market,Google Play,4.5 / 1.84M reviews / 100M+ / updated Sep8,HIGH,Google Play,2026-09
+Market,Android tracked,~200.3M Chrome-Stats tracked downloads,PROVIDER,Chrome-Stats,2026-09-28
+Market,Lifetime,300M downloads announced by SayGames in 2026,HIGH,GamesBeat/SayGames,2026-06
+UA,US Android campaign,D7 ARPU +50%; Unity scale 2.2x; D7 ROAS +19% app-specific reported comparison,HIGH/HISTORICAL,Unity + SayGames internal,Mar→Oct 2025
+UA,Campaign architecture,Ad Revenue ROAS + Hybrid IAA/IAP ROAS; playables/creative rotation/post-install signals,HIGH/HISTORICAL,Unity,2025 campaign / published 2026
+LiveOps,Barbie start/end,Apr23 2026→Mar31 2027,HIGH,GamesBeat/SayGames,Current
+LiveOps,Barbie completion,700K+ by Jun12; later 2M+ company social,HIGH,GamesBeat/SayGames social,2026
+LiveOps,Barbie mechanics,Standalone destination + characters/story + pass + leaderboard + persistent skins,HIGH,App Store/SayGames,Current
+Quality,Recent review avg,3.40 recent vs 4.70 all-time; repeated Sep ad-frequency complaints,MEDIUM,Chrome-Stats reviews,2026-09
+FTUE,Historical timed baseline,Cleaner option 1:46; first rewarded ad 2:19; cleaner hired 4:20; no explicit tutorial,MEDIUM/HISTORICAL,ARPU Brothers,Historical build
+Trend,Apr→May,Downloads -7.6% / IAP +15.3% / pseudo-RPD +24.8%,HIGH,Repo master,2026-04→05
+Trend,May→Jun,Downloads +8.5% / IAP +10.0% / pseudo-RPD +1.4%,HIGH,Repo master,2026-05→06
+Trend,Jun→Jul,Downloads +26.9% / IAP +63.6% / pseudo-RPD +28.9%,HIGH,Repo master,2026-06→07
