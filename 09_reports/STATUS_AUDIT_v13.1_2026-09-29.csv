@@ -1,0 +1,11 @@
+Requirement,Status,Coverage_Maturity,Coverage,Limitation,Next_Action,Evidence_Needed
+Market/KPI,HIGH-PARTIAL,HIGH,"Current US store identity/rank/IAP + global launch; regional mature revenue kept separate","Current US monthly installs/IAP/DAU/payer/source unavailable","Keep launch KPI separate from mature regional revenue","Current US monthly KPI/source"
+Art/Visual,HIGH-PARTIAL,MEDIUM,"Survival/raft ownership readability documented","Annotated screenshot pack not embedded","Capture 3–8 current frames","Current annotated screenshots"
+Core Gameplay,DONE-PARTIAL,HIGH,"Global survival/build core separated from mature strategy back-end","Current global session share unavailable","Use current global build for launch benchmark","Current action/session share"
+FTUE,PARTIAL,MEDIUM,"Current US reviews surface tutorial/system confusion","Exact current T+0/T+5/T+10/T+30 unavailable","Native clean-account capture","Timed FTUE"
+Economy/Monetization,HIGH-PARTIAL,HIGH,"US $0.99→$99.99 package ladder + chance-content disclosure","Payer/ARPPU/triggers/odds unavailable","No inferred segmentation","US payer/offer/odds"
+LiveOps/Event Calendar,DONE-PARTIAL,HIGH,"Launch events + mature regional event spine documented","US post-launch calendar is only one month old","Continue launch calendar","Event participation"
+UA/Creative/Promotion,HIGH-PARTIAL,HIGH,"Global 8,770/30d observed creatives + mature regional large creative factory","No US spend/CPI/CTR/CVR/ROAS/source attribution","Creative-production evidence only","US media/MMP/performance"
+Trend/Cause,DONE-PARTIAL,HIGH,"Regional revenue-only E0–E3 chain; Aug E3 association","Downloads unavailable → no RPD; no causal promotion","Keep scopes separated","Source/payer + US Sep KPI"
+Production Burden,HIGH,MEDIUM,"Global Medium/Heavy; mature regional Heavy","Exact staffing/hours unavailable","Use staged roadmap burden only","Production evidence"
+Evidence/Status Audit,DONE,HIGH,"Launch and mature evidence explicitly separated","US KPI/timed FTUE/media attribution remain missing","Continue gap closure","US/native/provider"
